@@ -1,5 +1,6 @@
-ptp_nova2
-=========
+<<<<<<< HEAD
+_s
+===
 
 Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
@@ -42,3 +43,7 @@ Then, update the stylesheet header in style.css and the links in footer.php with
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Good luck!
+=======
+ptp_nova2
+=========
+>>>>>>> f49bc64251d1e1e6e34ba2bc3995c677d855a9b5
