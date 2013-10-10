@@ -5,7 +5,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<header class="entry-header d-all m-all t-all">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
@@ -13,17 +13,17 @@
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<section class="entry-content d-all m-all t-all d-padinfull">
 		<?php the_content(); ?>
 		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'ptp_nova' ),
-				'after'  => '</div>',
+		  wp_link_pages( array(
+			'before' => '<div class="page-links">' . __( 'Pages:', 'ptp_nova' ),
+			'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</section><!-- .entry-content -->
 
-	<footer class="entry-meta">
+	<footer class="entry-meta d-all m-all d-padinfull">
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$category_list = get_the_category_list( __( ', ', 'ptp_nova' ) );
