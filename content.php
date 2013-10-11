@@ -11,7 +11,7 @@
 		</h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta">
+			<div class="entry-meta d2-d11">
 				<?php ptp_nova_posted_on(); ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -22,7 +22,7 @@
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
-	<div class="entry-content d-all">
+	<div class="entry-content d-all d-padinfull">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'ptp_nova' ) ); ?>
 		<?php
 			wp_link_pages( array(
@@ -33,7 +33,7 @@
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<footer class="entry-meta">
+	<footer class="entry-meta d-all m-all d-padinfull" style="background-color: yellow;">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */

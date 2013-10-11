@@ -6,9 +6,9 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header d-all m-all t-all">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h1 class="entry-title d2-d11"><?php the_title(); ?></h1>
 
-		<div class="entry-meta">
+		<div class="entry-meta d2-d11">
 			<?php ptp_nova_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
