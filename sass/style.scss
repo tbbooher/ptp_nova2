@@ -26,3 +26,9 @@ and Blueprint http://www.blueprintcss.org/
 @import "normalize";
 @import 'cameron';
 @import 'blog';
+
+/* My custom code */
+
+.entry-title {
+	background-color: orange;
+}
