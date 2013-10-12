@@ -5,24 +5,24 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header d-all m-all t-all">
-		<h1 class="entry-title d2-d11">
+	<header class="entry-header">
+		<h1 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta d2-d11">
+			<div class="entry-meta">
 				<?php ptp_nova_posted_on(); ?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
-	<div class="entry-summary d-all">
+	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
-	<div class="entry-content d-all d-padinfull">
+	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'ptp_nova' ) ); ?>
 		<?php
 			wp_link_pages( array(

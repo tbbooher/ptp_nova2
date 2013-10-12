@@ -26,7 +26,7 @@
 
         <?php wp_head(); ?>
 
-        <link href="https://get.gridsetapp.com/23622/" rel="stylesheet" />
+        <!-- link href="https://get.gridsetapp.com/23622/" rel="stylesheet" -->
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
     </head>
     <body>

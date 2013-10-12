@@ -5,15 +5,15 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header d-all m-all t-all">
-		<h1 class="entry-title d2-d11"><?php the_title(); ?></h1>
+	<header class="entry-header">
+		<h1 class="entry-title"><?php the_title(); ?></h1>
 
-		<div class="entry-meta d2-d11">
+		<div class="entry-meta">
 			<?php ptp_nova_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<section class="entry-content d-all m-all t-all d-padinfull">
+	<section class="entry-content">
 		<?php the_content(); ?>
 		<?php
 		  wp_link_pages( array(
@@ -23,7 +23,7 @@
 		?>
 	</section><!-- .entry-content -->
 
-	<footer class="entry-meta d-all m-all d-padinfull">
+	<footer class="entry-meta">
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$category_list = get_the_category_list( __( ', ', 'ptp_nova' ) );

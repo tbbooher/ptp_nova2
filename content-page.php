@@ -7,8 +7,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header d-all m-all t-all">
-		<h1 class="entry-title d2-d11"><?php the_title(); ?></h1>
+	<header class="entry-header">
+		<h1 class="entry-title"><?php the_title(); ?></h1>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content d-all">

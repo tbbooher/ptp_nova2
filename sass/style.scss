@@ -25,10 +25,22 @@ and Blueprint http://www.blueprintcss.org/
 @import "boilerplate";
 @import "normalize";
 @import 'cameron';
+@import 'grid';
 @import 'blog';
 
 /* My custom code */
 
 .entry-title {
-	background-color: orange;
+	background-color: red;
+}
+
+.entry-header {
+    @extend .d-all;
+	@extend .d-padinfull;
+}
+
+.entry-content {
+	@extend .d-all;
+	@extend .m-all;
+	@extend .d-padinfull;
 }
