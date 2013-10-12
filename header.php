@@ -34,7 +34,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="mainshow" class="wrapper m-all d-all">
+        <div id="mainshow" class="wrapper m-all d-all d-padinfull">
         	<section class="header">
         	    <a href="/"><div class="logo d3-d6"></div></a>
         		<div class="m-all d6-d12">

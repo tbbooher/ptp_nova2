@@ -31,16 +31,13 @@ and Blueprint http://www.blueprintcss.org/
 /* My custom code */
 
 .entry-title {
-	background-color: red;
+	
 }
 
 .entry-header {
-    @extend .d-all;
-	@extend .d-padinfull;
+
 }
 
 .entry-content {
-	@extend .d-all;
-	@extend .m-all;
-	@extend .d-padinfull;
+
 }
