@@ -16,18 +16,6 @@
     background: #ebedf4;
 }
 
-.left {
-    @include gs-span(t, 1);
-}
-
-.middle {
-    @include gs-span(t, 2);
-}
-
-.right {
-    @include gs-span(t, 3);
-}
-
 /* .pics > div {} */
 @mixin message_row($h, $w) {
     width: $w;

@@ -1275,49 +1275,22 @@ a:hover {
   background: #ebedf4;
 }
 
-/* line 19, sass/_front_page.scss */
-.left {
-  display: block;
-  float: left;
-  margin-left: 0%;
-  margin-right: -100%;
-  width: 31.9697%;
-}
-
-/* line 23, sass/_front_page.scss */
-.middle {
-  display: block;
-  float: left;
-  margin-left: 33.9899%;
-  margin-right: -100%;
-  width: 31.9697%;
-}
-
-/* line 27, sass/_front_page.scss */
-.right {
-  display: block;
-  float: left;
-  margin-left: 67.9798%;
-  margin-right: -100%;
-  width: 31.9697%;
-}
-
 /* .pics > div {} */
-/* line 41, sass/_front_page.scss */
+/* line 29, sass/_front_page.scss */
 .bottom {
   position: absolute;
   width: 300px;
   bottom: 0px;
   height: 50px;
 }
-/* line 46, sass/_front_page.scss */
+/* line 34, sass/_front_page.scss */
 .bottom .button {
   margin: 0 auto;
   position: absolute;
   width: 100px;
 }
 
-/* line 53, sass/_front_page.scss */
+/* line 41, sass/_front_page.scss */
 .describe_row {
   padding: 20px 30px;
   clear: both;
@@ -1326,7 +1299,7 @@ a:hover {
   margin-left: 0;
   width: 100%;
 }
-/* line 56, sass/_front_page.scss */
+/* line 44, sass/_front_page.scss */
 .describe_row .message {
   width: 300px;
   text-align: left;
@@ -1335,7 +1308,7 @@ a:hover {
   position: relative;
   height: 200px;
 }
-/* line 59, sass/_front_page.scss */
+/* line 47, sass/_front_page.scss */
 .describe_row .pic {
   width: 300px;
   text-align: left;
@@ -1344,7 +1317,7 @@ a:hover {
   position: relative;
   height: 230px;
 }
-/* line 61, sass/_front_page.scss */
+/* line 49, sass/_front_page.scss */
 .describe_row .pic figure {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
@@ -1354,14 +1327,14 @@ a:hover {
   background: #556293;
   padding: 0px;
 }
-/* line 69, sass/_front_page.scss */
+/* line 57, sass/_front_page.scss */
 .describe_row .pic figure figcaption {
   background: #556293;
   width: 100%;
   height: 40px;
   position: relative;
 }
-/* line 74, sass/_front_page.scss */
+/* line 62, sass/_front_page.scss */
 .describe_row .pic figure figcaption a {
   position: absolute;
   top: 7px;
@@ -1369,19 +1342,60 @@ a:hover {
   color: #fff;
   border: 0;
 }
-/* line 81, sass/_front_page.scss */
+/* line 69, sass/_front_page.scss */
 .describe_row .pic figure figcaption a:hover {
   color: #fff;
   border-color: #fff;
 }
 
-/* line 1, sass/_footer.scss */
-.footer {
+/* line 2, sass/_footer.scss */
+footer #top_row {
   background: #dee0eb;
-  text-align: center;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+}
+/* line 6, sass/_footer.scss */
+footer #bottom_row {
+  background: #fff;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+}
+/* line 9, sass/_footer.scss */
+footer #bottom_row div {
+  background-color: gray;
 }
 
-/* line 6, sass/_footer.scss */
+/* line 15, sass/_footer.scss */
+.col1:before {
+  content: "\f09b";
+  font-family: FontAwesome;
+}
+
+/* line 20, sass/_footer.scss */
+.col2:before {
+  content: "\f09b";
+  font-family: FontAwesome;
+}
+
+/* line 25, sass/_footer.scss */
+.col3:before {
+  content: "\f09b";
+  font-family: FontAwesome;
+}
+
+/* line 30, sass/_footer.scss */
+.col4:before {
+  content: "\f09b";
+  font-family: FontAwesome;
+}
+
+/* line 35, sass/_footer.scss */
 .f-logo {
   background: url(images/f-logo.png) no-repeat;
   width: 266px;
@@ -1561,4 +1575,66 @@ a:hover {
     color: #fff;
     width: 100%;
   }
+}
+/* line 1, sass/_layout.scss */
+.left {
+  display: block;
+  float: left;
+  margin-left: 0%;
+  margin-right: -100%;
+  width: 31.9697%;
+}
+
+/* line 5, sass/_layout.scss */
+.middle {
+  display: block;
+  float: left;
+  margin-left: 33.9899%;
+  margin-right: -100%;
+  width: 31.9697%;
+}
+
+/* line 9, sass/_layout.scss */
+.right {
+  display: block;
+  float: left;
+  margin-left: 67.9798%;
+  margin-right: -100%;
+  width: 31.9697%;
+}
+
+/* line 13, sass/_layout.scss */
+.col1 {
+  display: block;
+  float: left;
+  margin-left: 16.99495%;
+  margin-right: -100%;
+  width: 14.97475%;
+}
+
+/* line 17, sass/_layout.scss */
+.col2 {
+  display: block;
+  float: left;
+  margin-left: 33.9899%;
+  margin-right: -100%;
+  width: 14.97475%;
+}
+
+/* line 21, sass/_layout.scss */
+.col3 {
+  display: block;
+  float: left;
+  margin-left: 50.98485%;
+  margin-right: -100%;
+  width: 14.97475%;
+}
+
+/* line 25, sass/_layout.scss */
+.col4 {
+  display: block;
+  float: left;
+  margin-left: 67.9798%;
+  margin-right: -100%;
+  width: 14.97475%;
 }

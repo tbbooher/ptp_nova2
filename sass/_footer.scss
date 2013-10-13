@@ -1,12 +1,41 @@
-.footer {
-	background: #dee0eb;
-	text-align: center;
+footer {
+    #top_row {
+        background: #dee0eb;
+        @include gs-span(d, all);
+    }
+    #bottom_row {
+        background: #fff;
+        @include gs-span(d, all);
+        div {
+            background-color: gray;
+        }
+    }
+}
+
+.col1:before {
+    content: "\f09b";
+    font-family: FontAwesome;
+}
+
+.col2:before {
+    content: "\f09b";
+    font-family: FontAwesome;
+}
+
+.col3:before {
+    content: "\f09b";
+    font-family: FontAwesome;
+}
+
+.col4:before {
+    content: "\f09b";
+    font-family: FontAwesome;
 }
 
 .f-logo {
-	background: url(images/f-logo.png) no-repeat;
-	width: 266px;
-	height: 100px;
-	display: block;
-	margin: 0 auto;
+    background: url(images/f-logo.png) no-repeat;
+    width: 266px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
 }

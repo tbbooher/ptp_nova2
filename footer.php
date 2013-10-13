@@ -7,26 +7,47 @@
  * @package ptp_NoVa
  */
 ?>
-	        <section class="footer">
-				<a href="/"><div class="f-logo d2-d4"></div></a>
-				
-				<div class="social">
-					<p>We're social!</p>
+	        <footer>
+				<div id="top_row">
+				  <div class="left">
+				    <a href="/" class="f-logo"></a>
+
+				  </div>
+				  <div class="middle">
+				    <div class="social">
+						<p>We're social!</p>
+					</div>
+				  </div>
+				  <div class="right">
+					<div class="newsletter">
+						<p>Newsletter</p>
+						
+						<p>
+						Subscribe to our monthly newsletter and be the first
+						to know about our news and special deals!
+						</p>
+						<form action="" class="form">
+							<input type="text" name="email" class="email" placeholder="enter email">
+						</form>
+					</div>
+				  </div>
 				</div>
-				
-				<div class="newsletter">
-					<p>Newsletter</p>
-					
-					<p>
-					Subscribe to our monthly newsletter and be the first
-					to know about our news and special deals!
-					</p>
-					<form action="" class="form">
-						<input type="text" name="email" class="email" placeholder="enter email">
-					</form>
+				<div id="bottom_row">
+					<div class="col1">
+						2013 PTP Nova
+					</div>
+					<div class="col2">
+						chrissy@ptpnova.com
+					</div>
+					<div class="col3">
+					    571-212-6145
+					</div>
+					<div class="col4">
+					   888-750-4126
+					</div>															
 				</div>
 			
-			</section>
+			</footer>
         </div><!--/wrapper-->
 
         <script src="https://get.gridsetapp.com/23622/overlay/"></script>
