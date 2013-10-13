@@ -7,11 +7,14 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header d-all d-padinfull">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+	<header class="entry-header">
+		<?php the_post_thumbnail(); ?>
+		<h1 class="entry-title">
+			<?php the_title(); ?>
+		</h1>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content d-all d-padinfull">
+	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(

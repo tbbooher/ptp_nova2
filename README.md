@@ -1,3 +1,7 @@
+Theme totally built by Tim Booher.
+
+Started with wordpress _s. Cameron Campell build the scss foundation and did all the design.
+
 _s
 ===
 

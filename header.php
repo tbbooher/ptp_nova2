@@ -34,10 +34,10 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="mainshow" class="wrapper m-all d-all d-padinfull">
+        <div id="mainshow" class="wrapper">
         	<section class="header">
-        	    <a href="/"><div class="logo d3-d6"></div></a>
-        		<div class="m-all d6-d12">
+        	    <a href="/"><div class="logo"></div></a>
+        		<div id="topmenu">
 	        		<nav class="nav-collapse">
                        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				    </nav>

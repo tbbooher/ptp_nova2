@@ -65,8 +65,6 @@ $main-color: #556293;
 $secondary-color: #fbaf41;
 $p-text: #363636;
 
-
- 
 @mixin rounded($border-radius) {
 	-webkit-border-radius: $border-radius;
    -moz-border-radius: $border-radius;
@@ -132,52 +130,16 @@ a:hover {
 	background: url(images/logo.png) no-repeat;
 	display: block;
 	margin: 7px auto;
+  @include gs-span(d,3,6);
 }
 .logo:hover {
 	opacity: 0.85;
 }
 
-.buckets {
-	text-align: center;
-	background: #ebedf4;
-}
 
-.pics img {
-	-webkit-box-shadow:  1px 1px 2px 2px rgba(0, 0, 0, 0.55);
-	-moz-box-shadow:  1px 1px 2px 2px rgba(0, 0, 0, 0.55);
-    box-shadow:  1px 1px 2px 2px rgba(0, 0, 0, 0.55);
-    margin: 30px auto;
-    width: 298px;
-    display: block;
-    padding-bottom: 40px;
-    background: $main-color;
-}
-figcaption {
-	 float: left;
-	 margin-top: -59px;
-	position: relative;
-	z-index: 99;
-	color: #fff;
-	padding-left: 30px;
- }
- figcaption a {
- 	color: #fff;
- 	border: 0;
-}
- figcaption a:hover {
- 	color: #fff;
- 	border-color: #fff;
-}
 .featured {
 	background: url(images/dots.jpg) repeat;
 	margin-top: 30px;
-}
-.slideshow {
-	background: url(images/slider.png) no-repeat;
-	display: block;
-    height: 0;
-    padding-bottom: 45.663716814%;
-    background-size: 100%;	
 }
 
 .footer {
@@ -234,14 +196,10 @@ figcaption {
   float: left;
 }
 
-
-
 .nav-collapse ul ul a {
   background: $main-color;
   padding-left: 2em;
 }
-
-
 
 .nav-collapse ul {
   margin: 0;
@@ -333,7 +291,7 @@ figcaption {
 	vertical-align: middle;
 	font-size: 1em; 
 	color: #fff;
-	padding: 13px 20px;
+/*	padding: 13px 20px; */
 	font-family: 'Arvo', serif;
   }
       .nav-collapse ul li a:hover {
@@ -389,52 +347,7 @@ figcaption {
    color: #fff;
    cursor: pointer;
    margin-top: 15px;
-   }
-
-
-
-.ag2 {
-  width: 20%;
-  margin-left: 8%;
-  float: left;
-  
-}
-.ag6 {
-  width: 20%;
-  margin-left: 13%;
-  float: left;
- ;
-}
-.ag11 {
-  width: 20%;
-  margin-left: 13%;
-  float: left;
-  
-}
-
-.x {
-  width: 20%;
-  margin-left: 6%;
-  float: left;
-}
-.y {
-  width: 20%;
-  margin-left: 10%;
-  float: left;
-}
-.z {
-  width: 20%;
-  margin-left: 10%;
-  float: left;
-}
-
-
-
-
-
-
-
-
+   }  
 
 
 /* ==========================================================================
