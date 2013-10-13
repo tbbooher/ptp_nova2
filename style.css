@@ -867,7 +867,7 @@ table {
 }
 
 /* RESET */
-/* line 6, sass/_cameron.scss */
+/* line 7, sass/_cameron.scss */
 html,
 button,
 input,
@@ -876,25 +876,25 @@ textarea {
   color: #222;
 }
 
-/* line 10, sass/_cameron.scss */
+/* line 11, sass/_cameron.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 15, sass/_cameron.scss */
+/* line 16, sass/_cameron.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 20, sass/_cameron.scss */
+/* line 21, sass/_cameron.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 25, sass/_cameron.scss */
+/* line 26, sass/_cameron.scss */
 hr {
   display: block;
   height: 1px;
@@ -924,7 +924,7 @@ hr {
   width: device-width;
 }
 
-/* line 41, sass/_cameron.scss */
+/* line 63, sass/_cameron.scss */
 audio,
 canvas,
 img,
@@ -932,19 +932,19 @@ video {
   vertical-align: middle;
 }
 
-/* line 45, sass/_cameron.scss */
+/* line 67, sass/_cameron.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 51, sass/_cameron.scss */
+/* line 73, sass/_cameron.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 55, sass/_cameron.scss */
+/* line 77, sass/_cameron.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -953,7 +953,7 @@ textarea {
 }
 
 /* MAIN STYLES */
-/* line 80, sass/_cameron.scss */
+/* line 104, sass/_cameron.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -966,24 +966,24 @@ body {
   text-size-adjust: 100%;
 }
 
-/* line 94, sass/_cameron.scss */
+/* line 116, sass/_cameron.scss */
 h1, h2, h3 {
   font-family: 'Arvo', serif;
 }
 
-/* line 97, sass/_cameron.scss */
+/* line 120, sass/_cameron.scss */
 h1 {
   font-size: 2.75em;
   /* 44px / 16px */
 }
 
-/* line 100, sass/_cameron.scss */
+/* line 125, sass/_cameron.scss */
 h2 {
   font-size: 2.25em;
   /* 36px / 16px */
 }
 
-/* line 103, sass/_cameron.scss */
+/* line 130, sass/_cameron.scss */
 h3 {
   color: #363636;
   font-size: 1.5em;
@@ -991,18 +991,18 @@ h3 {
   font-weight: 400;
 }
 
-/* line 108, sass/_cameron.scss */
+/* line 137, sass/_cameron.scss */
 strong {
   color: #556293;
 }
 
-/* line 111, sass/_cameron.scss */
+/* line 141, sass/_cameron.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 114, sass/_cameron.scss */
+/* line 146, sass/_cameron.scss */
 a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1014,243 +1014,31 @@ a {
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 120, sass/_cameron.scss */
+/* line 153, sass/_cameron.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 124, sass/_cameron.scss */
+/* line 158, sass/_cameron.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }
 
-/* line 127, sass/_cameron.scss */
-.logo {
-  width: 308px;
-  height: 112px;
-  background: url(images/logo.png) no-repeat;
-  display: block;
-  margin: 7px auto;
-  display: block;
-  float: left;
-  margin-left: 16.99495%;
-  margin-right: -100%;
-  width: 31.9697%;
-}
-
-/* line 135, sass/_cameron.scss */
-.logo:hover {
-  opacity: 0.85;
-}
-
-/* line 140, sass/_cameron.scss */
-.featured {
-  background: url(images/dots.jpg) repeat;
-  margin-top: 30px;
-}
-
-/* line 145, sass/_cameron.scss */
-.footer {
-  background: #dee0eb;
-  text-align: center;
-}
-
-/* line 149, sass/_cameron.scss */
-.f-logo {
-  background: url(images/f-logo.png) no-repeat;
-  width: 266px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* NAVIGATION */
-/* line 159, sass/_cameron.scss */
-.nav-collapse,
-.nav-collapse * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 165, sass/_cameron.scss */
-.nav-collapse,
-.nav-collapse ul {
-  list-style: none;
-  width: 100%;
-  float: left;
-}
-
-/* line 170, sass/_cameron.scss */
-.nav-collapse li {
-  float: left;
-  width: 100%;
-}
-
 @media screen and (max-width: 40em) {
-  /* line 176, sass/_cameron.scss */
+  /* line 163, sass/_cameron.scss */
   .inner {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
 }
-@media screen and (min-width: 40em) {
-  /* line 183, sass/_cameron.scss */
-  .nav-collapse li {
-    width: 25%;
-    *width: 24.9%;
-    /* IE7 Hack */
-    _width: 19%;
-    /* IE6 Hack */
-  }
-}
-/* line 189, sass/_cameron.scss */
-.nav-collapse a {
-  color: #fff;
-  text-decoration: none;
-  width: 100%;
-  background: #556293;
-  border-bottom: 1px solid white;
-  padding: 0.7em 1em;
-  float: left;
-}
-
-/* line 199, sass/_cameron.scss */
-.nav-collapse ul ul a {
-  background: #556293;
-  padding-left: 2em;
-}
-
-/* line 204, sass/_cameron.scss */
-.nav-collapse ul {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: block;
-  list-style: none;
-}
-
-/* line 212, sass/_cameron.scss */
-.nav-collapse li {
-  width: 100%;
-  display: block;
-}
-
-/* line 217, sass/_cameron.scss */
-.js .nav-collapse {
-  clip: rect(0 0 0 0);
-  max-height: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1;
-}
-
-/* line 226, sass/_cameron.scss */
-.nav-collapse.opened {
-  max-height: 9999px;
-}
-
-/* line 230, sass/_cameron.scss */
-.nav-toggle {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 70px;
-  height: 55px;
-  float: right;
-  text-indent: -9999px;
-  overflow: hidden;
-  background: #556293 url("images/hamburger.gif") no-repeat 50% 33%;
-  border: 0;
-}
-
-/* line 245, sass/_cameron.scss */
-.nav-toggle:hover {
-  border: 0;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  /* line 249, sass/_cameron.scss */
-  .nav-toggle {
-    background-image: url("images/hamburger-retina.gif");
-    -webkit-background-size: 100px 100px;
-    -moz-background-size: 100px 100px;
-    -o-background-size: 100px 100px;
-    background-size: 100px 100px;
-  }
-}
-@media screen and (min-width: 40em) {
-  /* line 259, sass/_cameron.scss */
-  .js .nav-collapse {
-    position: relative;
-  }
-
-  /* line 262, sass/_cameron.scss */
-  .js .nav-collapse.closed {
-    max-height: none;
-  }
-
-  /* line 265, sass/_cameron.scss */
-  .nav-toggle {
-    display: none;
-    visibility: hidden;
-  }
-}
-/*MEDIA QUERIES */
-@media screen and (min-width: 71.25em) {
-  /* line 274, sass/_cameron.scss */
-  .nav-collapse {
-    margin-top: 45px;
-  }
-
-  /* line 277, sass/_cameron.scss */
-  .nav-collapse ul li {
-    float: left;
-    display: inline;
-  }
-
-  /* line 281, sass/_cameron.scss */
-  .nav-collapse ul li {
-    width: 140px;
-  }
-
-  /* line 284, sass/_cameron.scss */
-  .nav-collapse ul li a {
-    display: block;
-    background: #556293;
-    text-decoration: none;
-    border: 0;
-    border-right: 1px solid #6f7cac;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1em;
-    color: #fff;
-    /*	padding: 13px 20px; */
-    font-family: 'Arvo', serif;
-  }
-
-  /* line 297, sass/_cameron.scss */
-  .nav-collapse ul li a:hover {
-    background: #6f7cac;
-    cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
-    color: #fff;
-    width: 100%;
-  }
-}
 @media screen and (min-width: 60em) {
-  /* line 309, sass/_cameron.scss */
+  /* line 170, sass/_cameron.scss */
   .buckets {
     text-align: left;
   }
 }
-/* line 315, sass/_cameron.scss */
+/* line 175, sass/_cameron.scss */
 .button {
   background: #556293;
   background: -webkit-gradient(linear, left top, left bottom, from(#7b89b8), to(#556293));
@@ -1280,7 +1068,7 @@ a:hover {
   margin-top: 15px;
 }
 
-/* line 337, sass/_cameron.scss */
+/* line 198, sass/_cameron.scss */
 .button:hover {
   background: #7280ad;
   background: -webkit-gradient(linear, left top, left bottom, from(#556293), to(#7280ad));
@@ -1302,7 +1090,7 @@ a:hover {
 /*
  * Image replacement
  */
-/* line 363, sass/_cameron.scss */
+/* line 221, sass/_cameron.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1311,7 +1099,7 @@ a:hover {
   *text-indent: -9999px;
 }
 
-/* line 371, sass/_cameron.scss */
+/* line 229, sass/_cameron.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1322,7 +1110,7 @@ a:hover {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 382, sass/_cameron.scss */
+/* line 240, sass/_cameron.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1331,7 +1119,7 @@ a:hover {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 391, sass/_cameron.scss */
+/* line 249, sass/_cameron.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1347,7 +1135,7 @@ a:hover {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 408, sass/_cameron.scss */
+/* line 266, sass/_cameron.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1361,7 +1149,7 @@ a:hover {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 421, sass/_cameron.scss */
+/* line 279, sass/_cameron.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1377,7 +1165,7 @@ a:hover {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 438, sass/_cameron.scss */
+/* line 296, sass/_cameron.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1386,7 +1174,7 @@ a:hover {
   /* 2 */
 }
 
-/* line 443, sass/_cameron.scss */
+/* line 303, sass/_cameron.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1395,9 +1183,28 @@ a:hover {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 452, sass/_cameron.scss */
+/* line 312, sass/_cameron.scss */
 .clearfix {
   *zoom: 1;
+}
+
+/* line 1, sass/_top.scss */
+.logo {
+  width: 308px;
+  height: 112px;
+  background: url(images/logo.png) no-repeat;
+  display: block;
+  margin: 7px auto;
+  display: block;
+  float: left;
+  margin-left: 16.99495%;
+  margin-right: -100%;
+  width: 31.9697%;
+}
+
+/* line 10, sass/_top.scss */
+.logo:hover {
+  opacity: 0.85;
 }
 
 /* My custom code */
@@ -1457,12 +1264,18 @@ a:hover {
 }
 
 /* line 9, sass/_front_page.scss */
+.featured {
+  background: url(images/dots.jpg) repeat;
+  margin-top: 30px;
+}
+
+/* line 14, sass/_front_page.scss */
 .buckets {
   text-align: center;
   background: #ebedf4;
 }
 
-/* line 14, sass/_front_page.scss */
+/* line 19, sass/_front_page.scss */
 .left {
   display: block;
   float: left;
@@ -1471,7 +1284,7 @@ a:hover {
   width: 31.9697%;
 }
 
-/* line 18, sass/_front_page.scss */
+/* line 23, sass/_front_page.scss */
 .middle {
   display: block;
   float: left;
@@ -1480,7 +1293,7 @@ a:hover {
   width: 31.9697%;
 }
 
-/* line 22, sass/_front_page.scss */
+/* line 27, sass/_front_page.scss */
 .right {
   display: block;
   float: left;
@@ -1490,21 +1303,21 @@ a:hover {
 }
 
 /* .pics > div {} */
-/* line 36, sass/_front_page.scss */
+/* line 41, sass/_front_page.scss */
 .bottom {
   position: absolute;
   width: 300px;
   bottom: 0px;
   height: 50px;
 }
-/* line 41, sass/_front_page.scss */
+/* line 46, sass/_front_page.scss */
 .bottom .button {
   margin: 0 auto;
   position: absolute;
   width: 100px;
 }
 
-/* line 48, sass/_front_page.scss */
+/* line 53, sass/_front_page.scss */
 .describe_row {
   padding: 20px 30px;
   clear: both;
@@ -1513,7 +1326,7 @@ a:hover {
   margin-left: 0;
   width: 100%;
 }
-/* line 51, sass/_front_page.scss */
+/* line 56, sass/_front_page.scss */
 .describe_row .message {
   width: 300px;
   text-align: left;
@@ -1522,7 +1335,7 @@ a:hover {
   position: relative;
   height: 200px;
 }
-/* line 54, sass/_front_page.scss */
+/* line 59, sass/_front_page.scss */
 .describe_row .pic {
   width: 300px;
   text-align: left;
@@ -1531,7 +1344,7 @@ a:hover {
   position: relative;
   height: 230px;
 }
-/* line 56, sass/_front_page.scss */
+/* line 61, sass/_front_page.scss */
 .describe_row .pic figure {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
@@ -1541,14 +1354,14 @@ a:hover {
   background: #556293;
   padding: 0px;
 }
-/* line 64, sass/_front_page.scss */
+/* line 69, sass/_front_page.scss */
 .describe_row .pic figure figcaption {
   background: #556293;
   width: 100%;
   height: 40px;
   position: relative;
 }
-/* line 69, sass/_front_page.scss */
+/* line 74, sass/_front_page.scss */
 .describe_row .pic figure figcaption a {
   position: absolute;
   top: 7px;
@@ -1556,8 +1369,196 @@ a:hover {
   color: #fff;
   border: 0;
 }
-/* line 76, sass/_front_page.scss */
+/* line 81, sass/_front_page.scss */
 .describe_row .pic figure figcaption a:hover {
   color: #fff;
   border-color: #fff;
+}
+
+/* line 1, sass/_footer.scss */
+.footer {
+  background: #dee0eb;
+  text-align: center;
+}
+
+/* line 6, sass/_footer.scss */
+.f-logo {
+  background: url(images/f-logo.png) no-repeat;
+  width: 266px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+/* line 4, sass/_navigation.scss */
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, sass/_navigation.scss */
+.nav-collapse,
+.nav-collapse ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+/* line 15, sass/_navigation.scss */
+.nav-collapse li {
+  float: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 21, sass/_navigation.scss */
+  .nav-collapse li {
+    width: 25%;
+    *width: 24.9%;
+    /* IE7 Hack */
+    _width: 19%;
+    /* IE6 Hack */
+  }
+}
+/* line 27, sass/_navigation.scss */
+.nav-collapse a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  background: #556293;
+  border-bottom: 1px solid white;
+  padding: 0.7em 1em;
+  float: left;
+}
+
+/* line 37, sass/_navigation.scss */
+.nav-collapse ul ul a {
+  background: #556293;
+  padding-left: 2em;
+}
+
+/* line 42, sass/_navigation.scss */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+/* line 50, sass/_navigation.scss */
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+/* line 55, sass/_navigation.scss */
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 64, sass/_navigation.scss */
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+/* line 68, sass/_navigation.scss */
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 70px;
+  height: 55px;
+  float: right;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: #556293 url("images/hamburger.gif") no-repeat 50% 33%;
+  border: 0;
+}
+
+/* line 83, sass/_navigation.scss */
+.nav-toggle:hover {
+  border: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  /* line 87, sass/_navigation.scss */
+  .nav-toggle {
+    background-image: url("images/hamburger-retina.gif");
+    -webkit-background-size: 100px 100px;
+    -moz-background-size: 100px 100px;
+    -o-background-size: 100px 100px;
+    background-size: 100px 100px;
+  }
+}
+@media screen and (min-width: 40em) {
+  /* line 97, sass/_navigation.scss */
+  .js .nav-collapse {
+    position: relative;
+  }
+
+  /* line 100, sass/_navigation.scss */
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+
+  /* line 103, sass/_navigation.scss */
+  .nav-toggle {
+    display: none;
+    visibility: hidden;
+  }
+}
+/*MEDIA QUERIES */
+@media screen and (min-width: 71.25em) {
+  /* line 112, sass/_navigation.scss */
+  .nav-collapse {
+    margin-top: 45px;
+  }
+
+  /* line 115, sass/_navigation.scss */
+  .nav-collapse ul li {
+    float: left;
+    display: inline;
+  }
+
+  /* line 119, sass/_navigation.scss */
+  .nav-collapse ul li {
+    width: 140px;
+  }
+
+  /* line 122, sass/_navigation.scss */
+  .nav-collapse ul li a {
+    display: block;
+    background: #556293;
+    text-decoration: none;
+    border: 0;
+    border-right: 1px solid #6f7cac;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+    color: #fff;
+    /*	padding: 13px 20px; */
+    font-family: 'Arvo', serif;
+  }
+
+  /* line 135, sass/_navigation.scss */
+  .nav-collapse ul li a:hover {
+    background: #6f7cac;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    width: 100%;
+  }
 }

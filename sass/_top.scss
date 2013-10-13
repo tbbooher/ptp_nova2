@@ -1,0 +1,12 @@
+.logo {
+	width: 308px;
+	height: 112px;
+	background: url(images/logo.png) no-repeat;
+	display: block;
+	margin: 7px auto;
+  @include gs-span(d,3,6);
+}
+
+.logo:hover {
+	opacity: 0.85;
+}
