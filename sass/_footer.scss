@@ -2,6 +2,9 @@ footer {
     #top_row {
         background: #dee0eb;
         @include gs-span(d, all);
+        div {
+            background-color: gray;
+        }
     }
     #bottom_row {
         background: #fff;
