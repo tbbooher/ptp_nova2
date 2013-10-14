@@ -21,6 +21,7 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 */
+/* application variables */
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -953,7 +954,7 @@ textarea {
 }
 
 /* MAIN STYLES */
-/* line 104, sass/_cameron.scss */
+/* line 100, sass/_cameron.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -966,43 +967,58 @@ body {
   text-size-adjust: 100%;
 }
 
-/* line 116, sass/_cameron.scss */
+/* line 112, sass/_cameron.scss */
 h1, h2, h3 {
   font-family: 'Arvo', serif;
 }
 
-/* line 120, sass/_cameron.scss */
+/* line 116, sass/_cameron.scss */
 h1 {
-  font-size: 2.75em;
+  font-size: 2em;
+  color: #556293;
   /* 44px / 16px */
 }
 
-/* line 125, sass/_cameron.scss */
+/* line 122, sass/_cameron.scss */
+h2, h3, h4, h5 {
+  color: #363636;
+}
+
+/* line 127, sass/_cameron.scss */
 h2 {
-  font-size: 2.25em;
+  font-size: 1.625em;
   /* 36px / 16px */
 }
 
-/* line 130, sass/_cameron.scss */
-h3 {
-  color: #363636;
-  font-size: 1.5em;
+/* line 132, sass/_cameron.scss */
+h3, h4 {
+  font-size: 1.375em;
   /* 24px / 16px */
   font-weight: 400;
 }
 
-/* line 137, sass/_cameron.scss */
+/* line 138, sass/_cameron.scss */
+h4 {
+  font-size: 1.375em;
+}
+
+/* line 142, sass/_cameron.scss */
+h5 {
+  font-size: 1.125em;
+}
+
+/* line 146, sass/_cameron.scss */
 strong {
   color: #556293;
 }
 
-/* line 141, sass/_cameron.scss */
+/* line 150, sass/_cameron.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 146, sass/_cameron.scss */
+/* line 155, sass/_cameron.scss */
 a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1014,31 +1030,31 @@ a {
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 153, sass/_cameron.scss */
+/* line 162, sass/_cameron.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 158, sass/_cameron.scss */
+/* line 167, sass/_cameron.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }
 
 @media screen and (max-width: 40em) {
-  /* line 163, sass/_cameron.scss */
+  /* line 172, sass/_cameron.scss */
   .inner {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
 }
 @media screen and (min-width: 60em) {
-  /* line 170, sass/_cameron.scss */
+  /* line 179, sass/_cameron.scss */
   .buckets {
     text-align: left;
   }
 }
-/* line 175, sass/_cameron.scss */
+/* line 184, sass/_cameron.scss */
 .button {
   background: #556293;
   background: -webkit-gradient(linear, left top, left bottom, from(#7b89b8), to(#556293));
@@ -1068,7 +1084,7 @@ a:hover {
   margin-top: 15px;
 }
 
-/* line 198, sass/_cameron.scss */
+/* line 207, sass/_cameron.scss */
 .button:hover {
   background: #7280ad;
   background: -webkit-gradient(linear, left top, left bottom, from(#556293), to(#7280ad));
@@ -1090,7 +1106,7 @@ a:hover {
 /*
  * Image replacement
  */
-/* line 221, sass/_cameron.scss */
+/* line 230, sass/_cameron.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1099,7 +1115,7 @@ a:hover {
   *text-indent: -9999px;
 }
 
-/* line 229, sass/_cameron.scss */
+/* line 238, sass/_cameron.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1110,7 +1126,7 @@ a:hover {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 240, sass/_cameron.scss */
+/* line 249, sass/_cameron.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1119,7 +1135,7 @@ a:hover {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 249, sass/_cameron.scss */
+/* line 258, sass/_cameron.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1135,7 +1151,7 @@ a:hover {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 266, sass/_cameron.scss */
+/* line 275, sass/_cameron.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1149,7 +1165,7 @@ a:hover {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 279, sass/_cameron.scss */
+/* line 288, sass/_cameron.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1165,7 +1181,7 @@ a:hover {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 296, sass/_cameron.scss */
+/* line 305, sass/_cameron.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1174,7 +1190,7 @@ a:hover {
   /* 2 */
 }
 
-/* line 303, sass/_cameron.scss */
+/* line 312, sass/_cameron.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1183,7 +1199,7 @@ a:hover {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 312, sass/_cameron.scss */
+/* line 321, sass/_cameron.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -1208,21 +1224,7 @@ a:hover {
 }
 
 /* My custom code */
-/* line 4, sass/_blog.scss */
-.header {
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%;
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%;
-}
-
-/* line 21, sass/_blog.scss */
+/* line 16, sass/_blog.scss */
 #topmenu {
   display: block;
   float: left;
@@ -1231,7 +1233,7 @@ a:hover {
   width: 57.46212%;
 }
 
-/* line 29, sass/_blog.scss */
+/* line 24, sass/_blog.scss */
 .d-full {
   clear: both;
   display: block;
@@ -1240,12 +1242,12 @@ a:hover {
   width: 100%;
 }
 
-/* line 33, sass/_blog.scss */
+/* line 28, sass/_blog.scss */
 .m-full {
   /* @include gs-span(m, all);	 */
 }
 
-/* line 37, sass/_blog.scss */
+/* line 32, sass/_blog.scss */
 .d-middle {
   display: block;
   float: left;
@@ -1259,14 +1261,14 @@ a:hover {
   background: url(images/slider.png) no-repeat;
   display: block;
   height: 0;
-  padding-bottom: 45.663716814%;
+  padding-bottom: 39.663716814%;
   background-size: 100%;
 }
 
 /* line 9, sass/_front_page.scss */
 .featured {
   background: url(images/dots.jpg) repeat;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 /* line 14, sass/_front_page.scss */
@@ -1357,7 +1359,7 @@ a:hover {
   border-color: #fff;
 }
 
-/* line 1, sass/_footer.scss */
+/* line 3, sass/_footer.scss */
 em.ribbon {
   color: white;
   background: url(images/ribbon.gif) no-repeat;
@@ -1371,12 +1373,12 @@ em.ribbon {
   margin: 0 auto;
 }
 
-/* line 14, sass/_footer.scss */
+/* line 16, sass/_footer.scss */
 .off-top {
   padding-top: 30px;
 }
 
-/* line 18, sass/_footer.scss */
+/* line 20, sass/_footer.scss */
 #socials {
   line-height: 1.4em;
   width: 100%;
@@ -1387,7 +1389,7 @@ em.ribbon {
   margin: 0 auto;
 }
 
-/* line 28, sass/_footer.scss */
+/* line 30, sass/_footer.scss */
 .social-network {
   margin: 0 8px 12px 0;
   display: inline-block;
@@ -1397,63 +1399,68 @@ em.ribbon {
   background-position-y: -42px;
   cursor: pointer;
 }
-/* line 36, sass/_footer.scss */
+/* line 38, sass/_footer.scss */
 .social-network.linkedin {
   background-position: -504px -42px;
 }
-/* line 38, sass/_footer.scss */
+/* line 40, sass/_footer.scss */
 .social-network.linkedin:hover {
   background-position: -504px 0;
 }
-/* line 42, sass/_footer.scss */
+/* line 44, sass/_footer.scss */
 .social-network.facebook {
   background-position: -210px -42px;
 }
-/* line 44, sass/_footer.scss */
+/* line 46, sass/_footer.scss */
 .social-network.facebook:hover {
   background-position: -210px 0;
 }
-/* line 48, sass/_footer.scss */
+/* line 50, sass/_footer.scss */
 .social-network.twitter {
   background-position: -1134px -42px;
 }
-/* line 50, sass/_footer.scss */
+/* line 52, sass/_footer.scss */
 .social-network.twitter:hover {
   background-position: -1134px 0;
 }
 
-/* line 57, sass/_footer.scss */
+/* line 59, sass/_footer.scss */
 footer p {
   font-size: 0.9em;
-  width: 80%;
+  width: 300px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
 }
-/* line 63, sass/_footer.scss */
+/* line 65, sass/_footer.scss */
 footer a {
   border-bottom: none;
 }
-/* line 65, sass/_footer.scss */
+/* line 67, sass/_footer.scss */
 footer a:hover {
   border-bottom: none;
 }
-/* line 69, sass/_footer.scss */
+/* line 71, sass/_footer.scss */
 footer #top_row {
   background: #dee0eb;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   clear: both;
   display: block;
   float: left;
   margin-left: 0;
   width: 100%;
 }
-/* line 72, sass/_footer.scss */
+/* line 80, sass/_footer.scss */
 footer #top_row div {
   /*             background-color: orange; */
 }
-/* line 76, sass/_footer.scss */
+/* line 84, sass/_footer.scss */
 footer #bottom_row {
   font-size: 0.7em;
-  background: #fff;
   height: 60px;
   clear: both;
   display: block;
@@ -1461,11 +1468,18 @@ footer #bottom_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 81, sass/_footer.scss */
-footer #bottom_row div {
-  /*            background-color: gray; */
+/* line 89, sass/_footer.scss */
+footer #bottom_row div.inner_wrapper div span.text {
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 1.2em;
 }
-/* line 84, sass/_footer.scss */
+/* line 94, sass/_footer.scss */
+footer #bottom_row div.inner_wrapper div i {
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+/* line 99, sass/_footer.scss */
 footer #bottom_row .inner_wrapper {
   margin-top: 20px;
 }
@@ -1490,7 +1504,7 @@ footer #bottom_row .inner_wrapper {
     content: "\f02f";
     font-size: $font-awesome-icon-size;
 }*/
-/* line 114, sass/_footer.scss */
+/* line 126, sass/_footer.scss */
 .f-logo {
   background: url(images/f-logo.png) no-repeat;
   width: 266px;
@@ -1732,6 +1746,24 @@ footer #bottom_row .inner_wrapper {
   margin-left: 67.9798%;
   margin-right: -100%;
   width: 14.97475%;
+}
+
+/* line 29, sass/_layout.scss */
+.header {
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 /*!
@@ -6453,4 +6485,24 @@ th.hidden-lg, td.hidden-lg {
     display: none;
   }
 }
+/* content pages */
+/* line 3, sass/_content_pages.scss */
+main {
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+}
+
+/* line 8, sass/_content_pages.scss */
+article {
+  display: block;
+  float: left;
+  margin-left: 8.49747%;
+  margin-right: -100%;
+  width: 82.95455%;
+}
+
 /* @import 'icon_font'; */

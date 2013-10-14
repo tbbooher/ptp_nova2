@@ -26,4 +26,13 @@
     @include gs-span(d, 9, 10);		
 }
 
+.header {
+	@include gs-span(d, all);
+	@include gs-span(m, all);	
+	-webkit-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+	-moz-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+	-o-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+	box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);	
+}
+
 

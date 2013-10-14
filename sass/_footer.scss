@@ -1,3 +1,5 @@
+$icon-size: 1.5em;
+
 em.ribbon {
     color: white;
     background: url(images/ribbon.gif) no-repeat;
@@ -56,9 +58,9 @@ em.ribbon {
 footer {
   p {
     font-size: 0.9em;
-    width: 80%;
+    width: 300px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px;
   }
   a {
     border-bottom: none;
@@ -67,7 +69,13 @@ footer {
     }
   }
   #top_row {
-    background: #dee0eb;
+    background: $light_blue;
+    border-top: 1px solid $border_color;
+    border-bottom: 1px solid $border_color;
+    -webkit-box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);
+    -moz-box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);
+    -o-box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);
+    box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);  
     @include gs-span(d, all);
     div {
       /*             background-color: orange; */
@@ -75,20 +83,24 @@ footer {
   }
   #bottom_row {
     font-size: 0.7em;
-    background: #fff;
-    height: 60px;
+    height: 60px;   
     @include gs-span(d, all);
-    div {
-      /*            background-color: gray; */
+    div.inner_wrapper div {
+      span.text {
+        vertical-align: middle;
+        padding-left: 10px;
+        font-size: 1.2em;
+      }
+      i {
+        vertical-align: middle;
+        font-size: $icon-size;
+      }
     }
     .inner_wrapper {
       margin-top: 20px;
     }
   }
 }
-
-$font-awesome-icon-size: 1.5em;
-
 
 /*.col1:before {
     content: "\00A9";

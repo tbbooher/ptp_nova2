@@ -38,18 +38,20 @@
 				<div id="bottom_row">
 				    <div class="inner_wrapper">
 				    	<div class="col1">
-				    	    &copy;
-				    		2013 PTP Nova
+				    	    <i class="glyphicon glyphicon-copyright-mark"></i>				    	
+				    		<span class="text">2013 PTP Nova</span>
 				    	</div>
 				    	<div class="col2">
 				    	    <i class="glyphicon glyphicon-envelope"></i>
-				    		chrissy@ptpnova.com
+				    		<span class="text">chrissy@ptpnova.com</span>
 				    	</div>
 				    	<div class="col3">
-				    		571-212-6145
+				    	    <i class="glyphicon glyphicon-earphone"></i>				    	
+				    		<span class="text">571-212-6145</span>
 				    	</div>
 				    	<div class="col4">
-				    		888-750-4126
+				    	    <i class="glyphicon glyphicon-print"></i>				    	
+				    		<span class="text">888-750-4126</span>
 				    	</div>
 				    </div>									
 				</div>

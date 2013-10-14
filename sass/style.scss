@@ -22,6 +22,7 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
+@import 'variables';
 @import 'gridset';
 @import 'boilerplate';
 @import 'normalize';
@@ -34,4 +35,5 @@ and Blueprint http://www.blueprintcss.org/
 @import 'layout';
 @import 'bootstrap';
 @import 'responsive-nav';
+@import 'content_pages';
 /* @import 'icon_font'; */
