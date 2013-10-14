@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * The template for displaying the footer.
  *
@@ -11,61 +11,69 @@
 				<div id="top_row">
 				  <div class="left">
 				    <a href="/" class="f-logo"></a>
-
+				    <p>Partnering with parents to build strong infants and children</p>
 				  </div>
-				  <div class="middle">
+				  <div class="middle off-top">
 				    <div class="social">
-						<p>We're social!</p>
+						<em class="ribbon">We're social!</em>
+					</div>
+					<div id="socials">
+						<a class="social-network twitter"></a>
+						<a class="social-network facebook" href="https://www.facebook.com/PediatricTherapyPartnersOfNova"></a>
+						<a class="social-network linkedin" href="http://www.linkedin.com/pub/chrissy-booher/3/658/aba"></a>
 					</div>
 				  </div>
-				  <div class="right">
+				  <div class="right off-top">
 					<div class="newsletter">
-						<p>Newsletter</p>
-						
+						<em class="ribbon">Blog</em>						
 						<p>
-						Subscribe to our monthly newsletter and be the first
-						to know about our news and special deals!
+							Read our latest posts on strong children, love and peace.
 						</p>
-						<form action="" class="form">
-							<input type="text" name="email" class="email" placeholder="enter email">
-						</form>
+						<p>
+							Display latest blog posts.
+						</p>
 					</div>
 				  </div>
 				</div>
 				<div id="bottom_row">
-					<div class="col1">
-						2013 PTP Nova
-					</div>
-					<div class="col2">
-						chrissy@ptpnova.com
-					</div>
-					<div class="col3">
-					    571-212-6145
-					</div>
-					<div class="col4">
-					   888-750-4126
-					</div>															
+				    <div class="inner_wrapper">
+				    	<div class="col1">
+				    	    &copy;
+				    		2013 PTP Nova
+				    	</div>
+				    	<div class="col2">
+				    	    <i class="glyphicon glyphicon-envelope"></i>
+				    		chrissy@ptpnova.com
+				    	</div>
+				    	<div class="col3">
+				    		571-212-6145
+				    	</div>
+				    	<div class="col4">
+				    		888-750-4126
+				    	</div>
+				    </div>									
 				</div>
 			
 			</footer>
         </div><!--/wrapper-->
 
-        <script src="https://get.gridsetapp.com/23622/overlay/"></script>
-        
-        <script>
-          var navigation = responsiveNav(".nav-collapse", {
-            animate: true,        // Boolean: Use CSS3 transitions, true or false
-            transition: 250,      // Integer: Speed of the transition, in milliseconds
-            label: "Menu",        // String: Label for the navigation toggle
-            insert: "after",      // String: Insert the toggle before or after the navigation
-            customToggle: "",     // Selector: Specify the ID of a custom toggle
-            openPos: "relative",  // String: Position of the opened nav, relative or static
-            jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
-            init: function(){},   // Function: Init callback
-            open: function(){},   // Function: Open callback
-            close: function(){}   // Function: Close callback
-          });
-        </script>
+
     </body>
-    <?php wp_footer(); ?>    
+    <?php wp_footer(); ?>
+    <script src="https://get.gridsetapp.com/23622/overlay/"></script>
+    
+    <script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,        // Boolean: Use CSS3 transitions, true or false
+        transition: 250,      // Integer: Speed of the transition, in milliseconds
+        label: "Menu",        // String: Label for the navigation toggle
+        insert: "after",      // String: Insert the toggle before or after the navigation
+        customToggle: "",     // Selector: Specify the ID of a custom toggle
+        openPos: "relative",  // String: Position of the opened nav, relative or static
+        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+        init: function(){},   // Function: Init callback
+        open: function(){},   // Function: Open callback
+        close: function(){}   // Function: Close callback
+      });
+    </script>        
 </html>

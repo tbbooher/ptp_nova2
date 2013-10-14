@@ -33,9 +33,17 @@
     height: 50px;
     .button {
         margin: 0 auto;
-        position: absolute;
-        width: 100px;
+/*        position: absolute;
+        width: 100px;*/
     }
+}
+
+[data-icon]:before {
+    font-family: 'icomoon';
+    content: attr(data-icon);
+    speak: none;
+    line-height: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 .describe_row {

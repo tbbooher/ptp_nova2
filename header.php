@@ -19,7 +19,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- fix these to pull from the main js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
 
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
