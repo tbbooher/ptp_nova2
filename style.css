@@ -960,94 +960,20 @@ body {
   text-size-adjust: 100%;
 }
 
-/* line 112, sass/_cameron.scss */
-h1, h2, h3 {
-  font-family: 'Arvo', serif;
-}
-
-/* line 116, sass/_cameron.scss */
-h1 {
-  font-size: 2em;
-  color: #556293;
-  /* 44px / 16px */
-}
-
-/* line 122, sass/_cameron.scss */
-h2, h3, h4, h5 {
-  color: #363636;
-}
-
-/* line 127, sass/_cameron.scss */
-h2 {
-  font-size: 1.625em;
-  /* 36px / 16px */
-}
-
-/* line 132, sass/_cameron.scss */
-h3, h4 {
-  font-size: 1.375em;
-  /* 24px / 16px */
-  font-weight: 400;
-}
-
-/* line 138, sass/_cameron.scss */
-h4 {
-  font-size: 1.375em;
-}
-
-/* line 142, sass/_cameron.scss */
-h5 {
-  font-size: 1.125em;
-}
-
-/* line 146, sass/_cameron.scss */
-strong {
-  color: #556293;
-}
-
-/* line 150, sass/_cameron.scss */
-p {
-  font-size: 1.125em;
-  /* 18px / 16px */
-}
-
-/* line 155, sass/_cameron.scss */
-a {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #556293;
-  text-decoration: none;
-  border-bottom: 1px solid #556293;
-}
-
-/* line 162, sass/_cameron.scss */
-a:hover {
-  color: #fa9605;
-  border-bottom: 1px solid #fbaf41;
-}
-
-/* line 167, sass/_cameron.scss */
-.wrapper {
-  border-top: 6px solid #556293;
-}
-
 @media screen and (max-width: 40em) {
-  /* line 172, sass/_cameron.scss */
+  /* line 113, sass/_cameron.scss */
   .inner {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
 }
 @media screen and (min-width: 60em) {
-  /* line 179, sass/_cameron.scss */
+  /* line 120, sass/_cameron.scss */
   .buckets {
     text-align: left;
   }
 }
-/* line 184, sass/_cameron.scss */
+/* line 125, sass/_cameron.scss */
 .button {
   background: #556293;
   background: -webkit-gradient(linear, left top, left bottom, from(#7b89b8), to(#556293));
@@ -1077,7 +1003,7 @@ a:hover {
   margin-top: 15px;
 }
 
-/* line 207, sass/_cameron.scss */
+/* line 148, sass/_cameron.scss */
 .button:hover {
   background: #7280ad;
   background: -webkit-gradient(linear, left top, left bottom, from(#556293), to(#7280ad));
@@ -1099,7 +1025,7 @@ a:hover {
 /*
  * Image replacement
  */
-/* line 230, sass/_cameron.scss */
+/* line 171, sass/_cameron.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1108,7 +1034,7 @@ a:hover {
   *text-indent: -9999px;
 }
 
-/* line 238, sass/_cameron.scss */
+/* line 179, sass/_cameron.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1119,7 +1045,7 @@ a:hover {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 249, sass/_cameron.scss */
+/* line 190, sass/_cameron.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1128,7 +1054,7 @@ a:hover {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 258, sass/_cameron.scss */
+/* line 199, sass/_cameron.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1144,7 +1070,7 @@ a:hover {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 275, sass/_cameron.scss */
+/* line 216, sass/_cameron.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1158,7 +1084,7 @@ a:hover {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 288, sass/_cameron.scss */
+/* line 229, sass/_cameron.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1174,7 +1100,7 @@ a:hover {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 305, sass/_cameron.scss */
+/* line 246, sass/_cameron.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1183,7 +1109,7 @@ a:hover {
   /* 2 */
 }
 
-/* line 312, sass/_cameron.scss */
+/* line 253, sass/_cameron.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1192,7 +1118,7 @@ a:hover {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 321, sass/_cameron.scss */
+/* line 262, sass/_cameron.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -6514,6 +6440,81 @@ main {
   margin-left: 0;
   width: 100%;
   border-top: 1px solid #e6e6e6;
+}
+
+/* line 1, sass/_typography.scss */
+h1, h2, h3 {
+  font-family: 'Arvo', serif;
+}
+
+/* line 5, sass/_typography.scss */
+h1 {
+  font-size: 2em;
+  color: #556293;
+  line-height: 1.4em;
+  /* 44px / 16px */
+}
+
+/* line 12, sass/_typography.scss */
+h2, h3, h4, h5 {
+  color: #363636;
+}
+
+/* line 17, sass/_typography.scss */
+h2 {
+  font-size: 1.625em;
+  /* 36px / 16px */
+}
+
+/* line 22, sass/_typography.scss */
+h3, h4 {
+  font-size: 1.375em;
+  /* 24px / 16px */
+  font-weight: 400;
+}
+
+/* line 28, sass/_typography.scss */
+h4 {
+  font-size: 1.375em;
+}
+
+/* line 32, sass/_typography.scss */
+h5 {
+  font-size: 1.125em;
+}
+
+/* line 36, sass/_typography.scss */
+strong {
+  color: #556293;
+}
+
+/* line 40, sass/_typography.scss */
+p {
+  font-size: 1.125em;
+  /* 18px / 16px */
+}
+
+/* line 45, sass/_typography.scss */
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #556293;
+  text-decoration: none;
+  border-bottom: 1px solid #556293;
+}
+
+/* line 52, sass/_typography.scss */
+a:hover {
+  color: #fa9605;
+  border-bottom: 1px solid #fbaf41;
+}
+
+/* line 57, sass/_typography.scss */
+.wrapper {
+  border-top: 6px solid #556293;
 }
 
 /* @import 'icon_font'; */
