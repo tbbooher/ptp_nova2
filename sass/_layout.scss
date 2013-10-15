@@ -35,4 +35,18 @@
 	box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);	
 }
 
+#content {
+    @include gs-span(d, all);
+}
+
+#secondary {
+    @include gs-span(d, 9,12);
+}
+
+#primary {
+    @include gs-span(d, 2, 8);
+}
+
+
+
 

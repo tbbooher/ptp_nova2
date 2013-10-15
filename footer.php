@@ -7,6 +7,7 @@
  * @package ptp_NoVa
  */
 ?>
+	        </section><!-- content -->
 	        <footer>
 				<div id="top_row">
 				  <div class="left">
