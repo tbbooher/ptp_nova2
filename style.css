@@ -1175,6 +1175,24 @@ body {
   width: 82.95455%;
 }
 
+/* line 37, sass/_blog.scss */
+nav.post-navigation {
+  margin: 20px 0px;
+  padding: 5px 5px;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
+}
+/* line 41, sass/_blog.scss */
+nav.post-navigation a {
+  font-size: 0.8em;
+  width: 50%;
+  float: left;
+  border-bottom: none;
+}
+
 /* line 1, sass/_front_page.scss */
 .slideshow {
   background: url(images/slider.png) no-repeat;
