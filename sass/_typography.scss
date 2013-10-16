@@ -1,0 +1,63 @@
+h1,h2,h3, h4 {
+    font-family: $accent_font_family;
+}
+
+h1 {
+    font-size: 2em;
+    color: $main-color;
+    line-height: 1.4em;
+    margin:0;
+    padding: 10px 0;
+    /* 44px / 16px */
+}
+
+h2, h3, h4, h5 {
+    color: $p-text;
+}
+
+
+h2 {
+    font-size: 1.625em;
+    /* 36px / 16px */
+}
+
+h3, h4 {
+    font-size: 1.375em;
+    /* 24px / 16px */
+    font-weight: 700;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.375em;
+}
+
+h5 {
+    font-size: 1.125em;
+}
+
+strong {
+    color: $main-color;
+}
+
+p {
+    font-size: 1.125em;
+    /* 18px / 16px */
+}
+
+a {
+    @include transition(all, 0.2s, ease-in-out);
+    color: $main-color;
+    text-decoration: none;
+    border-bottom: 1px solid $main-color;
+}
+
+a:hover {
+    color: darken($secondary-color, 12%);
+    border-bottom: 1px solid $secondary-color;
+}
+
+.wrapper {
+    border-top: 6px solid $main-color;
+}
