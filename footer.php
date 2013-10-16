@@ -12,7 +12,7 @@
 				<div id="top_row">
 				  <div class="left">
 				    <a href="/" class="f-logo"></a>
-				    <p>Partnering with parents to build strong infants and children</p>
+				    <p class="well with_border">Partnering with parents to build strong infants and children</p>
 				  </div>
 				  <div class="middle off-top">
 				    <div class="social">
@@ -26,13 +26,16 @@
 				  </div>
 				  <div class="right off-top">
 					<div class="newsletter">
-						<em class="ribbon">Blog</em>						
-						<p>
-							Read our latest posts on strong children, love and peace.
-						</p>
-						<p>
-							Display latest blog posts.
-						</p>
+						<em class="ribbon">BLOG POSTS</em>
+							<ul class="well with_border">
+								<?php
+								$args = array( 'numberposts' => '5' );
+								$recent_posts = wp_get_recent_posts( $args  );
+								foreach( $recent_posts as $recent ){
+									echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </li> ';
+								}
+								?>
+							</ul>
 					</div>
 				  </div>
 				</div>

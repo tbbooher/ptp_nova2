@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: ptp_NoVa
 Theme URI: http://underscores.me/
@@ -1372,21 +1373,30 @@ em.ribbon {
 }
 
 /* line 64, sass/_footer.scss */
-footer p {
+footer .with_border {
+  border: 1px solid #ebedf4;
+  background-color: #ebedf4;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+/* line 72, sass/_footer.scss */
+footer p, footer ul {
   font-size: 0.9em;
   width: 300px;
   margin: 0 auto;
   padding: 20px;
 }
-/* line 70, sass/_footer.scss */
+/* line 78, sass/_footer.scss */
 footer a {
   border-bottom: none;
 }
-/* line 72, sass/_footer.scss */
+/* line 80, sass/_footer.scss */
 footer a:hover {
   border-bottom: none;
 }
-/* line 76, sass/_footer.scss */
+/* line 84, sass/_footer.scss */
 footer #top_row {
   background: #dee0eb;
   border-bottom: 1px solid #e6e6e6;
@@ -1400,11 +1410,26 @@ footer #top_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 84, sass/_footer.scss */
+/* line 92, sass/_footer.scss */
 footer #top_row div {
   /*             background-color: orange; */
 }
-/* line 88, sass/_footer.scss */
+/* line 95, sass/_footer.scss */
+footer #top_row ul {
+  list-style: none;
+}
+/* line 99, sass/_footer.scss */
+footer #top_row li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+/* line 104, sass/_footer.scss */
+footer #top_row li:before {
+  content: "• ";
+  color: #585858;
+  /* or whatever color you prefer */
+}
+/* line 109, sass/_footer.scss */
 footer #bottom_row {
   font-size: 0.7em;
   height: 60px;
@@ -1414,18 +1439,18 @@ footer #bottom_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 93, sass/_footer.scss */
+/* line 114, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div span.text {
   vertical-align: middle;
   padding-left: 10px;
   font-size: 1.2em;
 }
-/* line 98, sass/_footer.scss */
+/* line 119, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div i {
   vertical-align: middle;
   font-size: 1.5em;
 }
-/* line 103, sass/_footer.scss */
+/* line 124, sass/_footer.scss */
 footer #bottom_row .inner_wrapper {
   margin-top: 20px;
 }
@@ -1450,7 +1475,7 @@ footer #bottom_row .inner_wrapper {
     content: "\f02f";
     font-size: $font-awesome-icon-size;
 }*/
-/* line 130, sass/_footer.scss */
+/* line 151, sass/_footer.scss */
 .f-logo {
   background: url(images/f-logo.png) no-repeat;
   width: 266px;
