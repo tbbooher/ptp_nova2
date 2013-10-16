@@ -6483,51 +6483,53 @@ h1 {
   font-size: 2em;
   color: #556293;
   line-height: 1.4em;
+  margin: 0;
+  padding: 0 0 10px 0;
   /* 44px / 16px */
 }
 
-/* line 12, sass/_typography.scss */
+/* line 14, sass/_typography.scss */
 h2, h3, h4, h5 {
   color: #363636;
 }
 
-/* line 17, sass/_typography.scss */
+/* line 19, sass/_typography.scss */
 h2 {
   font-size: 1.625em;
   /* 36px / 16px */
 }
 
-/* line 22, sass/_typography.scss */
+/* line 24, sass/_typography.scss */
 h3, h4 {
   font-size: 1.375em;
   /* 24px / 16px */
   font-weight: 700;
 }
 
-/* line 28, sass/_typography.scss */
+/* line 30, sass/_typography.scss */
 h4 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.375em;
 }
 
-/* line 34, sass/_typography.scss */
+/* line 36, sass/_typography.scss */
 h5 {
   font-size: 1.125em;
 }
 
-/* line 38, sass/_typography.scss */
+/* line 40, sass/_typography.scss */
 strong {
   color: #556293;
 }
 
-/* line 42, sass/_typography.scss */
+/* line 44, sass/_typography.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 47, sass/_typography.scss */
+/* line 49, sass/_typography.scss */
 a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -6539,13 +6541,13 @@ a {
   border-bottom: 1px solid #556293;
 }
 
-/* line 54, sass/_typography.scss */
+/* line 56, sass/_typography.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 59, sass/_typography.scss */
+/* line 61, sass/_typography.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }
