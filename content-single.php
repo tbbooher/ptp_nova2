@@ -14,6 +14,9 @@
 	</header><!-- .entry-header -->
 
 	<section class="entry-content">
+	    <div class="the_image">
+	      <?php the_post_thumbnail('medium'); ?>
+	    </div>
 		<?php the_content(); ?>
 		<?php
 		  wp_link_pages( array(
@@ -57,6 +60,6 @@
 			);
 		?>
 
-		<?php edit_post_link( __( 'Edit', 'ptp_nova' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'ptp_nova' ), '<span class="edit-link button">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->

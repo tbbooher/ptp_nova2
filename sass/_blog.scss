@@ -13,6 +13,17 @@
 
 }
 
+.the_image {
+	width:100%;
+	img {
+		margin: 0 auto;
+		display: block;
+		border:1px solid $border-color;
+	}
+	padding:10px;
+}
+
+
 
 #topmenu {
 	@include gs-span(d, 6, 12);
@@ -20,6 +31,15 @@
 
 .menu-item a {
 
+}
+
+.updated {
+	&:before {
+		content: " (Updated on: ";
+	}
+	&:after {
+		content: ")";
+	}
 }
 
 .d-full {
@@ -35,13 +55,19 @@
 }
 
 nav.post-navigation {
+ 	@extend .well;
 	margin: 20px 0px;
 	padding: 5px 5px;
 	@include gs-span(d, all);
+	line-height: 28px;
+	color: #111;	
 	a {
 		font-size: 0.8em;
-		width: 50%;
-		float:left;
-		border-bottom: none;
+	}
+	.nav-previous {
+		float: left;
+	}
+	.nav-next {
+		float: right;
 	}
 }

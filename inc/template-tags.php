@@ -30,7 +30,7 @@ function ptp_nova_content_nav( $nav_id ) {
 	$nav_class = ( is_single() ) ? 'post-navigation' : 'paging-navigation';
 
 	?>
-	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="well <?php echo $nav_class; ?>" style="">
+	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo $nav_class; ?>" style="">
 
 	<?php if ( is_single() ) : // navigation links for single posts ?>
 
