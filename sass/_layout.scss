@@ -46,6 +46,7 @@
 }
 
 #secondary {
+    @extend .well;
     @include gs-span(d, 9,11);
 }
 

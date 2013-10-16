@@ -16,6 +16,8 @@ get_header(); ?>
 	<div id="primary" class="content-area d1-d8">
 		<main id="main" class="site-main" role="main">
 
+		<h1>Chrissy's Blog</h1>
+
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>

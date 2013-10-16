@@ -1764,7 +1764,7 @@ footer #bottom_row .inner_wrapper {
   width: 23.47222%;
 }
 
-/* line 52, sass/_layout.scss */
+/* line 53, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
@@ -5866,7 +5866,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 
 /* line 3645, sass/_bootstrap.scss */
-.well {
+.well, #secondary {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
@@ -5877,7 +5877,7 @@ a.list-group-item:hover, a.list-group-item:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 /* line 3654, sass/_bootstrap.scss */
-.well blockquote {
+.well blockquote, #secondary blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
 }
