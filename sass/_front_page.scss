@@ -13,7 +13,9 @@
 
 .buckets {
     text-align: center;
-    background: #ebedf4;
+    background: $background-color;
+    border-top: 1px solid $mid-gray;
+    border-bottom: 1px solid $mid-gray;
 }
 
 /* .pics > div {} */

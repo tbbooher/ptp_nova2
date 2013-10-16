@@ -1,16 +1,14 @@
-$icon-size: 1.5em;
-
 em.ribbon {
     color: white;
     background: url(images/ribbon.gif) no-repeat;
     width: 188px;
     display: block;
     text-align: center;
-    font-family: FontAwesome;
     font-style: normal;
     line-height: 20px;
     vertical-align: middle;
     margin:0 auto;
+    font-family: "garamond-premier-pro",serif;
 }
 
 .off-top {
@@ -70,12 +68,11 @@ footer {
   }
   #top_row {
     background: $light_blue;
-    border-top: 1px solid $border_color;
     border-bottom: 1px solid $border_color;
-    -webkit-box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);
-    -moz-box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);
-    -o-box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);
-    box-shadow: 0 0 $box_blur_radius_footer rgba(0,0,0,$alpha_bottom);  
+    -webkit-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    -moz-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    -o-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);  
     @include gs-span(d, all);
     div {
       /*             background-color: orange; */
