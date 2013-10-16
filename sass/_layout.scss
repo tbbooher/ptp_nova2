@@ -39,7 +39,7 @@
 
 #content {
     @include gs-span(d, all);
-    .content_page {
+    &.content_page {
         padding: 20px 0;
         border-bottom: 1px solid $main-color;
     }

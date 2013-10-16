@@ -1750,7 +1750,7 @@ footer #bottom_row .inner_wrapper {
   width: 100%;
 }
 /* line 42, sass/_layout.scss */
-#content .content_page {
+#content.content_page {
   padding: 20px 0;
   border-bottom: 1px solid #556293;
 }
