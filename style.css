@@ -1749,17 +1749,22 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   width: 100%;
 }
+/* line 42, sass/_layout.scss */
+#content .content_page {
+  padding: 20px 0;
+  border-bottom: 1px solid #556293;
+}
 
-/* line 44, sass/_layout.scss */
+/* line 48, sass/_layout.scss */
 #secondary {
   display: block;
   float: left;
   margin-left: 67.9798%;
   margin-right: -100%;
-  width: 31.9697%;
+  width: 23.47222%;
 }
 
-/* line 48, sass/_layout.scss */
+/* line 52, sass/_layout.scss */
 #primary {
   display: block;
   float: left;

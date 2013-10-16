@@ -43,4 +43,4 @@
 				    </nav>
         		</div>
         	</section><!-- header -->
-            <section id="content">
+            <section id="content" class="<?php echo is_front_page() ? "front_page" : "content_page" ?>">
