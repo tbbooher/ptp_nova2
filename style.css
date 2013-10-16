@@ -1283,8 +1283,9 @@ nav.post-navigation a {
   width: 100%;
   height: 40px;
   position: relative;
+  font-family: "brandon-grotesque",sans-serif;
 }
-/* line 72, sass/_front_page.scss */
+/* line 73, sass/_front_page.scss */
 .describe_row .pic figure figcaption a {
   position: absolute;
   top: 7px;
@@ -1292,7 +1293,7 @@ nav.post-navigation a {
   color: #fff;
   border: 0;
 }
-/* line 79, sass/_front_page.scss */
+/* line 80, sass/_front_page.scss */
 .describe_row .pic figure figcaption a:hover {
   color: #fff;
   border-color: #fff;
@@ -1306,18 +1307,25 @@ em.ribbon {
   display: block;
   text-align: center;
   font-style: normal;
-  line-height: 20px;
-  vertical-align: middle;
   margin: 0 auto;
-  font-family: "garamond-premier-pro",serif;
+  vertical-align: middle;
+  /*font-family: "garamond-premier-pro",serif;*/
+  font-family: "brandon-grotesque",sans-serif;
+  /*    font-family: "arvo"; */
+  line-height: 20px;
+  font-weight: 900px;
+  height: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
-/* line 14, sass/_footer.scss */
+/* line 21, sass/_footer.scss */
 .off-top {
   padding-top: 30px;
 }
 
-/* line 18, sass/_footer.scss */
+/* line 25, sass/_footer.scss */
 #socials {
   line-height: 1.4em;
   width: 100%;
@@ -1328,7 +1336,7 @@ em.ribbon {
   margin: 0 auto;
 }
 
-/* line 28, sass/_footer.scss */
+/* line 35, sass/_footer.scss */
 .social-network {
   margin: 0 8px 12px 0;
   display: inline-block;
@@ -1338,47 +1346,47 @@ em.ribbon {
   background-position-y: -42px;
   cursor: pointer;
 }
-/* line 36, sass/_footer.scss */
+/* line 43, sass/_footer.scss */
 .social-network.linkedin {
   background-position: -504px -42px;
 }
-/* line 38, sass/_footer.scss */
+/* line 45, sass/_footer.scss */
 .social-network.linkedin:hover {
   background-position: -504px 0;
 }
-/* line 42, sass/_footer.scss */
+/* line 49, sass/_footer.scss */
 .social-network.facebook {
   background-position: -210px -42px;
 }
-/* line 44, sass/_footer.scss */
+/* line 51, sass/_footer.scss */
 .social-network.facebook:hover {
   background-position: -210px 0;
 }
-/* line 48, sass/_footer.scss */
+/* line 55, sass/_footer.scss */
 .social-network.twitter {
   background-position: -1134px -42px;
 }
-/* line 50, sass/_footer.scss */
+/* line 57, sass/_footer.scss */
 .social-network.twitter:hover {
   background-position: -1134px 0;
 }
 
-/* line 57, sass/_footer.scss */
+/* line 64, sass/_footer.scss */
 footer p {
   font-size: 0.9em;
   width: 300px;
   margin: 0 auto;
   padding: 20px;
 }
-/* line 63, sass/_footer.scss */
+/* line 70, sass/_footer.scss */
 footer a {
   border-bottom: none;
 }
-/* line 65, sass/_footer.scss */
+/* line 72, sass/_footer.scss */
 footer a:hover {
   border-bottom: none;
 }
-/* line 69, sass/_footer.scss */
+/* line 76, sass/_footer.scss */
 footer #top_row {
   background: #dee0eb;
   border-bottom: 1px solid #e6e6e6;
@@ -1392,11 +1400,11 @@ footer #top_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 77, sass/_footer.scss */
+/* line 84, sass/_footer.scss */
 footer #top_row div {
   /*             background-color: orange; */
 }
-/* line 81, sass/_footer.scss */
+/* line 88, sass/_footer.scss */
 footer #bottom_row {
   font-size: 0.7em;
   height: 60px;
@@ -1406,18 +1414,18 @@ footer #bottom_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 86, sass/_footer.scss */
+/* line 93, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div span.text {
   vertical-align: middle;
   padding-left: 10px;
   font-size: 1.2em;
 }
-/* line 91, sass/_footer.scss */
+/* line 98, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div i {
   vertical-align: middle;
   font-size: 1.5em;
 }
-/* line 96, sass/_footer.scss */
+/* line 103, sass/_footer.scss */
 footer #bottom_row .inner_wrapper {
   margin-top: 20px;
 }
@@ -1442,7 +1450,7 @@ footer #bottom_row .inner_wrapper {
     content: "\f02f";
     font-size: $font-awesome-icon-size;
 }*/
-/* line 123, sass/_footer.scss */
+/* line 130, sass/_footer.scss */
 .f-logo {
   background: url(images/f-logo.png) no-repeat;
   width: 266px;
@@ -1607,13 +1615,15 @@ footer #bottom_row .inner_wrapper {
     border-right: 1px solid #6f7cac;
     text-align: center;
     vertical-align: middle;
-    font-size: 1em;
+    font-size: 0.8em;
+    letter-spacing: 1px;
     color: #fff;
     /*	padding: 13px 20px; */
-    font-family: 'Arvo', serif;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
   }
 
-  /* line 135, sass/_navigation.scss */
+  /* line 137, sass/_navigation.scss */
   .nav-collapse ul li a:hover {
     background: #6f7cac;
     cursor: pointer;
@@ -6460,12 +6470,12 @@ main {
   float: left;
   margin-left: 0;
   width: 100%;
-  border-top: 1px solid #e6e6e6;
+  /*	border-top: 1px solid $border_color; */
 }
 
 /* line 1, sass/_typography.scss */
-h1, h2, h3 {
-  font-family: 'Arvo', serif;
+h1, h2, h3, h4 {
+  font-family: "brandon-grotesque", sans-serif;
 }
 
 /* line 5, sass/_typography.scss */
@@ -6491,31 +6501,33 @@ h2 {
 h3, h4 {
   font-size: 1.375em;
   /* 24px / 16px */
-  font-weight: 400;
+  font-weight: 700;
 }
 
 /* line 28, sass/_typography.scss */
 h4 {
+  text-transform: uppercase;
+  font-weight: 700;
   font-size: 1.375em;
 }
 
-/* line 32, sass/_typography.scss */
+/* line 34, sass/_typography.scss */
 h5 {
   font-size: 1.125em;
 }
 
-/* line 36, sass/_typography.scss */
+/* line 38, sass/_typography.scss */
 strong {
   color: #556293;
 }
 
-/* line 40, sass/_typography.scss */
+/* line 42, sass/_typography.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 45, sass/_typography.scss */
+/* line 47, sass/_typography.scss */
 a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -6527,13 +6539,13 @@ a {
   border-bottom: 1px solid #556293;
 }
 
-/* line 52, sass/_typography.scss */
+/* line 54, sass/_typography.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 57, sass/_typography.scss */
+/* line 59, sass/_typography.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }

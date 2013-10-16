@@ -109,36 +109,38 @@
 /*MEDIA QUERIES */
 
 @media screen and (min-width: 71.250em) {
-   .nav-collapse {
-	   margin-top: 45px;
-   }
-  .nav-collapse ul li {
-	  float: left;
-	  display: inline;
-  }
-      .nav-collapse ul li {
-	      width: 140px;
-      }
-    .nav-collapse ul li a {
-    display: block;
-	background: $main-color;
-	text-decoration: none;
-	border: 0;
-	border-right: 1px solid lighten($main-color, 10%);
-	text-align: center;
-	vertical-align: middle;
-	font-size: 1em; 
-	color: #fff;
-/*	padding: 13px 20px; */
-	font-family: 'Arvo', serif;
-  }
-      .nav-collapse ul li a:hover {
+ .nav-collapse {
+  margin-top: 45px;
+}
+.nav-collapse ul li {
+ float: left;
+ display: inline;
+}
+.nav-collapse ul li {
+ width: 140px;
+}
+.nav-collapse ul li a {
+  display: block;
+  background: $main-color;
+  text-decoration: none;
+  border: 0;
+  border-right: 1px solid lighten($main-color, 10%);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.8em;
+  letter-spacing: 1px; 
+  color: #fff;
+  /*	padding: 13px 20px; */
+  font-family: $accent_font_family;
+  text-transform: uppercase;
+}
+.nav-collapse ul li a:hover {
 
-   background: lighten($main-color, 10%);
-   cursor: pointer;
-   text-align: center;
-   vertical-align: middle;
-   color: #fff;
-   width: 100%;
-  }
+ background: lighten($main-color, 10%);
+ cursor: pointer;
+ text-align: center;
+ vertical-align: middle;
+ color: #fff;
+ width: 100%;
+}
 }
