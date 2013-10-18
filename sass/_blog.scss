@@ -1,74 +1,65 @@
-
 /* My custom code */
 
-.entry-title {
-	
-}
+.entry-title {}
 
-.entry-header {
+.entry-header {}
 
-}
-
-.entry-content {
-
-}
+.entry-content {}
 
 .wp-post-image {
-	border:4px solid $border-color;
+    border: 4px solid $border-color;
 }
 
 .the_image {
-	width:100%;
-	img {
-		margin: 0 auto;
-		display: block;
-	}
-	padding:10px;
+    width: 100%;
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+    padding: 10px;
 }
 
 #topmenu {
-	@include gs-span(d, 6, 12);
+    @include gs-span(d, 6, 12);
 }
 
-.menu-item a {
-
-}
+.menu-item a {}
 
 .updated {
-	&:before {
-		content: " (Updated on: ";
-	}
-	&:after {
-		content: ")";
-	}
+    &:before {
+        content: " (Updated on: ";
+    }
+    &:after {
+        content: ")";
+    }
 }
 
 .d-full {
-  @include gs-span(d, all);	
+    @include gs-span(d, all);
 }
 
-.m-full{
-  /* @include gs-span(m, all);	 */
+.m-full {
+    /* @include gs-span(m, all);	 */
 }
 
 .d-middle {
-  @include gs-span(d, 2, 11);	
+    @include gs-span(d, 2, 11);
 }
 
 nav.post-navigation {
- 	@extend .well;
-	margin: 20px 0px;
-	padding: 5px 5px;
-	@include gs-span(d, all);
-	line-height: 28px;
-	color: #111;	
-	a {
-		font-size: 0.8em;
-	}
-	.nav-previous {
-		float: left;
-	}
-	.nav-next {
-		float: right;
-	}
+    @extend .well;
+    margin: 20px 0px;
+    padding: 5px 5px;
+    @include gs-span(d, all);
+    line-height: 28px;
+    color: #111;
+    a {
+        font-size: 0.8em;
+    }
+    .nav-previous {
+        float: left;
+    }
+    .nav-next {
+        float: right;
+    }
 }

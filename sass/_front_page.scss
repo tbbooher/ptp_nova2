@@ -9,6 +9,12 @@
 .featured {
   background: url(images/dots.jpg) repeat;
   padding-top: 30px;
+  padding-bottom: 50px;
+  @include gs-span(d, all);
+  .flexslider {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .buckets {

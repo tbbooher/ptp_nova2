@@ -6,7 +6,7 @@
  */
  get_header(); ?>
             <!-- slideshow -->
-            <section class="featured d-full">
+            <section class="featured">
 				<div class="flexslider">
 					  <ul class="slides">
 					    <li>

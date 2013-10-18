@@ -68,6 +68,8 @@ if ( post_password_required() )
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'ptp_nova' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+	<!-- comment_form() -->
+
+	<?php ptp_nova_comment_form(); ?>
 
 </div><!-- #comments -->
