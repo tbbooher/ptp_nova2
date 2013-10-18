@@ -7,8 +7,19 @@
  get_header(); ?>
             <!-- slideshow -->
             <section class="featured d-full">
-				<div class="slideshow d-middle">			
-				</div>
+				<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide1.jpg" />
+					    </li>
+					    <li>
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide2.jpg" />
+					    </li>
+					    <li>
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide4.jpg" />
+					    </li>
+					  </ul>
+				</div>	
 			</section>
 
 			<!-- buckets section -->

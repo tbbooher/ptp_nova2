@@ -27,7 +27,12 @@
         <?php wp_head(); ?>
 
         <!-- link href="https://get.gridsetapp.com/23622/" rel="stylesheet" -->
-        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" charset="utf-8">
+          jQuery(window).load(function() { 
+            jQuery('.flexslider').flexslider();
+          });
+        </script>        
     </head>
     <body>
         <!--[if lt IE 7]>

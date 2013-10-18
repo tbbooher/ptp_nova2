@@ -13,17 +13,18 @@
 
 }
 
+.wp-post-image {
+	border:4px solid $border-color;
+}
+
 .the_image {
 	width:100%;
 	img {
 		margin: 0 auto;
 		display: block;
-		border:1px solid $border-color;
 	}
 	padding:10px;
 }
-
-
 
 #topmenu {
 	@include gs-span(d, 6, 12);
