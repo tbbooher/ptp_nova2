@@ -99,7 +99,7 @@ textarea,
     width: 620px;
 }
 
-#commentform textarea {
+#commentform textarea, .form-allowed-tags  {
     width: 75%;
     padding: 10px;
     resize: both;
@@ -212,6 +212,7 @@ textarea,
   line-height: $line-height-base;
   color: $input-color;
   vertical-align: middle;
+  margin-bottom: 10px;  
   background-color: $input-bg;
   border: 1px solid $input-border;
   border-radius: $input-border-radius;
@@ -249,7 +250,7 @@ textarea.form-control {
   display: block; // account for any element using help-block
   margin-top: 5px;
   margin-bottom: 10px;
-  color: lighten($text-color, 25%); // lighten the text some for contrast
+  color: lighten($main-color, 25%); // lighten the text some for contrast
   font-size: 0.8em;
 }
 
@@ -510,6 +511,13 @@ textarea.form-control {
   .carousel-caption {
     position: static;
   }
+}
+
+.form-allowed-tags {
+  font-size: 0.9em;
+  background-color: $gray-lighter;
+  margin-top: 20px;
+  border:1px solid #ccc;
 }
 
 

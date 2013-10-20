@@ -23,6 +23,8 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
+@import "compass/css3";
+
 @import 'variables';
 @import 'gridset';
 @import 'boilerplate';
@@ -34,7 +36,7 @@ and Blueprint http://www.blueprintcss.org/
 @import 'footer';
 @import 'navigation';
 @import 'layout';
-@import '';
+@import 'bootstrap/glyphicons';
 @import 'responsive-nav';
 @import 'content_pages';
 @import 'typography';

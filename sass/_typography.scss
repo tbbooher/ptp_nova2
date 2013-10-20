@@ -11,6 +11,23 @@ h1 {
     /* 44px / 16px */
 }
 
+h1, h2, h3, h4 {
+    visibility: hidden;
+}
+
+/*.wf-loading {
+  h1, h2, h3, h4 {
+    color: red;
+    visibility: hidden;
+  }
+}*/
+
+.wf-active {
+  h1, h2, h3, h4 {
+    visibility: visible;
+  }
+}
+
 h2, h3, h4, h5 {
     color: $p-text;
 }
