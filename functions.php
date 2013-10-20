@@ -154,7 +154,6 @@ function ptp_nova_comment_form( $args = array(), $post_id = null ) {
 		'must_log_in'          => '<p class="must-log-in">' . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		'logged_in_as'         => '<p class="logged-in-as">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>' ), get_edit_user_link(), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		'comment_notes_before' => '<p class="comment-notes">' . __( 'Your email address will not be published.' ) . ( $req ? $required_text : '' ) . '</p>',
-		'comment_notes_after'  => '<p class="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ), ' <code>' . allowed_tags() . '</code>' ) . '</p>',
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',
 		'title_reply'          => __( 'Leave a Reply' ),
@@ -180,39 +179,44 @@ function ptp_nova_comment_form( $args = array(), $post_id = null ) {
 						<?php if ( is_user_logged_in() ) : ?>
 							<?php echo apply_filters( 'comment_form_logged_in', $args['logged_in_as'], $commenter, $user_identity ); ?>
 							<?php do_action( 'comment_form_logged_in_after', $commenter, $user_identity ); ?>
+							<div class="form-group">
 						<?php else : ?>
 							<?php echo $args['comment_notes_before']; ?>
 							<?php do_action( 'comment_form_before_fields' ); ?>
-	                        <div class="form-group">
-								<label for="author">Name <?php if ($req) echo "(required)"; ?></label>
-								<span class="add-on"><i class="icon-user"></i></span>
-								<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" placeholder="Your Name" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> class="form-control">
-	                        </div>
-							<div class="form-group">
-								<label for="email">Mail <?php if ($req) echo "(required)"; ?></label>
-								<span class="add-on"><i class="icon-envelope"></i></span>
-								<input type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" class="form-control" placeholder="Your Email" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> >
-								<span class="help-inline">(will not be published)</span>
-							</div>
-	                        <div class="form-group">
-		                        <label for="url">Website</label>
-	                            <span class="add-on"><i class="icon-home"></i></span>
-	                            <input type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" class="form-control" placeholder="Your Website" tabindex="3">
-	                        </div>
+	                        <div class="row">
+	                            <div class="span3">
+									<label for="author">Name <?php if ($req) echo "(required)"; ?></label>
+									<span class="add-on"><i class="icon-user"></i></span>
+									<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" placeholder="Your Name" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> class="form-control">
+								</div>
+								<div class="span3">
+									<label for="email">Mail <?php if ($req) echo "(required)"; ?></label>
+									<span class="add-on"><i class="icon-envelope"></i></span>
+									<input type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" class="form-control" placeholder="Your Email" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> >
+									<span class="help-block">(will not be published)</span>
+								</div>
+	                            <div class="span3">
+			                        <label for="url">Website</label>
+		                            <span class="add-on"><i class="icon-home"></i></span>
+		                            <input type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" class="form-control" placeholder="Your Website" tabindex="3">
+	                            </div>
 					        <?php do_action( 'comment_form_after_fields' ); ?>
 						<?php endif; ?>
 						<!-- php echo apply_filters( 'comment_form_field_comment', $args['comment_field'] ); -->
 						<!-- from external -->
-						<div class="input">
-							<textarea name="comment" id="comment" class="form-control" placeholder="<?php _e("Your Comment Here…","bonestheme"); ?>" tabindex="4"></textarea>
-						</div>
-
-						<div class="form-actions">
-							<input class="btn btn-primary" name="submit" type="submit" id="submit" tabindex="5" value="<?php _e("Submit Comment","bonestheme"); ?>" />
-							<?php comment_id_fields( $post_id ); ?>
-						</div>						
+						        <div class="span8">
+						            <label for="comment">Your comment</label>
+								   	<textarea name="comment" rows="6" id="comment" class="form-control" placeholder="<?php _e("Your Comment Here…","bonestheme"); ?>" tabindex="4"></textarea>				
+									<div class="form-actions">
+										<input class="button" name="submit" type="submit" id="submit" tabindex="5" value="<?php _e("Submit Comment","bonestheme"); ?>" />
+										<?php comment_id_fields( $post_id ); ?>
+									</div>		
+									<p class="form-allowed-tags">
+									  <?php echo sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ), ' <code>' . allowed_tags() . '</code>' ) ?>
+									</p>						   
+								</div>		
+							</div>
 						<!-- / from external -->
-						<?php echo $args['comment_notes_after']; ?>						
 						<?php do_action( 'comment_form', $post_id ); ?>
 					</form>
 				<?php endif; ?>
