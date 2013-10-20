@@ -863,41 +863,16 @@ table {
 }
 
 /* RESET */
-/* line 7, sass/_cameron.scss */
-html,
-button,
-input,
-select,
-textarea {
-  color: #222;
-}
-
-/* line 11, sass/_cameron.scss */
-html {
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/* line 16, sass/_cameron.scss */
+/* line 3, sass/_cameron.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 21, sass/_cameron.scss */
+/* line 8, sass/_cameron.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
-}
-
-/* line 26, sass/_cameron.scss */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
 }
 
 @-webkit-viewport {
@@ -920,7 +895,7 @@ hr {
   width: device-width;
 }
 
-/* line 63, sass/_cameron.scss */
+/* line 41, sass/_cameron.scss */
 audio,
 canvas,
 img,
@@ -928,106 +903,35 @@ video {
   vertical-align: middle;
 }
 
-/* line 67, sass/_cameron.scss */
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 73, sass/_cameron.scss */
-textarea {
-  resize: vertical;
-}
-
-/* line 77, sass/_cameron.scss */
+/* line 45, sass/_cameron.scss */
 .browsehappy {
   margin: 0.2em 0;
-  background: #ccc;
+  background: #cccccc;
   color: #000;
   padding: 0.2em 0;
 }
 
 /* MAIN STYLES */
-/* line 100, sass/_cameron.scss */
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 100%;
-  color: #363636;
-  text-rendering: optimizeLegibility;
-  line-height: 150%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
 @media screen and (max-width: 40em) {
-  /* line 113, sass/_cameron.scss */
+  /* line 55, sass/_cameron.scss */
   .inner {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
 }
 @media screen and (min-width: 60em) {
-  /* line 120, sass/_cameron.scss */
+  /* line 62, sass/_cameron.scss */
   .buckets {
     text-align: left;
   }
 }
-/* line 125, sass/_cameron.scss */
-.button {
-  background: #556293;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7b89b8), to(#556293));
-  background: -webkit-linear-gradient(top, #7b89b8, #556293);
-  background: -moz-linear-gradient(top, #7b89b8, #556293);
-  background: -ms-linear-gradient(top, #7b89b8, #556293);
-  background: -o-linear-gradient(top, #7b89b8, #556293);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
-  -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
-  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
-  border: 1px solid #4a5991;
-  background-image: -ms-linear-gradient(top, #7b89b8 0%, #556293 100%);
-  padding: 10.5px 21px;
-  text-shadow: #383838 0 1px 0;
-  color: #fff;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  margin-top: 15px;
-}
-
-/* line 148, sass/_cameron.scss */
-.button:hover {
-  background: #7280ad;
-  background: -webkit-gradient(linear, left top, left bottom, from(#556293), to(#7280ad));
-  background: -webkit-linear-gradient(top, #556293, #7280ad);
-  background: -moz-linear-gradient(top, #556293, #7280ad);
-  background: -ms-linear-gradient(top, #556293, #7280ad);
-  background: -o-linear-gradient(top, #556293, #7280ad);
-  border: 1px solid #4a5991;
-  text-shadow: #383838 0 1px 0;
-  background-image: -ms-linear-gradient(top, #556293 0%, #7280ad 100%);
-  color: #fff;
-  cursor: pointer;
-  margin-top: 15px;
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 /*
  * Image replacement
  */
-/* line 171, sass/_cameron.scss */
+/* line 75, sass/_cameron.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1036,7 +940,7 @@ body {
   *text-indent: -9999px;
 }
 
-/* line 179, sass/_cameron.scss */
+/* line 83, sass/_cameron.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1047,7 +951,7 @@ body {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 190, sass/_cameron.scss */
+/* line 94, sass/_cameron.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -1056,7 +960,7 @@ body {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 199, sass/_cameron.scss */
+/* line 103, sass/_cameron.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1072,7 +976,7 @@ body {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 216, sass/_cameron.scss */
+/* line 120, sass/_cameron.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1086,43 +990,9 @@ body {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 229, sass/_cameron.scss */
+/* line 133, sass/_cameron.scss */
 .invisible {
   visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-/* line 246, sass/_cameron.scss */
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-/* line 253, sass/_cameron.scss */
-.clearfix:after {
-  clear: both;
-}
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-/* line 262, sass/_cameron.scss */
-.clearfix {
-  *zoom: 1;
 }
 
 /* line 1, sass/_top.scss */
@@ -1190,7 +1060,7 @@ body {
 
 /* line 41, sass/_blog.scss */
 .m-full {
-  /* @include gs-span(m, all);	 */
+  /*@include gs-span(m, all);*/
 }
 
 /* line 45, sass/_blog.scss */
@@ -1230,476 +1100,6 @@ nav.post-navigation .nav-next {
 /* line 66, sass/_blog.scss */
 #comments {
   display: block;
-}
-
-/* FORM FORMATTING */
-/* line 71, sass/_blog.scss */
-form {
-  margin: 0 0 20px 0;
-  line-height: 18px;
-  width: 620px;
-}
-/* line 75, sass/_blog.scss */
-form label {
-  cursor: pointer;
-  display: block;
-  margin: 0 0 5px;
-  color: #666;
-  font-weight: 600;
-  text-shadow: 1px 1px 0 #fff;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-/* line 89, sass/_blog.scss */
-input,
-textarea,
-.uneditable-input {
-  width: 206px;
-}
-
-/* row */
-/* line 94, sass/_blog.scss */
-.form-group {
-  margin: 0 0 20px -20px;
-  min-height: 1px;
-  display: block;
-  line-height: 18px;
-  width: 620px;
-}
-
-/* line 102, sass/_blog.scss */
-#commentform textarea, .form-allowed-tags {
-  width: 75%;
-  padding: 10px;
-  resize: both;
-  height: auto;
-  margin: 0;
-}
-
-/* from bootstrap forms */
-/* line 114, sass/_blog.scss */
-.form-control:-moz-placeholder {
-  color: #999999;
-}
-/* line 115, sass/_blog.scss */
-.form-control::-moz-placeholder {
-  color: #999999;
-}
-/* line 116, sass/_blog.scss */
-.form-control:-ms-input-placeholder {
-  color: #999999;
-}
-/* line 117, sass/_blog.scss */
-.form-control::-webkit-input-placeholder {
-  color: #999999;
-}
-
-/* line 207, sass/_blog.scss */
-.form-control {
-  display: block;
-  height: 26px;
-  padding: 3px 12px;
-  font-size: 13px;
-  line-height: 1.42857;
-  color: #555555;
-  vertical-align: middle;
-  margin-bottom: 10px;
-  background-color: white;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-}
-/* line 192, sass/_blog.scss */
-.form-control:focus {
-  border-color: #fbaf41;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(251, 175, 65, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(251, 175, 65, 0.6);
-}
-/* line 231, sass/_blog.scss */
-.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-  cursor: not-allowed;
-  background-color: #eeeeee;
-}
-
-/* line 240, sass/_blog.scss */
-textarea.form-control {
-  height: auto;
-}
-
-/* line 249, sass/_blog.scss */
-.help-block {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  color: #a0a8c8;
-  font-size: 0.8em;
-}
-
-/* line 257, sass/_blog.scss */
-.clearfix {
-  *zoom: 1;
-}
-
-/* line 262, sass/_blog.scss */
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-/* line 268, sass/_blog.scss */
-.clearfix:after {
-  clear: both;
-}
-
-@-ms-viewport {
-  width: device-width;
-}
-
-@media (min-width: 1200px) {
-  /* line 277, sass/_blog.scss */
-  .row {
-    margin-left: -30px;
-    *zoom: 1;
-  }
-
-  /* line 282, sass/_blog.scss */
-  .row:before,
-  .row:after {
-    display: table;
-    line-height: 0;
-    content: "";
-  }
-
-  /* line 287, sass/_blog.scss */
-  .row:after {
-    clear: both;
-  }
-
-  /* line 290, sass/_blog.scss */
-  [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 30px;
-  }
-
-  /* line 295, sass/_blog.scss */
-  .span8 {
-    width: 770px;
-  }
-
-  /* line 298, sass/_blog.scss */
-  .span3 {
-    width: 270px;
-  }
-
-  /* line 303, sass/_blog.scss */
-  input,
-  textarea,
-  .uneditable-input {
-    margin-left: 0;
-  }
-
-  /* line 306, sass/_blog.scss */
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 30px;
-  }
-
-  /* line 311, sass/_blog.scss */
-  input.span8,
-  textarea.span8,
-  .uneditable-input.span8 {
-    width: 756px;
-  }
-
-  /* line 316, sass/_blog.scss */
-  input.span3,
-  textarea.span3,
-  .uneditable-input.span3 {
-    width: 256px;
-  }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  /* line 322, sass/_blog.scss */
-  .row {
-    margin-left: -20px;
-    *zoom: 1;
-  }
-
-  /* line 327, sass/_blog.scss */
-  .row:before,
-  .row:after {
-    display: table;
-    line-height: 0;
-    content: "";
-  }
-
-  /* line 332, sass/_blog.scss */
-  .row:after {
-    clear: both;
-  }
-
-  /* line 335, sass/_blog.scss */
-  [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 20px;
-  }
-
-  /* line 340, sass/_blog.scss */
-  .span8 {
-    width: 476px;
-  }
-
-  /* line 343, sass/_blog.scss */
-  .span3 {
-    width: 166px;
-  }
-
-  /* line 348, sass/_blog.scss */
-  input,
-  textarea,
-  .uneditable-input {
-    margin-left: 0;
-  }
-
-  /* line 351, sass/_blog.scss */
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 20px;
-  }
-
-  /* line 356, sass/_blog.scss */
-  input.span8,
-  textarea.span8,
-  .uneditable-input.span8 {
-    width: 462px;
-  }
-
-  /* line 361, sass/_blog.scss */
-  input.span3,
-  textarea.span3,
-  .uneditable-input.span3 {
-    width: 152px;
-  }
-}
-@media (max-width: 767px) {
-  /* line 367, sass/_blog.scss */
-  body {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  /* line 373, sass/_blog.scss */
-  .navbar-fixed-top,
-  .navbar-fixed-bottom,
-  .navbar-static-top {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-
-  /* line 377, sass/_blog.scss */
-  .container-fluid {
-    padding: 0;
-  }
-
-  /* line 380, sass/_blog.scss */
-  .dl-horizontal dt {
-    float: none;
-    width: auto;
-    clear: none;
-    text-align: left;
-  }
-
-  /* line 386, sass/_blog.scss */
-  .dl-horizontal dd {
-    margin-left: 0;
-  }
-
-  /* line 389, sass/_blog.scss */
-  .container {
-    width: auto;
-  }
-
-  /* line 392, sass/_blog.scss */
-  .row-fluid {
-    width: 100%;
-  }
-
-  /* line 396, sass/_blog.scss */
-  .row,
-  .thumbnails {
-    margin-left: 0;
-  }
-
-  /* line 399, sass/_blog.scss */
-  .thumbnails > li {
-    float: none;
-    margin-left: 0;
-  }
-
-  /* line 405, sass/_blog.scss */
-  [class*="span"],
-  .uneditable-input[class*="span"],
-  .row-fluid [class*="span"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 415, sass/_blog.scss */
-  .span12,
-  .row-fluid .span12 {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 421, sass/_blog.scss */
-  .row-fluid [class*="offset"]:first-child {
-    margin-left: 0;
-  }
-
-  /* line 430, sass/_blog.scss */
-  .input-large,
-  .input-xlarge,
-  .input-xxlarge,
-  input[class*="span"],
-  select[class*="span"],
-  textarea[class*="span"],
-  .uneditable-input {
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  /* line 441, sass/_blog.scss */
-  .input-prepend input,
-  .input-append input,
-  .input-prepend input[class*="span"],
-  .input-append input[class*="span"] {
-    display: inline-block;
-    width: auto;
-  }
-
-  /* line 445, sass/_blog.scss */
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 0;
-  }
-
-  /* line 448, sass/_blog.scss */
-  .modal {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    left: 20px;
-    width: auto;
-    margin: 0;
-  }
-
-  /* line 456, sass/_blog.scss */
-  .modal.fade {
-    top: -100px;
-  }
-
-  /* line 459, sass/_blog.scss */
-  .modal.fade.in {
-    top: 20px;
-  }
-}
-@media (max-width: 480px) {
-  /* line 465, sass/_blog.scss */
-  .nav-collapse {
-    -webkit-transform: translate3d(0, 0, 0);
-  }
-
-  /* line 468, sass/_blog.scss */
-  .page-header h1 small {
-    display: block;
-    line-height: 20px;
-  }
-
-  /* line 473, sass/_blog.scss */
-  input[type="checkbox"],
-  input[type="radio"] {
-    border: 1px solid #ccc;
-  }
-
-  /* line 476, sass/_blog.scss */
-  .form-horizontal .control-label {
-    float: none;
-    width: auto;
-    padding-top: 0;
-    text-align: left;
-  }
-
-  /* line 482, sass/_blog.scss */
-  .form-horizontal .controls {
-    margin-left: 0;
-  }
-
-  /* line 485, sass/_blog.scss */
-  .form-horizontal .control-list {
-    padding-top: 0;
-  }
-
-  /* line 488, sass/_blog.scss */
-  .form-horizontal .form-actions {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-  /* line 493, sass/_blog.scss */
-  .media .pull-left,
-  .media .pull-right {
-    display: block;
-    float: none;
-    margin-bottom: 10px;
-  }
-
-  /* line 498, sass/_blog.scss */
-  .media-object {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  /* line 502, sass/_blog.scss */
-  .modal {
-    top: 10px;
-    right: 10px;
-    left: 10px;
-  }
-
-  /* line 507, sass/_blog.scss */
-  .modal-header .close {
-    padding: 10px;
-    margin: -10px;
-  }
-
-  /* line 511, sass/_blog.scss */
-  .carousel-caption {
-    position: static;
-  }
-}
-/* line 516, sass/_blog.scss */
-.form-allowed-tags {
-  font-size: 0.9em;
-  background-color: #eeeeee;
-  margin-top: 20px;
-  border: 1px solid #ccc;
 }
 
 /*.slideshow {
@@ -2186,7 +1586,7 @@ footer #bottom_row .inner_wrapper {
     width: 100%;
   }
 }
-/* line 2, sass/_layout.scss */
+/* line 3, sass/_layout.scss */
 .left {
   display: block;
   float: left;
@@ -2195,7 +1595,7 @@ footer #bottom_row .inner_wrapper {
   width: 31.9697%;
 }
 
-/* line 6, sass/_layout.scss */
+/* line 7, sass/_layout.scss */
 .middle {
   display: block;
   float: left;
@@ -2204,7 +1604,7 @@ footer #bottom_row .inner_wrapper {
   width: 31.9697%;
 }
 
-/* line 10, sass/_layout.scss */
+/* line 11, sass/_layout.scss */
 .right {
   display: block;
   float: left;
@@ -2213,7 +1613,7 @@ footer #bottom_row .inner_wrapper {
   width: 31.9697%;
 }
 
-/* line 14, sass/_layout.scss */
+/* line 15, sass/_layout.scss */
 .col1 {
   display: block;
   float: left;
@@ -2222,7 +1622,7 @@ footer #bottom_row .inner_wrapper {
   width: 14.97475%;
 }
 
-/* line 18, sass/_layout.scss */
+/* line 19, sass/_layout.scss */
 .col2 {
   display: block;
   float: left;
@@ -2231,7 +1631,7 @@ footer #bottom_row .inner_wrapper {
   width: 14.97475%;
 }
 
-/* line 22, sass/_layout.scss */
+/* line 23, sass/_layout.scss */
 .col3 {
   display: block;
   float: left;
@@ -2240,7 +1640,7 @@ footer #bottom_row .inner_wrapper {
   width: 14.97475%;
 }
 
-/* line 26, sass/_layout.scss */
+/* line 27, sass/_layout.scss */
 .col4 {
   display: block;
   float: left;
@@ -2249,7 +1649,7 @@ footer #bottom_row .inner_wrapper {
   width: 14.97475%;
 }
 
-/* line 30, sass/_layout.scss */
+/* line 31, sass/_layout.scss */
 .header {
   clear: both;
   display: block;
@@ -2269,7 +1669,7 @@ footer #bottom_row .inner_wrapper {
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* line 41, sass/_layout.scss */
+/* line 42, sass/_layout.scss */
 #content {
   clear: both;
   display: block;
@@ -2277,13 +1677,13 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   width: 100%;
 }
-/* line 43, sass/_layout.scss */
+/* line 44, sass/_layout.scss */
 #content.content_page {
   padding: 20px 0;
   border-bottom: 1px solid #556293;
 }
 
-/* line 49, sass/_layout.scss */
+/* line 50, sass/_layout.scss */
 #secondary {
   /*    @extend .well; */
   display: block;
@@ -2295,7 +1695,7 @@ footer #bottom_row .inner_wrapper {
   padding-left: 30px;
 }
 
-/* line 56, sass/_layout.scss */
+/* line 57, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
@@ -2306,6 +1706,40 @@ footer #bottom_row .inner_wrapper {
       border: 1px solid $main-color;
       padding:10px;
       border-radius: 4px; */
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 78, sass/_layout.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 85, sass/_layout.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 94, sass/_layout.scss */
+.clearfix {
+  *zoom: 1;
 }
 
 @font-face {
@@ -3404,11 +2838,35 @@ main {
 }
 
 /* line 1, sass/_typography.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  color: #363636;
+  text-rendering: optimizeLegibility;
+  line-height: 150%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* line 13, sass/_typography.scss */
+html, button, input, select, textarea {
+  color: #222222;
+}
+
+/* line 17, sass/_typography.scss */
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 22, sass/_typography.scss */
 h1, h2, h3, h4 {
   font-family: "brandon-grotesque", sans-serif;
 }
 
-/* line 5, sass/_typography.scss */
+/* line 26, sass/_typography.scss */
 h1 {
   font-size: 2em;
   color: #556293;
@@ -3418,7 +2876,7 @@ h1 {
   /* 44px / 16px */
 }
 
-/* line 14, sass/_typography.scss */
+/* line 35, sass/_typography.scss */
 h1, h2, h3, h4 {
   visibility: hidden;
 }
@@ -3429,53 +2887,53 @@ h1, h2, h3, h4 {
     visibility: hidden;
   }
 }*/
-/* line 26, sass/_typography.scss */
+/* line 47, sass/_typography.scss */
 .wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4 {
   visibility: visible;
 }
 
-/* line 31, sass/_typography.scss */
+/* line 52, sass/_typography.scss */
 h2, h3, h4, h5 {
   color: #363636;
 }
 
-/* line 36, sass/_typography.scss */
+/* line 57, sass/_typography.scss */
 h2 {
   font-size: 1.625em;
   /* 36px / 16px */
 }
 
-/* line 41, sass/_typography.scss */
+/* line 62, sass/_typography.scss */
 h3, h4 {
   font-size: 1.375em;
   /* 24px / 16px */
   font-weight: 700;
 }
 
-/* line 47, sass/_typography.scss */
+/* line 68, sass/_typography.scss */
 h4 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.375em;
 }
 
-/* line 53, sass/_typography.scss */
+/* line 74, sass/_typography.scss */
 h5 {
   font-size: 1.125em;
 }
 
-/* line 57, sass/_typography.scss */
+/* line 78, sass/_typography.scss */
 strong {
   color: #556293;
 }
 
-/* line 61, sass/_typography.scss */
+/* line 82, sass/_typography.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 66, sass/_typography.scss */
+/* line 87, sass/_typography.scss */
 a {
   -webkit-transition: all, 0.2s, ease-in-out;
   transition: all, 0.2s, ease-in-out;
@@ -3484,15 +2942,25 @@ a {
   /*    border-bottom: 1px solid $main-color; */
 }
 
-/* line 73, sass/_typography.scss */
+/* line 94, sass/_typography.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 78, sass/_typography.scss */
+/* line 99, sass/_typography.scss */
 .wrapper {
   border-top: 6px solid #556293;
+}
+
+/* line 103, sass/_typography.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /* line 5, sass/_flexslider.scss */
@@ -3837,4 +3305,516 @@ html[xmlns] .slides {
     right: 10px;
   }
 }
+/* FORM FORMATTING */
+/* line 2, sass/_forms.scss */
+form {
+  margin: 0 0 20px 0;
+  line-height: 18px;
+  width: 620px;
+}
+/* line 6, sass/_forms.scss */
+form label {
+  cursor: pointer;
+  display: block;
+  margin: 0 0 5px;
+  color: #666;
+  font-weight: 600;
+  text-shadow: 1px 1px 0 #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 20, sass/_forms.scss */
+input,
+textarea,
+.uneditable-input {
+  width: 206px;
+}
+
+/* row */
+/* line 25, sass/_forms.scss */
+.form-group {
+  margin: 0 0 20px -20px;
+  min-height: 1px;
+  display: block;
+  line-height: 18px;
+  width: 620px;
+}
+
+/* line 33, sass/_forms.scss */
+#commentform textarea, .form-allowed-tags {
+  width: 75%;
+  padding: 10px;
+  resize: both;
+  height: auto;
+  margin: 0;
+}
+
+/* from bootstrap forms */
+/* line 20, sass/_mixins.scss */
+.form-control:-moz-placeholder {
+  color: #999999;
+}
+/* line 21, sass/_mixins.scss */
+.form-control::-moz-placeholder {
+  color: #999999;
+}
+/* line 22, sass/_mixins.scss */
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+/* line 23, sass/_mixins.scss */
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+/* line 51, sass/_forms.scss */
+.form-control {
+  display: block;
+  height: 26px;
+  padding: 3px 12px;
+  font-size: 13px;
+  line-height: 1.42857;
+  color: #555555;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+/* line 98, sass/_mixins.scss */
+.form-control:focus {
+  border-color: #fbaf41;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(251, 175, 65, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(251, 175, 65, 0.6);
+}
+/* line 75, sass/_forms.scss */
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+/* line 84, sass/_forms.scss */
+textarea.form-control {
+  height: auto;
+}
+
+/* line 93, sass/_forms.scss */
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #a0a8c8;
+  font-size: 0.8em;
+}
+
+/* line 101, sass/_forms.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 106, sass/_forms.scss */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 112, sass/_forms.scss */
+.clearfix:after {
+  clear: both;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media (min-width: 1200px) {
+  /* line 121, sass/_forms.scss */
+  .row {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+
+  /* line 126, sass/_forms.scss */
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+
+  /* line 131, sass/_forms.scss */
+  .row:after {
+    clear: both;
+  }
+
+  /* line 134, sass/_forms.scss */
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+  }
+
+  /* line 139, sass/_forms.scss */
+  .span8 {
+    width: 770px;
+  }
+
+  /* line 142, sass/_forms.scss */
+  .span3 {
+    width: 270px;
+  }
+
+  /* line 147, sass/_forms.scss */
+  input,
+  textarea,
+  .uneditable-input {
+    margin-left: 0;
+  }
+
+  /* line 150, sass/_forms.scss */
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 30px;
+  }
+
+  /* line 155, sass/_forms.scss */
+  input.span8,
+  textarea.span8,
+  .uneditable-input.span8 {
+    width: 756px;
+  }
+
+  /* line 160, sass/_forms.scss */
+  input.span3,
+  textarea.span3,
+  .uneditable-input.span3 {
+    width: 256px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 166, sass/_forms.scss */
+  .row {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+
+  /* line 171, sass/_forms.scss */
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+
+  /* line 176, sass/_forms.scss */
+  .row:after {
+    clear: both;
+  }
+
+  /* line 179, sass/_forms.scss */
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+  }
+
+  /* line 184, sass/_forms.scss */
+  .span8 {
+    width: 476px;
+  }
+
+  /* line 187, sass/_forms.scss */
+  .span3 {
+    width: 166px;
+  }
+
+  /* line 192, sass/_forms.scss */
+  input,
+  textarea,
+  .uneditable-input {
+    margin-left: 0;
+  }
+
+  /* line 195, sass/_forms.scss */
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 20px;
+  }
+
+  /* line 200, sass/_forms.scss */
+  input.span8,
+  textarea.span8,
+  .uneditable-input.span8 {
+    width: 462px;
+  }
+
+  /* line 205, sass/_forms.scss */
+  input.span3,
+  textarea.span3,
+  .uneditable-input.span3 {
+    width: 152px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 211, sass/_forms.scss */
+  body {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* line 217, sass/_forms.scss */
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  /* line 221, sass/_forms.scss */
+  .container-fluid {
+    padding: 0;
+  }
+
+  /* line 224, sass/_forms.scss */
+  .dl-horizontal dt {
+    float: none;
+    width: auto;
+    clear: none;
+    text-align: left;
+  }
+
+  /* line 230, sass/_forms.scss */
+  .dl-horizontal dd {
+    margin-left: 0;
+  }
+
+  /* line 233, sass/_forms.scss */
+  .container {
+    width: auto;
+  }
+
+  /* line 236, sass/_forms.scss */
+  .row-fluid {
+    width: 100%;
+  }
+
+  /* line 240, sass/_forms.scss */
+  .row,
+  .thumbnails {
+    margin-left: 0;
+  }
+
+  /* line 243, sass/_forms.scss */
+  .thumbnails > li {
+    float: none;
+    margin-left: 0;
+  }
+
+  /* line 249, sass/_forms.scss */
+  [class*="span"],
+  .uneditable-input[class*="span"],
+  .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 259, sass/_forms.scss */
+  .span12,
+  .row-fluid .span12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 265, sass/_forms.scss */
+  .row-fluid [class*="offset"]:first-child {
+    margin-left: 0;
+  }
+
+  /* line 274, sass/_forms.scss */
+  .input-large,
+  .input-xlarge,
+  .input-xxlarge,
+  input[class*="span"],
+  select[class*="span"],
+  textarea[class*="span"],
+  .uneditable-input {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 285, sass/_forms.scss */
+  .input-prepend input,
+  .input-append input,
+  .input-prepend input[class*="span"],
+  .input-append input[class*="span"] {
+    display: inline-block;
+    width: auto;
+  }
+
+  /* line 289, sass/_forms.scss */
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 0;
+  }
+
+  /* line 292, sass/_forms.scss */
+  .modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+  }
+
+  /* line 300, sass/_forms.scss */
+  .modal.fade {
+    top: -100px;
+  }
+
+  /* line 303, sass/_forms.scss */
+  .modal.fade.in {
+    top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 309, sass/_forms.scss */
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  /* line 312, sass/_forms.scss */
+  .page-header h1 small {
+    display: block;
+    line-height: 20px;
+  }
+
+  /* line 317, sass/_forms.scss */
+  input[type="checkbox"],
+  input[type="radio"] {
+    border: 1px solid #ccc;
+  }
+
+  /* line 320, sass/_forms.scss */
+  .form-horizontal .control-label {
+    float: none;
+    width: auto;
+    padding-top: 0;
+    text-align: left;
+  }
+
+  /* line 326, sass/_forms.scss */
+  .form-horizontal .controls {
+    margin-left: 0;
+  }
+
+  /* line 329, sass/_forms.scss */
+  .form-horizontal .control-list {
+    padding-top: 0;
+  }
+
+  /* line 332, sass/_forms.scss */
+  .form-horizontal .form-actions {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 337, sass/_forms.scss */
+  .media .pull-left,
+  .media .pull-right {
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  /* line 342, sass/_forms.scss */
+  .media-object {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* line 346, sass/_forms.scss */
+  .modal {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+  }
+
+  /* line 351, sass/_forms.scss */
+  .modal-header .close {
+    padding: 10px;
+    margin: -10px;
+  }
+
+  /* line 355, sass/_forms.scss */
+  .carousel-caption {
+    position: static;
+  }
+}
+/* line 360, sass/_forms.scss */
+.form-allowed-tags {
+  font-size: 0.9em;
+  background-color: #eeeeee;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+/* line 369, sass/_forms.scss */
+.button {
+  background: #556293;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7b89b8), to(#556293));
+  background: -webkit-linear-gradient(top, #7b89b8, #556293);
+  background: -moz-linear-gradient(top, #7b89b8, #556293);
+  background: -ms-linear-gradient(top, #7b89b8, #556293);
+  background: -o-linear-gradient(top, #7b89b8, #556293);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: all, 0.2s, ease-in-out;
+  transition: all, 0.2s, ease-in-out;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+  -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+  border: 1px solid #4a5991;
+  background-image: -ms-linear-gradient(top, #7b89b8 0%, #556293 100%);
+  padding: 10.5px 21px;
+  text-shadow: #383838 0 1px 0;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-top: 15px;
+}
+/* line 390, sass/_forms.scss */
+.button:hover {
+  background: #7280ad;
+  background: -webkit-gradient(linear, left top, left bottom, from(#556293), to(#7280ad));
+  background: -webkit-linear-gradient(top, #556293, #7280ad);
+  background: -moz-linear-gradient(top, #556293, #7280ad);
+  background: -ms-linear-gradient(top, #556293, #7280ad);
+  background: -o-linear-gradient(top, #556293, #7280ad);
+  border: 1px solid #4a5991;
+  text-shadow: #383838 0 1px 0;
+  background-image: -ms-linear-gradient(top, #556293 0%, #7280ad 100%);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
 /*@import 'icon_font'; */

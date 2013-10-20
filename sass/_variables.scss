@@ -1,8 +1,14 @@
 /* application variables */
 
 $main-color: #556293;
+$light-purple: #7b89b8;
+$other-purple: #7280ad;
+$dark-purple: #4a5991;
+$very-dark: #383838;
+$darkest: #222;
 $secondary-color: #fbaf41;
-$mid-gray: #ccc;
+$sky-blue: #b3d4fc;
+
 $background-color: #ebedf4;
 $p-text: #363636;
 $border_color: #e6e6e6;
@@ -33,6 +39,7 @@ $gray-dark:              lighten(#000, 20%) !default;   // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+$mid-gray: #ccc;
 
 // Typography
 // -------------------------

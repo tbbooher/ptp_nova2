@@ -1,3 +1,24 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color: $p-text;
+    text-rendering: optimizeLegibility;
+    line-height: 150%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+    color: $darkest;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
 h1,h2,h3, h4 {
     font-family: $accent_font_family;
 }
@@ -77,4 +98,13 @@ a:hover {
 
 .wrapper {
     border-top: 6px solid $main-color;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $mid-gray;
+    margin: 1em 0;
+    padding: 0;
 }

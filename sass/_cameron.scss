@@ -1,35 +1,13 @@
 /* RESET */
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 ::-moz-selection {
-    background: #b3d4fc;
+    background: $sky-blue;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: $sky-blue;
     text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }
 
 @-webkit-viewport {
@@ -64,50 +42,14 @@ video {
     vertical-align: middle;
 }
 
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
 .browsehappy {
     margin: 0.2em 0;
-    background: #ccc;
+    background: $mid-gray;
     color: #000;
     padding: 0.2em 0;
 }
 
 /* MAIN STYLES */
-
-@mixin rounded($border-radius) {
-    -webkit-border-radius: $border-radius;
-    -moz-border-radius: $border-radius;
-    border-radius: $border-radius;
-}
-
-@mixin transition($transition-property, $transition-time, $method) {
-    -webkit-transition: $transition-property $transition-time $method;
-    -moz-transition: $transition-property $transition-time $method;
-    -ms-transition: $transition-property $transition-time $method;
-    -o-transition: $transition-property $transition-time $method;
-    transition: $transition-property $transition-time $method;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 100%;
-    color: $p-text;
-    text-rendering: optimizeLegibility;
-    line-height: 150%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-}
 
 @media screen and (max-width: 40em) {
     .inner {
@@ -120,44 +62,6 @@ body {
     .buckets {
         text-align: left;
     }
-}
-
-.button {
-    background: #556293;
-    background: -webkit-gradient(linear, left top, left bottom, from(#7b89b8), to(#556293));
-    background: -webkit-linear-gradient(top, #7b89b8, #556293);
-    background: -moz-linear-gradient(top, #7b89b8, #556293);
-    background: -ms-linear-gradient(top, #7b89b8, #556293);
-    background: -o-linear-gradient(top, #7b89b8, #556293);
-    @include rounded(6px);
-    @include transition(all, 0.2s, ease-in-out);
-    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
-    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
-    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
-    border: 1px solid #4a5991;
-    background-image: -ms-linear-gradient(top, #7b89b8 0%, #556293 100%);
-    padding: 10.5px 21px;
-    text-shadow: #383838 0 1px 0;
-    color: #fff;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    margin-top: 15px;
-}
-
-.button:hover {
-    background: #7280ad;
-    background: -webkit-gradient(linear, left top, left bottom, from(#556293), to(#7280ad));
-    background: -webkit-linear-gradient(top, #556293, #7280ad);
-    background: -moz-linear-gradient(top, #556293, #7280ad);
-    background: -ms-linear-gradient(top, #556293, #7280ad);
-    background: -o-linear-gradient(top, #556293, #7280ad);
-    border: 1px solid #4a5991;
-    text-shadow: #383838 0 1px 0;
-    background-image: -ms-linear-gradient(top, #556293 0%, #7280ad 100%);
-    color: #fff;
-    cursor: pointer;
-    margin-top: 15px;
 }
 
 /* ==========================================================================
@@ -228,37 +132,4 @@ body {
 
 .invisible {
     visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
 }
