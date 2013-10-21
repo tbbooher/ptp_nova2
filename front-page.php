@@ -32,7 +32,7 @@
 						   	years of experience treating clients.
 							</p>						   
 						   <div class="bottom">
-							   <a class="button">LEARN MORE</a>
+							   <a class="button" href="/about/">LEARN MORE</a>
 						   </div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 							   environment than your own home. 
 							</p>
 						   	<div class="bottom">
-							   	<a class="button">LEARN MORE</a>
+							   	<a class="button" href="/services/">LEARN MORE</a>
 						   	</div>
 						</div>
 					</div>
@@ -54,7 +54,7 @@
 							   your kids healthy and strong. 					   
 							</p>
 						   	<div class="bottom">
-							   	<a class="button">LEARN MORE</a>
+							   	<a class="button" href="/testimonials/">LEARN MORE</a>
 						   	</div>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 					    <div class="pic">
 							<figure>
 								<img src="<?php bloginfo('template_url'); ?>/images/kids.jpg">
-								<figcaption><a href="">See our experience »</a></figcaption>
+								<figcaption><a href="/about/">See our experience »</a></figcaption>
 							</figure>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 					    <div class="pic">
 							<figure>
 								<img src="<?php bloginfo('template_url'); ?>/images/house.jpg">
-								<figcaption><a href="">Area of coverage »</a></figcaption>
+								<figcaption><a href="/about/">Area of coverage »</a></figcaption>
 							</figure>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 					    <div class="pic">
 							<figure>
 								<img src="<?php bloginfo('template_url'); ?>/images/boy.jpg">
-								<figcaption><a href="">Our services »</a></figcaption>
+								<figcaption><a href="/services/">Our services »</a></figcaption>
 							</figure>
 						</div>
 					</div>
