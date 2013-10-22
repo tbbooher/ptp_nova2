@@ -12,7 +12,7 @@
 				<div id="top_row">
 				  <div class="left">
 				    <a href="/" class="f-logo"></a>
-				    <p class="well with_border">Partnering with parents to build strong infants and children</p>
+				    <p class="well with_border">Partnering with Parents to Build Strong Infants and Children</p>
 				  </div>
 				  <div class="middle off-top">
 				    <div class="social">
