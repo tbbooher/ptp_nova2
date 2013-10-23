@@ -107,8 +107,13 @@ footer {
     }
   }
   #bottom_row {
+
     font-size: 0.7em;
     height: 60px;   
+/*    interesting option
+    position: fixed;    
+    bottom: 0px;
+    background-color: white;*/
     @include gs-span(d, all);
     div.inner_wrapper div {
       span.text {
