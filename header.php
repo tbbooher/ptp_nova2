@@ -14,8 +14,7 @@
     <head>
         <meta charset="utf-8">
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-        <title><?php wp_title( '|', true, 'right' ); ?></title>        
-        <meta name="description" content="Chrissy Booher is a Pediatric Physical Therapist who provides in-home Physical Therapy Evaluation and Treatments to infants and children in Northern Virginia. Therapy is play based, yet guided by research driven principles as well as a thorough understanding of anatomy, human movement and development.">
+        <title><?php wp_title( '|', true, 'right' ); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- fix these to pull from the main js -->
