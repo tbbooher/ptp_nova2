@@ -41,7 +41,11 @@
 
         <div id="mainshow" class="wrapper">
         	<section class="header">
-        	    <a href="/"><div class="logo"></div></a>
+        	    <a href="/">
+        	    <div id="logo_container">
+        	      <div id="logo"></div>
+        	    </div>
+        	    </a>
         		<div id="topmenu">
 	        		<nav class="nav-collapse">
                        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>

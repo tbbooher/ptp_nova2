@@ -20,8 +20,13 @@
   padding-bottom: 50px;
   @include gs-span(d, all);
   .flexslider {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
+    border: 5px solid $main-color;
+    @include box-shadow(0 0 15px 2px rgba(0,0,0,0.5));
+    img {
+      border: none;
+    }
   }
 }
 
@@ -32,6 +37,12 @@
     border-bottom: 1px solid $mid-gray;
 }
 
+//@media screen and (min-width: 60em) {
+//  .buckets {
+//    text-align: left;
+//  }
+//}
+
 /* .pics > div {} */
 @mixin message_row($h, $w) {
     width: $w;
@@ -40,6 +51,26 @@
     margin-right: auto;
     position: relative;
     height: $h;
+}
+
+@include gs-media(t) {
+  .left {
+    @include gs-span(t, 1);
+  }
+
+  .middle {
+    @include gs-span(t, 2);
+  }
+
+  .right {
+    @include gs-span(t, 3);
+  }
+}
+
+@include gs-media(m) {
+  .left, .middle, .right {
+    @include gs-span(m, all);
+  }
 }
 
 .bottom {

@@ -1,42 +1,64 @@
 
+// used only for footer very bottom
 
-.left {
-    @include gs-span(t, 1);
-}
+/* MAIN STYLES */
 
-.middle {
-    @include gs-span(t, 2);
-}
-
-.right {
-    @include gs-span(t, 3);
-}
-
-.col1 {
-    @include gs-span(d, 3, 4);		
-}
-
-.col2 {
-    @include gs-span(d, 5, 6);		
-}
-
-.col3 {
-    @include gs-span(d, 7, 8);		
-}
-
-.col4 {
-    @include gs-span(d, 9, 10);		
-}
+//@media screen and (max-width: 40em) {
+//  .inner {
+//    box-shadow: none;
+//    -webkit-box-shadow: none;
+//  }
+//}
 
 .header {
-	@include gs-span(d, all);
-	@include gs-span(m, all);	
-	-webkit-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-	-moz-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-	-o-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-	box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-    padding-bottom: 10px;	
-    border-bottom: 1px solid $border_color;
+  @include gs-span(d, all);
+  -webkit-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+  -moz-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+  -o-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+  box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+  padding-bottom: 10px;
+  border-bottom: 1px solid $border_color;
+}
+#logo_container {
+  #logo {
+    width: 308px;
+    height: 112px;
+    background: url(images/logo.png) no-repeat right;
+    display: block;
+    margin: 7px auto;
+    text-align: right;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+@include gs-media(d) {
+
+  .col1 {
+      @include gs-span(d, 3, 4);
+  }
+
+  .col2 {
+      @include gs-span(d, 5, 6);
+  }
+
+  .col3 {
+      @include gs-span(d, 7, 8);
+  }
+
+  .col4 {
+      @include gs-span(d, 9, 10);
+  }
+
+}
+
+@include gs-media(m) {
+  .col1, .col2, .col3, .col4 {
+    text-align: center;
+    padding-bottom: 0.8em;
+    @include gs-span(m, all);
+  }
 }
 
 #content {

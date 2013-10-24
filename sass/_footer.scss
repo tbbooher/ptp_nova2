@@ -89,9 +89,6 @@ footer {
     -o-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
     box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);  
     @include gs-span(d, all);
-    div {
-      /*             background-color: orange; */
-    }
     ul {
       list-style: none;
     }

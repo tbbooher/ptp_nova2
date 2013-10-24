@@ -49,21 +49,6 @@ video {
     padding: 0.2em 0;
 }
 
-/* MAIN STYLES */
-
-@media screen and (max-width: 40em) {
-    .inner {
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-}
-
-@media screen and (min-width: 60em) {
-    .buckets {
-        text-align: left;
-    }
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
