@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_front_page.scss" afterPath="$PROJECT_DIR$/sass/_front_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
     </list>
     <ignored path="ptp_nova2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382563915142" ignored="false" />
     <file path="/_layout.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382580684633" ignored="false" />
-    <file path="/a.dummy" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382611405916" ignored="false" />
+    <file path="/a.dummy" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382611653905" ignored="false" />
     <file path="/*.regexp" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382569632447" ignored="false" />
     <file path="/*.txt" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382568726591" ignored="false" />
     <file path="/_front_page.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382584536749" ignored="false" />
@@ -48,40 +46,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1608" column="22" selection-start="33897" selection-end="33897" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <marker date="1382584555000" expanded="true" signature="22110:22149" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="22182:22311" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="22627:22743" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="22750:22870" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="22942:23068" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="23138:23255" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="23476:23610" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="23638:23731" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="23764:23854" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="23901:24028" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="24083:24211" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="24250:24391" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="24428:24570" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="24614:24880" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="24934:25051" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="25138:25250" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="27824:27912" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="27963:27978" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="28013:28069" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="28129:28170" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="28250:28503" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="28715:28741" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="28810:28848" placeholder="{...}" />
-                    <marker date="1382584555000" expanded="true" signature="33853:33896" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
@@ -95,15 +59,6 @@
             <entry file="file://$PROJECT_DIR$/sass/_forms.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="62" column="56" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_gridset.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/_gridset.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="197" column="42" selection-start="6984" selection-end="6987" vertical-scroll-proportion="-6.5">
                   <folding />
                 </state>
               </provider>
@@ -130,10 +85,37 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="38" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.33179724">
+                <state line="30" column="38" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_boilerplate.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/_boilerplate.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="61" selection-start="45" selection-end="61" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="9" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_normalize.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/_normalize.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="57" selection-start="41" selection-end="57" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -143,15 +125,6 @@
             <entry file="file://$PROJECT_DIR$/sass/_flexslider.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="42" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_cameron.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/_cameron.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="29" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -193,7 +166,6 @@
         <option value="$PROJECT_DIR$/foo.css" />
         <option value="$PROJECT_DIR$/sass/_cameron.scss" />
         <option value="$PROJECT_DIR$/sass/_top.scss" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/sass/_layout.scss" />
         <option value="$PROJECT_DIR$/sass/_footer.scss" />
@@ -202,6 +174,7 @@
         <option value="$PROJECT_DIR$/sass/_front_page.scss" />
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
       </list>
     </option>
   </component>
@@ -251,6 +224,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ptp_nova2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptp_nova2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptp_nova2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,20 +345,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/_blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="1" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="43" selection-start="58" selection-end="101" vertical-scroll-proportion="0.0">
@@ -411,30 +384,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1608" column="22" selection-start="33897" selection-end="33897" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1382584555000" expanded="true" signature="22110:22149" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="22182:22311" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="22627:22743" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="22750:22870" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="22942:23068" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="23138:23255" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="23476:23610" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="23638:23731" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="23764:23854" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="23901:24028" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="24083:24211" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="24250:24391" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="24428:24570" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="24614:24880" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="24934:25051" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="25138:25250" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="27824:27912" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="27963:27978" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="28013:28069" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="28129:28170" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="28250:28503" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="28715:28741" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="28810:28848" placeholder="{...}" />
-            <marker date="1382584555000" expanded="true" signature="33853:33896" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1382584555000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -486,7 +459,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="38" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.33179724">
+        <state line="30" column="38" selection-start="1632" selection-end="1632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="57" selection-start="41" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_boilerplate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="61" selection-start="45" selection-end="61" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
