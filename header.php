@@ -28,7 +28,7 @@
 
         <!-- link href="https://get.gridsetapp.com/23622/" rel="stylesheet" -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" charset="utf-8">
+        <script type="text/javascript">
           jQuery(window).load(function() { 
             jQuery('.flexslider').flexslider();
           });

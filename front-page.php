@@ -10,13 +10,13 @@
 				<div class="flexslider">
 					  <ul class="slides">
 					    <li>
-					      <img src="<?php bloginfo('template_url'); ?>/images/slide1.jpg" />
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide1.jpg" alt="slide1" />
 					    </li>
 					    <li>
-					      <img src="<?php bloginfo('template_url'); ?>/images/slide2.jpg" />
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide2.jpg" alt="slide2" />
 					    </li>
 					    <li>
-					      <img src="<?php bloginfo('template_url'); ?>/images/slide4.jpg" />
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide4.jpg" alt="slide3" />
 					    </li>
 					  </ul>
 				</div>	
