@@ -58,6 +58,12 @@ em.ribbon {
       background-position: -1134px 0;
     }
   }
+  &.google {
+    background-position: -336px -42px;
+    &:hover {
+      background-position: -336px 0;
+    }
+  }
 }
 
 footer {

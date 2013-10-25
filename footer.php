@@ -22,6 +22,7 @@
 						<a class="social-network twitter"></a>
 						<a class="social-network facebook" href="https://www.facebook.com/PediatricTherapyPartnersOfNova"></a>
 						<a class="social-network linkedin" href="http://www.linkedin.com/pub/chrissy-booher/3/658/aba"></a>
+						<a class="social-network google" href="https://plus.google.com/b/108311981073389198133/"></a>
 					</div>
 				  </div>
 				  <div class="right off-top">
