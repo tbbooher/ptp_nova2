@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foo.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
     </list>
     <ignored path="ptp_nova2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +77,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="71" selection-start="642" selection-end="642" vertical-scroll-proportion="0.44362745">
+                <state line="16" column="71" selection-start="642" selection-end="642" vertical-scroll-proportion="-6.9615383">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="15" selection-start="377" selection-end="377" vertical-scroll-proportion="0.48387095">
                   <folding />
                 </state>
               </provider>
@@ -116,15 +126,6 @@
             <entry file="file://$PROJECT_DIR$/sass/_normalize.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="57" selection-start="41" selection-end="57" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_flexslider.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/_flexslider.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -175,6 +176,7 @@
         <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/config.rb" />
       </list>
     </option>
   </component>
@@ -224,20 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ptp_nova2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptp_nova2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptp_nova2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,13 +333,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="43" selection-start="58" selection-end="101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="35" selection-start="235" selection-end="241" vertical-scroll-proportion="0.0">
@@ -480,7 +461,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="71" selection-start="642" selection-end="642" vertical-scroll-proportion="0.44362745">
+        <state line="16" column="71" selection-start="642" selection-end="642" vertical-scroll-proportion="-6.9615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="377" selection-end="377" vertical-scroll-proportion="0.48387095">
           <folding />
         </state>
       </provider>
