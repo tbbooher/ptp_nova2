@@ -974,32 +974,38 @@ video {
 }
 
 /* My custom code */
-/* line 9, sass/_blog.scss */
+/* line 3, sass/_blog.scss */
+.attachment-medium.wp-post-image {
+  float: left;
+  margin: 20px;
+}
+
+/* line 14, sass/_blog.scss */
 .wp-post-image {
   border: 4px solid #e6e6e6;
 }
 
-/* line 13, sass/_blog.scss */
+/* line 18, sass/_blog.scss */
 .the_image {
   width: 100%;
   padding: 10px;
 }
-/* line 15, sass/_blog.scss */
+/* line 20, sass/_blog.scss */
 .the_image img {
   margin: 0 auto;
   display: block;
 }
 
-/* line 25, sass/_blog.scss */
+/* line 30, sass/_blog.scss */
 .updated:before {
   content: " (Updated on: ";
 }
-/* line 28, sass/_blog.scss */
+/* line 33, sass/_blog.scss */
 .updated:after {
   content: ")";
 }
 
-/* line 33, sass/_blog.scss */
+/* line 38, sass/_blog.scss */
 .d-full {
   clear: both;
   display: block;
@@ -1008,7 +1014,7 @@ video {
   width: 100%;
 }
 
-/* line 41, sass/_blog.scss */
+/* line 46, sass/_blog.scss */
 .d-middle {
   display: block;
   float: left;
@@ -1017,7 +1023,7 @@ video {
   width: 82.95455%;
 }
 
-/* line 45, sass/_blog.scss */
+/* line 50, sass/_blog.scss */
 nav.post-navigation {
   margin: 20px 0px;
   padding: 5px 5px;
@@ -1029,25 +1035,25 @@ nav.post-navigation {
   line-height: 28px;
   color: #111;
 }
-/* line 51, sass/_blog.scss */
+/* line 56, sass/_blog.scss */
 nav.post-navigation a {
   font-size: 0.8em;
 }
-/* line 54, sass/_blog.scss */
+/* line 59, sass/_blog.scss */
 nav.post-navigation .nav-previous {
   float: left;
 }
-/* line 57, sass/_blog.scss */
+/* line 62, sass/_blog.scss */
 nav.post-navigation .nav-next {
   float: right;
 }
 
-/* line 62, sass/_blog.scss */
+/* line 67, sass/_blog.scss */
 #comments {
   display: block;
 }
 
-/* line 66, sass/_blog.scss */
+/* line 71, sass/_blog.scss */
 hr.post_bottom {
   padding-bottom: 20px;
 }
