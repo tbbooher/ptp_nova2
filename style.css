@@ -1047,6 +1047,11 @@ nav.post-navigation .nav-next {
   display: block;
 }
 
+/* line 66, sass/_blog.scss */
+hr.post_bottom {
+  padding-bottom: 20px;
+}
+
 /*.slideshow {
     background: url(images/slider.png) no-repeat;
     display: block;
