@@ -138,8 +138,8 @@
   }
 }
 
-@media screen and (min-width: 1185px) {
-  // anything bigger than 1185
+@media screen and (min-width: 1187px) {
+  // anything bigger than 1187
   #topmenu {
     @include gs-span(d, 6, 12);
   }
@@ -148,8 +148,8 @@
   }
 }
 
-@media screen and (max-width: 1184px) {
-  // anything less than 1184
+@media screen and (max-width: 1186px) {
+  // anything less than 1186
   // center the logo
   // now put the menu on the bottom
   .nav-collapse {
@@ -158,7 +158,7 @@
   #topmenu {
     @include gs-span(d, all);
     nav {
-      width: 680px;
+      width: 682px;
       position: relative;
       float: none;
       margin-left: auto;

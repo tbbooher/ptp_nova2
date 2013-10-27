@@ -1655,7 +1655,7 @@ footer #bottom_row .inner_wrapper {
     width: 100%;
   }
 }
-@media screen and (min-width: 1185px) {
+@media screen and (min-width: 1187px) {
   /* line 143, sass/_navigation2.scss */
   #topmenu {
     display: block;
@@ -1674,7 +1674,7 @@ footer #bottom_row .inner_wrapper {
     width: 48.96465%;
   }
 }
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1186px) {
   /* line 155, sass/_navigation2.scss */
   .nav-collapse {
     margin-top: 5px;
@@ -1690,7 +1690,7 @@ footer #bottom_row .inner_wrapper {
   }
   /* line 160, sass/_navigation2.scss */
   #topmenu nav {
-    width: 680px;
+    width: 682px;
     position: relative;
     float: none;
     margin-left: auto;
