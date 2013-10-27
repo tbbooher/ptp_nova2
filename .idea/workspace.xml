@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_cameron.scss" afterPath="$PROJECT_DIR$/sass/_cameron.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_footer.scss" afterPath="$PROJECT_DIR$/sass/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_front_page.scss" afterPath="$PROJECT_DIR$/sass/_front_page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front-page.php" afterPath="$PROJECT_DIR$/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -15,12 +16,12 @@
     <file path="/a.dummy" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382665906272" ignored="false" />
     <file path="/*.regexp" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382569632447" ignored="false" />
     <file path="/*.txt" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382568726591" ignored="false" />
-    <file path="/_front_page.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382584536749" ignored="false" />
+    <file path="/_front_page.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382737897732" ignored="false" />
     <file path="/header.php" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382577004115" ignored="false" />
     <file path="/_navigation2.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382583020210" ignored="false" />
     <file path="/_variables.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382580160160" ignored="false" />
-    <file path="/front-page.php" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382611381840" ignored="false" />
-    <file path="/footer.php" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382665872860" ignored="false" />
+    <file path="/front-page.php" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382736928760" ignored="false" />
+    <file path="/footer.php" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382737341989" ignored="false" />
     <file path="/_footer.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382666304005" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,22 +41,31 @@
     <favorites_list name="ptp_nova2" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63652176">
+    <splitter split-orientation="horizontal" split-proportion="0.5773913">
       <split-first>
         <leaf>
-          <file leaf-file-name="_footer.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="31" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.6892779">
+                <state line="63" column="31" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_front_page.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="_front_page.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/_front_page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="-10.384615">
+                <state line="75" column="12" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.35950413">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="19" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -67,7 +77,7 @@
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="103" selection-start="572" selection-end="572" vertical-scroll-proportion="-10.0">
+                <state line="8" column="90" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.4444447">
                   <folding />
                 </state>
               </provider>
@@ -76,16 +86,7 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="71" selection-start="642" selection-end="642" vertical-scroll-proportion="-6.9615383">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_boilerplate.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sass/_boilerplate.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="61" selection-start="45" selection-end="61" vertical-scroll-proportion="0.0">
+                <state line="16" column="8" selection-start="587" selection-end="587" vertical-scroll-proportion="-1.6153846">
                   <folding />
                 </state>
               </provider>
@@ -103,8 +104,10 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="216" column="9" selection-start="4129" selection-end="4134" vertical-scroll-proportion="-14.0">
+                  <folding>
+                    <marker date="1382737898000" expanded="true" signature="5701:5739" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -115,7 +118,7 @@
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="-7.6296296">
+                <state line="67" column="38" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-7.0740743">
                   <folding />
                 </state>
               </provider>
@@ -143,10 +146,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="1" selection-start="773" selection-end="773" vertical-scroll-proportion="0.15416667">
+                <state line="33" column="1" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_navigation2.scss" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/_navigation2.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="89" column="0" selection-start="2214" selection-end="2252" vertical-scroll-proportion="0.5298913">
                   <folding />
                 </state>
               </provider>
@@ -178,14 +190,15 @@
         <option value="$PROJECT_DIR$/sass/_layout.scss" />
         <option value="$PROJECT_DIR$/sass/_navigation2.scss" />
         <option value="$PROJECT_DIR$/sass/_forms.scss" />
-        <option value="$PROJECT_DIR$/sass/_front_page.scss" />
-        <option value="$PROJECT_DIR$/front-page.php" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/sass/_cameron.scss" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/sass/_footer.scss" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/config.rb" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/sass/_front_page.scss" />
       </list>
     </option>
   </component>
@@ -245,6 +258,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -264,7 +278,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17503586" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
@@ -349,20 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="773" selection-end="773" vertical-scroll-proportion="0.15416667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_navigation2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="3" selection-start="3640" selection-end="3640" vertical-scroll-proportion="-5.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_flexslider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
@@ -373,23 +373,6 @@
     <entry file="file://$PROJECT_DIR$/sass/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="56" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_front_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="-10.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="103" selection-start="572" selection-end="572" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
@@ -408,6 +391,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="31" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_boilerplate.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="61" selection-start="45" selection-end="61" vertical-scroll-proportion="0.0">
@@ -415,16 +405,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
+    <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="377" selection-end="377" vertical-scroll-proportion="0.48387095">
+        <state line="33" column="1" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_navigation2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="0" selection-start="2214" selection-end="2252" vertical-scroll-proportion="0.5298913">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="71" selection-start="642" selection-end="642" vertical-scroll-proportion="-6.9615383">
+        <state line="16" column="8" selection-start="587" selection-end="587" vertical-scroll-proportion="-1.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="90" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.4444447">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="38" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-7.0740743">
           <folding />
         </state>
       </provider>
@@ -438,24 +462,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="216" column="9" selection-start="4129" selection-end="4134" vertical-scroll-proportion="-14.0">
+          <folding>
+            <marker date="1382737898000" expanded="true" signature="5701:5739" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sass/_front_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="-7.6296296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="31" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.6892779">
+        <state line="75" column="12" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.35950413">
           <folding />
         </state>
       </provider>

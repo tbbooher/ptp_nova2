@@ -6,9 +6,13 @@
  */
  get_header(); ?>
             <!-- slideshow -->
+            <h1 class="showy">Pediatric Physical Therapy for Arlington, Alexandria, Tysons</h1>
             <section class="featured">
 				<div class="flexslider">
 					  <ul class="slides">
+					    <li>
+					      <img src="<?php bloginfo('template_url'); ?>/images/slide0.jpg" alt="slide1" />
+					    </li>                          
 					    <li>
 					      <img src="<?php bloginfo('template_url'); ?>/images/slide1.jpg" alt="slide1" />
 					    </li>
@@ -23,9 +27,9 @@
 			</section>
 
 			<!-- buckets section -->
-			<section class="buckets m-full d-full">
+			<section class="buckets  d-full">
 				<div class="describe_row">
-					<div class="m-full left">
+					<div class="left">
 					    <div class="message">
 							<h3><strong>We</strong> love kids</h3>
 							<p>We focus totally on kids. With over 15
@@ -36,7 +40,7 @@
 						   </div>
 						</div>
 					</div>
-					<div class="m-full middle">
+					<div class="middle">
 					    <div class="message">
 							<h3><strong>We</strong> come to you</h3>
 							<p>Because there’s no better learning
@@ -47,7 +51,7 @@
 						   	</div>
 						</div>
 					</div>
-					<div class="m-full right">
+					<div class="right">
 					  	<div class="message">
 							<h3><strong>We</strong> make kids stronger</h3>
 							<p>Our experience and methods help to keep
@@ -60,7 +64,7 @@
 					</div>
 				</div>
 				<div class="describe_row">
-					<div class="m-full left">
+					<div class="left">
 					    <div class="pic">
 							<figure>
 								<img src="<?php bloginfo('template_url'); ?>/images/kids.jpg">
@@ -69,7 +73,7 @@
 						</div>
 					</div>
 					
-					<div class="m-full middle">
+					<div class="middle">
 					    <div class="pic">
 							<figure>
 								<img src="<?php bloginfo('template_url'); ?>/images/house.jpg">
@@ -78,7 +82,7 @@
 						</div>
 					</div>
 					
-					<div class="m-full right">
+					<div class="right">
 					    <div class="pic">
 							<figure>
 								<img src="<?php bloginfo('template_url'); ?>/images/boy.jpg">

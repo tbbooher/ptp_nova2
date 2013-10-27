@@ -14,10 +14,6 @@
     width: 100%;
     @include gs-float(d, left);
     ul {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        display: block;
         list-style: none;
         @include gs-float(d, left);
     }
@@ -43,31 +39,10 @@
     }
     li {
         float: left;
-        width: 100%;
-        display: block;
     }
 }
 
-.js .nav-collapse {
-    clip: rect(0 0 0 0);
-    max-height: 0;
-    position: absolute;
-    display: block;
-    overflow: hidden;
-    zoom: 1;
-}
-
-.nav-collapse.opened {
-    max-height: 9999px;
-}
-
 .nav-toggle {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     width: 70px;
     height: 55px;
     float: right;

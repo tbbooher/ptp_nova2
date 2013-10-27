@@ -65,6 +65,7 @@
         </div><!--/wrapper-->
 
         <?php wp_footer(); ?>
+        <!-- remove for production -->
         <script src="https://get.gridsetapp.com/23622/overlay/"></script>
         
         <script>

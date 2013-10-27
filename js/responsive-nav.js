@@ -418,9 +418,10 @@
   
       _calcHeight: function () {
         var savedHeight = 0;
-        for (var i = 0; i < nav.inner.length; i++) {
-          savedHeight += nav.inner[i].offsetHeight;
-        }
+        savedHeight = nav.inner[0].children[0].offsetHeight;
+        // for (var i = 0; i < ul.length; i++) {
+        //   savedHeight += ul[i].offsetHeight;
+        // }
         var innerStyles = ".nav-collapse.opened{max-height:" + savedHeight + "px}";
   
         if (styleElement.styleSheet) {
