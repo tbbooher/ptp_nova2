@@ -64,3 +64,4 @@
 		<?php edit_post_link( __( 'Edit', 'ptp_nova' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
+<hr style="padding-bottom: 20px;">
