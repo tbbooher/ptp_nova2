@@ -21,6 +21,10 @@ Resetting and rebuilding styles have been helped along thanks to the fine work o
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
+
+responsive query explaination:
+http://www.emailonacid.com/blog/details/C13/emailology_media_queries_demystified_min-width_and_max-width
+
 */
 /* application variables */
 /* twitter bootstrap variables */
@@ -1046,12 +1050,19 @@ nav.post-navigation .nav-next {
     background-size: 100%;
 }
 */
-/* line 10, sass/_front_page.scss */
+/*
+
+great site to know breakpoints:
+
+http://www.responsivejs.com/wiki/breakpoints
+
+*/
+/* line 18, sass/_front_page.scss */
 h1.showy {
   display: none !important;
 }
 
-/* line 14, sass/_front_page.scss */
+/* line 22, sass/_front_page.scss */
 .well {
   margin-bottom: 20px;
   min-height: 20px;
@@ -1060,7 +1071,7 @@ h1.showy {
   border-radius: 4px;
 }
 
-/* line 22, sass/_front_page.scss */
+/* line 30, sass/_front_page.scss */
 .featured {
   background: url(images/dots.jpg) repeat;
   padding-top: 30px;
@@ -1071,7 +1082,7 @@ h1.showy {
   margin-left: 0;
   width: 100%;
 }
-/* line 27, sass/_front_page.scss */
+/* line 35, sass/_front_page.scss */
 .featured .flexslider {
   width: 70%;
   margin: 0 auto;
@@ -1080,7 +1091,7 @@ h1.showy {
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* line 38, sass/_front_page.scss */
+/* line 46, sass/_front_page.scss */
 .buckets {
   text-align: center;
   background: #ebedf4;
@@ -1088,9 +1099,10 @@ h1.showy {
   border-bottom: 1px solid #cccccc;
 }
 
-/* .pics > div {} */
-@media screen and (min-width: 600px) {
-  /* line 63, sass/_front_page.scss */
+@media screen and (min-width: 480px) {
+  /* anything bigger than 480 = 3 columns */
+  /* @include gs-media(t)    */
+  /* line 57, sass/_front_page.scss */
   .left {
     display: block;
     float: left;
@@ -1099,7 +1111,7 @@ h1.showy {
     width: 31.9697%;
   }
 
-  /* line 67, sass/_front_page.scss */
+  /* line 61, sass/_front_page.scss */
   .middle {
     display: block;
     float: left;
@@ -1108,7 +1120,7 @@ h1.showy {
     width: 31.9697%;
   }
 
-  /* line 71, sass/_front_page.scss */
+  /* line 65, sass/_front_page.scss */
   .right {
     display: block;
     float: left;
@@ -1117,8 +1129,18 @@ h1.showy {
     width: 31.9697%;
   }
 }
-@media screen and (max-width: 300px) {
-  /* line 100, sass/_front_page.scss */
+@media screen and (max-width: 800px) {
+  /* if less than 800, then start to shrink the text */
+  /* line 72, sass/_front_page.scss */
+  .message {
+    font-size: 0.8rem;
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* if less than 479, just make it all one column */
+  /*not @include gs-media(m)*/
+  /* line 83, sass/_front_page.scss */
   .left, .middle, .right {
     clear: both;
     display: block;
@@ -1126,22 +1148,26 @@ h1.showy {
     margin-left: 0;
     width: 100%;
   }
+  /* line 84, sass/_front_page.scss */
+  .left .message, .middle .message, .right .message {
+    font-size: 100%;
+  }
 }
-/* line 105, sass/_front_page.scss */
+/* line 91, sass/_front_page.scss */
 .bottom {
   position: absolute;
   width: 300px;
   bottom: 0px;
   height: 50px;
 }
-/* line 110, sass/_front_page.scss */
+/* line 96, sass/_front_page.scss */
 .bottom .button {
   margin: 0 auto;
   /*        position: absolute;
           width: 100px;*/
 }
 
-/* line 117, sass/_front_page.scss */
+/* line 103, sass/_front_page.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -1150,44 +1176,51 @@ h1.showy {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 125, sass/_front_page.scss */
+/* .pics > div {} */
+/* line 120, sass/_front_page.scss */
 .describe_row {
-  padding: 20px 30px;
+  /*padding: 20px 30px;*/
   clear: both;
   display: block;
   float: left;
   margin-left: 0;
   width: 100%;
 }
-/* line 128, sass/_front_page.scss */
+/* line 123, sass/_front_page.scss */
 .describe_row .message {
-  width: 300px;
+  /*font-size: 2vw;*/
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   height: 200px;
 }
-/* line 131, sass/_front_page.scss */
+/* line 127, sass/_front_page.scss */
 .describe_row .pic {
-  width: 300px;
+  max-width: 298px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   height: 230px;
 }
-/* line 133, sass/_front_page.scss */
+/* line 130, sass/_front_page.scss */
 .describe_row .pic figure {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
-  width: 298px;
+  /*width: 298px;*/
   margin: 4px auto;
   background: #556293;
   padding: 0px;
 }
-/* line 142, sass/_front_page.scss */
+/* line 131, sass/_front_page.scss */
+.describe_row .pic figure img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+/* line 143, sass/_front_page.scss */
 .describe_row .pic figure figcaption {
   background: #556293;
   width: 100%;
@@ -1195,7 +1228,7 @@ h1.showy {
   position: relative;
   font-family: "brandon-grotesque",sans-serif;
 }
-/* line 148, sass/_front_page.scss */
+/* line 149, sass/_front_page.scss */
 .describe_row .pic figure figcaption a {
   position: absolute;
   top: 7px;
@@ -1203,7 +1236,7 @@ h1.showy {
   color: #fff;
   border: 0;
 }
-/* line 155, sass/_front_page.scss */
+/* line 156, sass/_front_page.scss */
 .describe_row .pic figure figcaption a:hover {
   color: #fff;
   border-color: #fff;
@@ -1461,6 +1494,13 @@ footer #bottom_row .inner_wrapper {
 }
 /*! responsive-nav.js 1.0.23 by @viljamis */
 /* line 4, sass/_navigation2.scss */
+.menu-default-container {
+  /* we need to be the height of everything within */
+  padding: 1px;
+  overflow: auto;
+}
+
+/* line 10, sass/_navigation2.scss */
 .nav-collapse {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1472,13 +1512,13 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   margin-right: 2.0202%;
 }
-/* line 8, sass/_navigation2.scss */
+/* line 14, sass/_navigation2.scss */
 .nav-collapse * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 16, sass/_navigation2.scss */
+/* line 22, sass/_navigation2.scss */
 .nav-collapse ul {
   list-style: none;
   clear: none;
@@ -1486,7 +1526,7 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   margin-right: 2.0202%;
 }
-/* line 20, sass/_navigation2.scss */
+/* line 26, sass/_navigation2.scss */
 .nav-collapse a {
   color: #fff;
   text-decoration: none;
@@ -1503,21 +1543,21 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   margin-right: 2.0202%;
 }
-/* line 32, sass/_navigation2.scss */
+/* line 38, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
   outline: 0;
 }
-/* line 36, sass/_navigation2.scss */
+/* line 42, sass/_navigation2.scss */
 .nav-collapse ul ul a {
   background: #556293;
   padding-left: 2em;
 }
-/* line 40, sass/_navigation2.scss */
+/* line 46, sass/_navigation2.scss */
 .nav-collapse li {
   float: left;
 }
 
-/* line 45, sass/_navigation2.scss */
+/* line 51, sass/_navigation2.scss */
 .nav-toggle {
   width: 70px;
   height: 55px;
@@ -1529,7 +1569,7 @@ footer #bottom_row .inner_wrapper {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  /* line 56, sass/_navigation2.scss */
+  /* line 62, sass/_navigation2.scss */
   .nav-toggle {
     background-image: url("images/hamburger-retina.gif");
     -webkit-background-size: 100px 100px;
@@ -1539,25 +1579,25 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 67, sass/_navigation2.scss */
+  /* line 73, sass/_navigation2.scss */
   .js .nav-collapse {
     position: relative;
   }
-  /* line 69, sass/_navigation2.scss */
+  /* line 75, sass/_navigation2.scss */
   .js .nav-collapse.closed {
     max-height: none;
   }
 
-  /* line 74, sass/_navigation2.scss */
+  /* line 80, sass/_navigation2.scss */
   .nav-toggle {
     display: none;
   }
 
-  /* line 78, sass/_navigation2.scss */
+  /* line 84, sass/_navigation2.scss */
   .nav-collapse {
     margin-top: 45px;
   }
-  /* line 80, sass/_navigation2.scss */
+  /* line 86, sass/_navigation2.scss */
   .nav-collapse li {
     width: 25%;
     *width: 24.9%;
@@ -1565,7 +1605,7 @@ footer #bottom_row .inner_wrapper {
     _width: 19%;
     /* IE6 Hack */
   }
-  /* line 87, sass/_navigation2.scss */
+  /* line 93, sass/_navigation2.scss */
   .nav-collapse a {
     margin: 0;
     padding: 1em;
@@ -1574,17 +1614,17 @@ footer #bottom_row .inner_wrapper {
     border-bottom: 0;
     border-right: 1px solid white;
   }
-  /* line 96, sass/_navigation2.scss */
+  /* line 102, sass/_navigation2.scss */
   .nav-collapse ul ul a {
     display: none;
   }
-  /* line 99, sass/_navigation2.scss */
+  /* line 105, sass/_navigation2.scss */
   .nav-collapse ul li {
     float: left;
     display: inline;
     width: 8.5em;
   }
-  /* line 103, sass/_navigation2.scss */
+  /* line 109, sass/_navigation2.scss */
   .nav-collapse ul li a {
     display: block;
     background: #556293;
@@ -1600,12 +1640,12 @@ footer #bottom_row .inner_wrapper {
     visibility: hidden;
   }
 
-  /* line 121, sass/_navigation2.scss */
+  /* line 127, sass/_navigation2.scss */
   .wf-active .nav-collapse ul li a {
     visibility: visible;
   }
 
-  /* line 125, sass/_navigation2.scss */
+  /* line 131, sass/_navigation2.scss */
   .nav-collapse ul li a:hover {
     background: #6f7cac;
     cursor: pointer;
@@ -1616,7 +1656,7 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media screen and (min-width: 1185px) {
-  /* line 136, sass/_navigation2.scss */
+  /* line 143, sass/_navigation2.scss */
   #topmenu {
     display: block;
     float: left;
@@ -1625,7 +1665,7 @@ footer #bottom_row .inner_wrapper {
     width: 57.46212%;
   }
 
-  /* line 139, sass/_navigation2.scss */
+  /* line 146, sass/_navigation2.scss */
   #logo_container {
     display: block;
     float: left;
@@ -1635,12 +1675,12 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media screen and (max-width: 1184px) {
-  /* line 147, sass/_navigation2.scss */
+  /* line 155, sass/_navigation2.scss */
   .nav-collapse {
     margin-top: 5px;
   }
 
-  /* line 150, sass/_navigation2.scss */
+  /* line 158, sass/_navigation2.scss */
   #topmenu {
     clear: both;
     display: block;
@@ -1648,7 +1688,7 @@ footer #bottom_row .inner_wrapper {
     margin-left: 0;
     width: 100%;
   }
-  /* line 152, sass/_navigation2.scss */
+  /* line 160, sass/_navigation2.scss */
   #topmenu nav {
     width: 680px;
     position: relative;
@@ -1657,13 +1697,19 @@ footer #bottom_row .inner_wrapper {
     margin-right: auto;
   }
 
-  /* line 161, sass/_navigation2.scss */
+  /* line 169, sass/_navigation2.scss */
   .header #logo {
     text-align: center;
   }
 }
 /* MAIN STYLES */
 /* line 13, sass/_layout.scss */
+.padding-row {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+/* line 18, sass/_layout.scss */
 .header {
   clear: both;
   display: block;
@@ -1678,7 +1724,7 @@ footer #bottom_row .inner_wrapper {
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* line 24, sass/_layout.scss */
+/* line 29, sass/_layout.scss */
 #logo_container #logo {
   width: 308px;
   height: 112px;
@@ -1687,13 +1733,13 @@ footer #bottom_row .inner_wrapper {
   margin: 7px auto;
   text-align: right;
 }
-/* line 31, sass/_layout.scss */
+/* line 36, sass/_layout.scss */
 #logo_container #logo:hover {
   opacity: 0.85;
 }
 
 @media only screen and (min-width: 990px) {
-  /* line 39, sass/_layout.scss */
+  /* line 44, sass/_layout.scss */
   .col1 {
     display: block;
     float: left;
@@ -1702,7 +1748,7 @@ footer #bottom_row .inner_wrapper {
     width: 14.97475%;
   }
 
-  /* line 43, sass/_layout.scss */
+  /* line 48, sass/_layout.scss */
   .col2 {
     display: block;
     float: left;
@@ -1711,7 +1757,7 @@ footer #bottom_row .inner_wrapper {
     width: 14.97475%;
   }
 
-  /* line 47, sass/_layout.scss */
+  /* line 52, sass/_layout.scss */
   .col3 {
     display: block;
     float: left;
@@ -1720,7 +1766,7 @@ footer #bottom_row .inner_wrapper {
     width: 14.97475%;
   }
 
-  /* line 51, sass/_layout.scss */
+  /* line 56, sass/_layout.scss */
   .col4 {
     display: block;
     float: left;
@@ -1730,7 +1776,7 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media only screen and (max-width: 989px) {
-  /* line 58, sass/_layout.scss */
+  /* line 63, sass/_layout.scss */
   .col1, .col2, .col3, .col4 {
     text-align: center;
     padding-bottom: 0.8em;
@@ -1741,7 +1787,7 @@ footer #bottom_row .inner_wrapper {
     width: 100%;
   }
 }
-/* line 65, sass/_layout.scss */
+/* line 70, sass/_layout.scss */
 #content {
   clear: both;
   display: block;
@@ -1749,13 +1795,13 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   width: 100%;
 }
-/* line 67, sass/_layout.scss */
+/* line 72, sass/_layout.scss */
 #content.content_page {
   padding: 20px 0;
   border-bottom: 1px solid #556293;
 }
 
-/* line 73, sass/_layout.scss */
+/* line 78, sass/_layout.scss */
 #secondary {
   /*    @extend .well; */
   display: block;
@@ -1767,7 +1813,7 @@ footer #bottom_row .inner_wrapper {
   padding-left: 30px;
 }
 
-/* line 80, sass/_layout.scss */
+/* line 85, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
@@ -1791,7 +1837,7 @@ footer #bottom_row .inner_wrapper {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 101, sass/_layout.scss */
+/* line 106, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1800,7 +1846,7 @@ footer #bottom_row .inner_wrapper {
   /* 2 */
 }
 
-/* line 108, sass/_layout.scss */
+/* line 113, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1809,7 +1855,7 @@ footer #bottom_row .inner_wrapper {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 117, sass/_layout.scss */
+/* line 122, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }

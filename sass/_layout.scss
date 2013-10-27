@@ -10,6 +10,11 @@
 //  }
 //}
 
+.padding-row {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
 .header {
   @include gs-span(d, all);
   -webkit-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);

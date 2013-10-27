@@ -1,6 +1,12 @@
 
 /*! responsive-nav.js 1.0.23 by @viljamis */
 
+.menu-default-container {
+  /* we need to be the height of everything within */
+  padding: 1px;
+  overflow: auto;
+}
+
 .nav-collapse {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -133,6 +139,7 @@
 }
 
 @media screen and (min-width: 1185px) {
+  // anything bigger than 1185
   #topmenu {
     @include gs-span(d, 6, 12);
   }
@@ -142,8 +149,9 @@
 }
 
 @media screen and (max-width: 1184px) {
-// center the logo
-// now put the menu on the bottom
+  // anything less than 1184
+  // center the logo
+  // now put the menu on the bottom
   .nav-collapse {
     margin-top: 5px;
   }
