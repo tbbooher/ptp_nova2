@@ -34,7 +34,7 @@
 						    <div class="message">
 								<h3><strong>We</strong> love kids</h3>
 								<p>We focus totally on kids. With over 15
-							   	years of experience treating clients.
+							   	years of experience treating pediatric clients.
 								</p>						   
 							   <div class="bottom">
 								   <a class="button" href="/about/">LEARN MORE</a>

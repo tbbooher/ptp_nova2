@@ -22,8 +22,13 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 
+SOME GOOD STUFF:
+
 responsive query explaination:
 http://www.emailonacid.com/blog/details/C13/emailology_media_queries_demystified_min-width_and_max-width
+
+css3 mixins:
+http://compass-style.org/reference/compass/css3/
 
 */
 /* application variables */
@@ -1322,7 +1327,18 @@ em.ribbon {
   background-position: -336px 0;
 }
 
-/* line 70, sass/_footer.scss */
+@media screen and (max-width: 760px) {
+  /*anything less than 760, lets go mobile for toprow*/
+  /* line 72, sass/_footer.scss */
+  #top_row .left, #top_row .middle, #top_row .right {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+/* line 79, sass/_footer.scss */
 footer .with_border {
   border: 1px solid #ebedf4;
   background-color: #ebedf4;
@@ -1331,22 +1347,23 @@ footer .with_border {
   -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
 }
-/* line 78, sass/_footer.scss */
+/* line 87, sass/_footer.scss */
 footer p, footer ul {
   font-size: 0.9em;
-  width: 300px;
+  /*width: 300px;*/
+  width: 60%;
   margin: 0 auto;
   padding: 20px;
 }
-/* line 84, sass/_footer.scss */
+/* line 94, sass/_footer.scss */
 footer a {
   border-bottom: none;
 }
-/* line 86, sass/_footer.scss */
+/* line 96, sass/_footer.scss */
 footer a:hover {
   border-bottom: none;
 }
-/* line 90, sass/_footer.scss */
+/* line 100, sass/_footer.scss */
 footer #top_row {
   background: #dee0eb;
   border-bottom: 1px solid #e6e6e6;
@@ -1360,22 +1377,22 @@ footer #top_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 98, sass/_footer.scss */
+/* line 108, sass/_footer.scss */
 footer #top_row ul {
   list-style: none;
 }
-/* line 102, sass/_footer.scss */
+/* line 112, sass/_footer.scss */
 footer #top_row li {
   padding-left: 1em;
   text-indent: -.7em;
 }
-/* line 107, sass/_footer.scss */
+/* line 117, sass/_footer.scss */
 footer #top_row li:before {
   content: "• ";
   color: #585858;
   /* or whatever color you prefer */
 }
-/* line 112, sass/_footer.scss */
+/* line 122, sass/_footer.scss */
 footer #bottom_row {
   font-size: 0.7em;
   height: 60px;
@@ -1389,18 +1406,18 @@ footer #bottom_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 122, sass/_footer.scss */
+/* line 132, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div span.text {
   vertical-align: middle;
   padding-left: 10px;
   font-size: 1.2em;
 }
-/* line 127, sass/_footer.scss */
+/* line 137, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div i {
   vertical-align: middle;
   font-size: 1.5em;
 }
-/* line 132, sass/_footer.scss */
+/* line 142, sass/_footer.scss */
 footer #bottom_row .inner_wrapper {
   margin-top: 20px;
 }
@@ -1425,7 +1442,7 @@ footer #bottom_row .inner_wrapper {
     content: "\f02f";
     font-size: $font-awesome-icon-size;
 }*/
-/* line 159, sass/_footer.scss */
+/* line 169, sass/_footer.scss */
 .f-logo {
   background: url(images/f-logo.png) no-repeat;
   width: 266px;
