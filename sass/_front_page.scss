@@ -126,6 +126,7 @@ h1.showy {
     }
     .pic {
         max-width: 298px;
+        margin-bottom: 10px;
         @include message_row(230px);
         figure { 
             img {
