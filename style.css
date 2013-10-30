@@ -1378,10 +1378,10 @@ footer a:hover {
 footer #top_row {
   background: #dee0eb;
   border-bottom: 1px solid #e6e6e6;
-  -webkit-box-shadow: 0 80px 80px -80px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 80px 80px -80px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 0 80px 80px -80px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 80px 80px -80px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.4);
   clear: both;
   display: block;
   float: left;
@@ -1399,7 +1399,7 @@ footer #top_row li {
 }
 /* line 117, sass/_footer.scss */
 footer #top_row li:before {
-  content: "• ";
+  content: "ΓÇó ";
   color: #585858;
   /* or whatever color you prefer */
 }
