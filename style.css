@@ -1400,7 +1400,7 @@ footer #top_row li {
 }
 /* line 117, sass/_footer.scss */
 footer #top_row li:before {
-  content: "ΓÇó ";
+  content: "• ";
   color: #585858;
   /* or whatever color you prefer */
 }
