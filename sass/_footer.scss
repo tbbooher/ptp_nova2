@@ -115,7 +115,7 @@ footer {
     }
 
     li:before {
-      content: "• ";
+      content: "\b7\a0";
       color: #585858; /* or whatever color you prefer */
     }
   }
@@ -172,4 +172,9 @@ footer {
     height: 100px;
     display: block;
     margin: 10px auto;
+    @media screen and (max-width: 769px) {
+      background-size: 80%;
+      width: 212.8px;
+      height: 80px;
+    }
 }
