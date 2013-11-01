@@ -25,26 +25,32 @@
 
         <?php wp_head(); ?>
         <meta name="msvalidate.01" content="1C3E20F9AB7F3A14C0AF7482E5F06B26" />
-        
+
         <!-- link href="https://get.gridsetapp.com/23622/" rel="stylesheet" -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
         <script type="text/javascript">
-          jQuery(window).load(function() { 
-            jQuery('.flexslider').flexslider();
-          });
-        </script>        
+            jQuery(window).load(function() {
+                jQuery('.flexslider').flexslider({
+                    start: function(slider) {
+                        slider.addClass('loading');
+                    },
+                    before: function(slider) {
+                        slider.removeClass('loading');
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <div id="mainshow" class="wrapper">
         	<section class="header">
         	    <a href="/">
-        	    <div id="logo_container">
-        	      <div id="logo"></div>
-        	    </div>
+            	    <div id="logo_container">
+            	       <div id="logo"></div>
+            	    </div>
         	    </a>
         		<div id="topmenu">
 	        		<nav class="nav-collapse">

@@ -8,104 +8,92 @@
 */
 
 /*
-
 great site to know breakpoints:
-
 http://www.responsivejs.com/wiki/breakpoints
-
 */
 
-h1.showy {
-  display: none !important;
-}
+h1.showy { display: none !important; }
 
 .well {
-    margin-bottom: 20px;
-    min-height: 20px;
-    padding: 19px;
-    margin-bottom: 20px;
-    border-radius: 4px;  
+   border-radius: 4px;
+   margin-bottom: 20px;
+   min-height: 20px;
+   padding: 19px;
 }
 
+// featured section
 .featured {
-  background: url(images/dots.jpg) repeat;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  @include gs-span(d, all);
-  .flexslider {
-    width: 70%;
-    margin: 0 auto;
-    border: 5px solid $main-color;
-    @include box-shadow(0 0 15px 2px rgba(0,0,0,0.5));
-    img {
-       
-    }
-  }
+   background: url("images/dots.jpg") repeat;
+   overflow: hidden;
+   padding-top: 30px;
+   // sanntu, commented, why?
+   // @include gs-span(d, all);
+
+   // flexslider plugin (styles overwritten)
+   .flexslider {
+      border: 5px solid $main-color;
+      @include border-radius(4px);
+      @include box-shadow(0 0 15px 2px rgba(0,0,0,0.5));
+      margin: 0 auto 69px auto;
+      width: 70%;
+      height: 595px;
+
+      // flexslider loader
+      &.loading { background: url("images/ajax-loader.gif") no-repeat scroll center center #556293; }
+   }
 }
 
 .buckets {
-    text-align: center;
-    background: $background-color;
-    border-top: 1px solid $mid-gray;
-    border-bottom: 1px solid $mid-gray;
+   text-align: center;
+   background: $background-color;
+   border-top: 1px solid $mid-gray;
+   border-bottom: 1px solid $mid-gray;
 }
 
-
 @media screen and (min-width: 480px) {
-  /* anything bigger than 480 = 3 columns */
-  /* @include gs-media(t)    */
-  .left {
-    @include gs-span(t, 1);
-  }
-
-  .middle {
-    @include gs-span(t, 2);
-  }
-
-  .right {
-    @include gs-span(t, 3);
-  }
+   /* anything bigger than 480 = 3 columns */
+   /* @include gs-media(t) */
+   .left { @include gs-span(t, 1); }
+   .middle { @include gs-span(t, 2); }
+   .right { @include gs-span(t, 3); }
 }
 
 @media screen and (max-width: 800px) {
-  /* if less than 800, then start to shrink the text */
-  .message {
-    font-size: 0.8rem;
-    font-size: 2vw;
+   /* if less than 800, then start to shrink the text */
+   .message {
+      font-size: 0.8rem;
+      font-size: 2vw;
    }
-
 }
 
-
 @media screen and (max-width: 479px) {
-  /* if less than 479, just make it all one column */
-  /*not @include gs-media(m)*/
-  .left, .middle, .right {
-    .message {
-      font-size: 100%;
-    }
-    @include gs-span(m, all);
-  }
+   /* if less than 479, just make it all one column */
+   /*not @include gs-media(m)*/
+   .left, .middle, .right {
+      .message { font-size: 100%; }
+      @include gs-span(m, all);
+   }
 }
 
 .bottom {
-    position: absolute;
-    width: 300px;
-    bottom: 0px;
-    height: 50px;
-    .button {
-        margin: 0 auto;
-/*        position: absolute;
-        width: 100px;*/
-    }
+   position: absolute;
+   width: 300px;
+   bottom: 0px;
+   height: 50px;
+
+   .button {
+      margin: 0 auto;
+      // position: absolute;
+      // width: 100px;
+   }
 }
 
 [data-icon]:before {
-    font-family: 'icomoon';
-    content: attr(data-icon);
-    speak: none;
-    line-height: 0;
-    -webkit-font-smoothing: antialiased;
+   font-family: 'icomoon';
+   content: attr(data-icon);
+   speak: none;
+   line-height: 0;
+   -webkit-font-smoothing: antialiased;
 }
 
 /* .pics > div {} */
@@ -128,12 +116,12 @@ h1.showy {
         max-width: 298px;
         margin-bottom: 10px;
         @include message_row(230px);
-        figure { 
+        figure {
             img {
               max-width: 100%;
               height: auto;
-              width: auto\9; 
-            }            
+              width: auto\9;
+            }
             -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
             -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
             box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);

@@ -11,37 +11,46 @@
 //}
 
 .padding-row {
-  padding-right: 3%;
-  padding-left: 3%;
+   padding-right: 3%;
+   padding-left: 3%;
 }
 
 .header {
-  @include gs-span(d, all);
-  -webkit-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-  -moz-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-  -o-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-  box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
-  padding-bottom: 10px;
-  border-bottom: 1px solid $border_color;
+   @include gs-span(d, all);
+   -webkit-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+   -moz-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+   -o-box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+   box-shadow: inset 0 0 $box_blur_radius rgba(0,0,0,$alpha);
+   padding-bottom: 10px;
+   border-bottom: 1px solid $border_color;
 }
 
 #logo_container {
-  #logo {
-    width: 308px;
-    height: 112px;
-    background: url(images/logo.png) no-repeat right;
-    display: block;
-    margin: 7px auto;
-    text-align: right;
-    &:hover {
-      opacity: 0.85;
-    }
-    @media screen and (max-width: 769px) {
-      background-size: 80%;
-      width: 246.6px;
-      height: 89.6px;
-    }
-  }
+
+   h1 {
+      margin: 0;
+      padding: 0;
+   }
+
+   #logo {
+      width: 308px;
+      height: 112px;
+      background: url("images/logo.png") no-repeat right;
+      display: block;
+      margin: 7px auto;
+      text-align: right;
+
+      &:hover {
+         border-bottom: 0 none;
+         opacity: 0.85;
+      }
+
+      @media screen and (max-width: 769px) {
+         background-size: 80%;
+         width: 246.6px;
+         height: 89.6px;
+      }
+   }
 }
 
 @include gs-media(d) {
@@ -124,10 +133,4 @@
  * Include this rule to trigger hasLayout and contain floats.
  */
 
-.clearfix {
-    *zoom: 1;
-}
-
-
-
-
+.clearfix { *zoom: 1; }
