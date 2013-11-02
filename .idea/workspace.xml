@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" name="Default" comment="" />
     <ignored path="ptp_nova2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1383125862992" ignored="false" />
     <file path="/_layout.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382580684633" ignored="false" />
-    <file path="/a.dummy" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382665906272" ignored="false" />
+    <file path="/a.dummy" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1383393683320" ignored="false" />
     <file path="/*.regexp" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382569632447" ignored="false" />
     <file path="/*.txt" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382568726591" ignored="false" />
     <file path="/_front_page.scss" changelist="0b3b8f54-b3f7-45d8-abdf-b5f89f29e9fb" time="1382737897732" ignored="false" />
@@ -42,8 +40,18 @@
           <file leaf-file-name="_footer.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="31" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="78" column="31" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <marker date="1383218186000" expanded="true" signature="1712:3482" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="2459:3005" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="2956:2986" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="3041:3457" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="3288:3417" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="3286:3358" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="3365:3415" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="3433:3437" placeholder="{...}" />
+                    <marker date="1383218186000" expanded="true" signature="3891:4026" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -51,11 +59,10 @@
           <file leaf-file-name="_front_page.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_front_page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="61" column="12" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
+                <state line="69" column="12" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
                   <folding>
-                    <marker date="1383125766000" expanded="true" signature="1502:1516" placeholder="{...}" />
-                    <marker date="1383125766000" expanded="true" signature="2335:3330" placeholder="{...}" />
-                    <marker date="1383125766000" expanded="true" signature="2400:3324" placeholder="{...}" />
+                    <marker date="1383383316000" expanded="true" signature="2799:3689" placeholder="{...}" />
+                    <marker date="1383383316000" expanded="true" signature="2799:3683" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -79,10 +86,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1401" column="0" selection-start="29455" selection-end="29556" vertical-scroll-proportion="0.33283132">
+                <state line="1408" column="0" selection-start="29741" selection-end="29741" vertical-scroll-proportion="-8.5">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="front-page.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/front-page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="90" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/footer.php">
+              <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="67" column="38" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.25">
                   <folding />
                 </state>
               </provider>
@@ -91,7 +119,7 @@
           <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="9" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0">
+                <state line="42" column="9" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -113,7 +141,7 @@
           <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="1" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+                <state line="53" column="1" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -215,20 +243,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptp_nova2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ptp_nova2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -256,6 +270,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18364419" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
@@ -267,7 +282,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -361,27 +375,11 @@
         <state line="16" column="8" selection-start="587" selection-end="587" vertical-scroll-proportion="-1.6153846" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="90" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.4444447" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="19" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="38" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-7.0740743" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_cameron.scss">
@@ -400,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+        <state line="53" column="1" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -414,32 +412,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_front_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
+        <state line="69" column="12" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1383125766000" expanded="true" signature="1502:1516" placeholder="{...}" />
-            <marker date="1383125766000" expanded="true" signature="2335:3330" placeholder="{...}" />
-            <marker date="1383125766000" expanded="true" signature="2400:3324" placeholder="{...}" />
+            <marker date="1383383316000" expanded="true" signature="2799:3689" placeholder="{...}" />
+            <marker date="1383383316000" expanded="true" signature="2799:3683" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="31" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="78" column="31" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1383218186000" expanded="true" signature="1712:3482" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="2459:3005" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="2956:2986" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="3041:3457" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="3288:3417" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="3286:3358" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="3365:3415" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="3433:3437" placeholder="{...}" />
+            <marker date="1383218186000" expanded="true" signature="3891:4026" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0">
+        <state line="42" column="9" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1401" column="0" selection-start="29455" selection-end="29556" vertical-scroll-proportion="0.33283132">
+        <state line="1408" column="0" selection-start="29741" selection-end="29741" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="90" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="38" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.25">
           <folding />
         </state>
       </provider>
