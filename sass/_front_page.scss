@@ -1,15 +1,18 @@
-/*.slideshow {
-    background: url(images/slider.png) no-repeat;
-    display: block;
-    height: 0;
-    padding-bottom: 39.663716814%;
-    background-size: 100%;
+/*
+.slideshow {
+   background: url(images/slider.png) no-repeat;
+   display: block;
+   height: 0;
+   padding-bottom: 39.663716814%;
+   background-size: 100%;
 }
 */
 
 /*
+
 great site to know breakpoints:
 http://www.responsivejs.com/wiki/breakpoints
+
 */
 
 h1.showy { display: none !important; }
@@ -26,20 +29,28 @@ h1.showy { display: none !important; }
    background: url("images/dots.jpg") repeat;
    overflow: hidden;
    padding-top: 30px;
-   // sanntu, commented, why?
    // @include gs-span(d, all);
 
    // flexslider plugin (styles overwritten)
    .flexslider {
-      border: 5px solid $main-color;
-      @include border-radius(4px);
-      @include box-shadow(0 0 15px 2px rgba(0,0,0,0.5));
-      margin: 0 auto 69px auto;
+      @include opacity(0);
+      margin: 0 auto;
+      visibility: hidden;
       width: 70%;
-      height: 595px;
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      transition: all .5s ease;
 
-      // flexslider loader
-      &.loading { background: url("images/ajax-loader.gif") no-repeat scroll center center #556293; }
+      &.ready {
+         background-color: $main-color;
+         border: 5px solid $main-color;
+         @include box-shadow(0 0 15px 2px rgba(0,0,0,0.5));
+         margin-bottom: 69px;
+         @include opacity(1);
+         visibility: visible;
+      }
    }
 }
 
@@ -98,11 +109,11 @@ h1.showy { display: none !important; }
 
 /* .pics > div {} */
 @mixin message_row($h) {
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    height: $h;
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   height: $h;
 }
 
 .describe_row {
