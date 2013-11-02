@@ -2982,18 +2982,25 @@ html, button, input, select, textarea {
 }
 
 /*---------------Edit button formatting is off------------*/
-/* line 24, sass/_typography.scss */
+/*---------------Search button is too big------------*/
+/* line 25, sass/_typography.scss */
+.search-submit.button {
+  max-width: 100px;
+}
+
+/*---------------Search button is too big------------*/
+/* line 31, sass/_typography.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 29, sass/_typography.scss */
+/* line 36, sass/_typography.scss */
 h1, h2, h3, h4 {
   font-family: "brandon-grotesque", sans-serif;
 }
 
-/* line 33, sass/_typography.scss */
+/* line 40, sass/_typography.scss */
 h1 {
   font-size: 2em;
   color: #556293;
@@ -3003,7 +3010,7 @@ h1 {
   /* 44px / 16px */
 }
 
-/* line 42, sass/_typography.scss */
+/* line 49, sass/_typography.scss */
 h1, h2, h3, h4 {
   visibility: hidden;
 }
@@ -3014,53 +3021,53 @@ h1, h2, h3, h4 {
     visibility: hidden;
   }
 }*/
-/* line 54, sass/_typography.scss */
+/* line 61, sass/_typography.scss */
 .wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4 {
   visibility: visible;
 }
 
-/* line 59, sass/_typography.scss */
+/* line 66, sass/_typography.scss */
 h2, h3, h4, h5 {
   color: #363636;
 }
 
-/* line 64, sass/_typography.scss */
+/* line 71, sass/_typography.scss */
 h2 {
   font-size: 1.625em;
   /* 36px / 16px */
 }
 
-/* line 69, sass/_typography.scss */
+/* line 76, sass/_typography.scss */
 h3, h4 {
   font-size: 1.375em;
   /* 24px / 16px */
   font-weight: 700;
 }
 
-/* line 75, sass/_typography.scss */
+/* line 82, sass/_typography.scss */
 h4 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.375em;
 }
 
-/* line 81, sass/_typography.scss */
+/* line 88, sass/_typography.scss */
 h5 {
   font-size: 1.125em;
 }
 
-/* line 85, sass/_typography.scss */
+/* line 92, sass/_typography.scss */
 strong {
   color: #556293;
 }
 
-/* line 89, sass/_typography.scss */
+/* line 96, sass/_typography.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 94, sass/_typography.scss */
+/* line 101, sass/_typography.scss */
 a {
   -webkit-transition: all, 0.2s, ease-in-out;
   transition: all, 0.2s, ease-in-out;
@@ -3070,7 +3077,7 @@ a {
 }
 
 /* -----From Virae Blog Tags ----------*/
-/* line 103, sass/_typography.scss */
+/* line 110, sass/_typography.scss */
 .tagcloud a {
   margin-left: 12px;
   margin-right: 6px;
@@ -3093,7 +3100,7 @@ a {
   font-size: 11px;
   margin-bottom: 8px;
 }
-/* line 124, sass/_typography.scss */
+/* line 131, sass/_typography.scss */
 .tagcloud a:before {
   content: "";
   float: left;
@@ -3106,7 +3113,7 @@ a {
   border-style: solid;
   border-width: 12px 12px 12px 0;
 }
-/* line 136, sass/_typography.scss */
+/* line 143, sass/_typography.scss */
 .tagcloud a:after {
   content: "";
   position: absolute;
@@ -3123,34 +3130,34 @@ a {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 152, sass/_typography.scss */
+/* line 159, sass/_typography.scss */
 .tagcloud a:hover {
   background: #58504b;
   color: #fff;
   text-shadow: none;
 }
-/* line 156, sass/_typography.scss */
+/* line 163, sass/_typography.scss */
 .tagcloud a:hover:before {
   border-color: transparent #58504b transparent transparent;
 }
-/* line 159, sass/_typography.scss */
+/* line 166, sass/_typography.scss */
 .tagcloud a:hover:after {
   background: #fed86f;
 }
 
 /* -----From Virae Blog Tags ----------*/
-/* line 167, sass/_typography.scss */
+/* line 174, sass/_typography.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 172, sass/_typography.scss */
+/* line 179, sass/_typography.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }
 
-/* line 176, sass/_typography.scss */
+/* line 183, sass/_typography.scss */
 hr {
   display: block;
   height: 1px;

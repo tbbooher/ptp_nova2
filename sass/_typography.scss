@@ -20,6 +20,13 @@ html, button, input, select, textarea {
   color: $white;
 }
 /*---------------Edit button formatting is off------------*/
+/*---------------Search button is too big------------*/
+
+.search-submit.button {
+  max-width: 100px;
+}
+
+/*---------------Search button is too big------------*/
 
 html {
     font-size: 1em;
