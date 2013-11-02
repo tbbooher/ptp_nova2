@@ -56,19 +56,23 @@
 @include gs-media(d) {
 
   .col1 {
-      @include gs-span(d, 3, 4);
+      @include gs-span(d, 1, 3);
+      text-align: center;
   }
 
   .col2 {
-      @include gs-span(d, 5, 6);
+      @include gs-span(d, 4, 6);
+      text-align: center;
   }
 
   .col3 {
-      @include gs-span(d, 7, 8);
+      @include gs-span(d, 7, 9);
+      text-align: center;
   }
 
   .col4 {
-      @include gs-span(d, 9, 10);
+      @include gs-span(d, 10, 12);
+      text-align: center;
   }
 
 }
