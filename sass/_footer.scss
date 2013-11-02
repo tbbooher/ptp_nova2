@@ -117,6 +117,7 @@ footer {
     li:before {
       content: "\b7\a0";
       color: #585858; /* or whatever color you prefer */
+      font-size: 2em;
     }
   }
   #bottom_row {
@@ -174,6 +175,7 @@ footer {
     margin: 10px auto;
     @media screen and (max-width: 769px) {
       background-size: 80%;
+      background-position: 30px;
       width: 212.8px;
       height: 80px;
     }
