@@ -1538,13 +1538,37 @@ footer #bottom_row .inner_wrapper {
 }
 /*! responsive-nav.js 1.0.23 by @viljamis */
 /* line 4, sass/_navigation2.scss */
+.top-contact {
+  text-align: center;
+}
+/* line 41, sass/_mixins.scss */
+.top-contact:before, .top-contact:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 45, sass/_mixins.scss */
+.top-contact:after {
+  clear: both;
+}
+/* line 7, sass/_navigation2.scss */
+.top-contact i:nth-of-type(2) {
+  margin-left: 10px;
+}
+/* line 10, sass/_navigation2.scss */
+.top-contact span {
+  white-space: nowrap;
+}
+
+/* line 15, sass/_navigation2.scss */
 .menu-default-container {
   /* we need to be the height of everything within */
   padding: 1px;
   overflow: auto;
 }
 
-/* line 10, sass/_navigation2.scss */
+/* line 21, sass/_navigation2.scss */
 .nav-collapse {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1556,13 +1580,24 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   margin-right: 2.0202%;
 }
-/* line 14, sass/_navigation2.scss */
+/* line 41, sass/_mixins.scss */
+.nav-collapse:before, .nav-collapse:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 45, sass/_mixins.scss */
+.nav-collapse:after {
+  clear: both;
+}
+/* line 26, sass/_navigation2.scss */
 .nav-collapse * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 22, sass/_navigation2.scss */
+/* line 34, sass/_navigation2.scss */
 .nav-collapse ul {
   list-style: none;
   clear: none;
@@ -1570,7 +1605,7 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   margin-right: 2.0202%;
 }
-/* line 26, sass/_navigation2.scss */
+/* line 38, sass/_navigation2.scss */
 .nav-collapse a {
   color: #fff;
   text-decoration: none;
@@ -1587,21 +1622,21 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   margin-right: 2.0202%;
 }
-/* line 38, sass/_navigation2.scss */
+/* line 50, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
   outline: 0;
 }
-/* line 42, sass/_navigation2.scss */
+/* line 54, sass/_navigation2.scss */
 .nav-collapse ul ul a {
   background: #556293;
   padding-left: 2em;
 }
-/* line 46, sass/_navigation2.scss */
+/* line 58, sass/_navigation2.scss */
 .nav-collapse li {
   float: left;
 }
 
-/* line 51, sass/_navigation2.scss */
+/* line 63, sass/_navigation2.scss */
 .nav-toggle {
   width: 70px;
   height: 55px;
@@ -1613,7 +1648,7 @@ footer #bottom_row .inner_wrapper {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  /* line 62, sass/_navigation2.scss */
+  /* line 74, sass/_navigation2.scss */
   .nav-toggle {
     background-image: url("images/hamburger-retina.gif");
     -webkit-background-size: 100px 100px;
@@ -1623,25 +1658,26 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media screen and (min-width: 700px) {
-  /* line 73, sass/_navigation2.scss */
+  /* line 85, sass/_navigation2.scss */
   .js .nav-collapse {
     position: relative;
   }
-  /* line 75, sass/_navigation2.scss */
+  /* line 87, sass/_navigation2.scss */
   .js .nav-collapse.closed {
     max-height: none;
   }
 
-  /* line 80, sass/_navigation2.scss */
+  /* line 92, sass/_navigation2.scss */
   .nav-toggle {
     display: none;
   }
 
-  /* line 84, sass/_navigation2.scss */
+  /* line 96, sass/_navigation2.scss */
   .nav-collapse {
-    margin-top: 45px;
+    margin-top: 13px;
+    margin-bottom: 13px;
   }
-  /* line 86, sass/_navigation2.scss */
+  /* line 99, sass/_navigation2.scss */
   .nav-collapse li {
     width: 25%;
     *width: 24.9%;
@@ -1649,7 +1685,7 @@ footer #bottom_row .inner_wrapper {
     _width: 19%;
     /* IE6 Hack */
   }
-  /* line 93, sass/_navigation2.scss */
+  /* line 106, sass/_navigation2.scss */
   .nav-collapse a {
     margin: 0;
     padding: 1em;
@@ -1658,17 +1694,17 @@ footer #bottom_row .inner_wrapper {
     border-bottom: 0;
     border-right: 1px solid white;
   }
-  /* line 102, sass/_navigation2.scss */
+  /* line 115, sass/_navigation2.scss */
   .nav-collapse ul ul a {
     display: none;
   }
-  /* line 105, sass/_navigation2.scss */
+  /* line 118, sass/_navigation2.scss */
   .nav-collapse ul li {
     float: left;
     display: inline;
     width: 8.5em;
   }
-  /* line 109, sass/_navigation2.scss */
+  /* line 122, sass/_navigation2.scss */
   .nav-collapse ul li a {
     display: block;
     background: #556293;
@@ -1684,12 +1720,12 @@ footer #bottom_row .inner_wrapper {
     visibility: hidden;
   }
 
-  /* line 127, sass/_navigation2.scss */
+  /* line 140, sass/_navigation2.scss */
   .wf-active .nav-collapse ul li a {
     visibility: visible;
   }
 
-  /* line 131, sass/_navigation2.scss */
+  /* line 144, sass/_navigation2.scss */
   .nav-collapse ul li a:hover {
     background: #6f7cac;
     cursor: pointer;
@@ -1700,7 +1736,7 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media screen and (min-width: 1187px) {
-  /* line 143, sass/_navigation2.scss */
+  /* line 156, sass/_navigation2.scss */
   #topmenu {
     display: block;
     float: left;
@@ -1709,7 +1745,7 @@ footer #bottom_row .inner_wrapper {
     width: 57.46212%;
   }
 
-  /* line 146, sass/_navigation2.scss */
+  /* line 159, sass/_navigation2.scss */
   #logo_container {
     display: block;
     float: left;
@@ -1719,12 +1755,12 @@ footer #bottom_row .inner_wrapper {
   }
 }
 @media screen and (max-width: 1186px) {
-  /* line 155, sass/_navigation2.scss */
+  /* line 168, sass/_navigation2.scss */
   .nav-collapse {
     margin-top: 5px;
   }
 
-  /* line 158, sass/_navigation2.scss */
+  /* line 171, sass/_navigation2.scss */
   #topmenu {
     clear: both;
     display: block;
@@ -1732,7 +1768,7 @@ footer #bottom_row .inner_wrapper {
     margin-left: 0;
     width: 100%;
   }
-  /* line 160, sass/_navigation2.scss */
+  /* line 173, sass/_navigation2.scss */
   #topmenu nav {
     width: 682px;
     position: relative;
@@ -1741,7 +1777,7 @@ footer #bottom_row .inner_wrapper {
     margin-right: auto;
   }
 
-  /* line 169, sass/_navigation2.scss */
+  /* line 182, sass/_navigation2.scss */
   .header #logo {
     text-align: center;
   }

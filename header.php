@@ -53,6 +53,12 @@
 	        		<nav class="nav-collapse">
                        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				    </nav>
+                    <div class="top-contact">
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        <span class="text">chrissy@ptpnova.com</span>
+                        <i class="glyphicon glyphicon-earphone"></i>                        
+                        <span class="text">571-212-6145</span>
+                    </div>
         		</div>
         	</section><!-- header -->
             <section id="content" class="<?php echo is_front_page() ? "front_page" : "content_page" ?>">

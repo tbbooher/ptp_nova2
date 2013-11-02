@@ -1,6 +1,17 @@
 
 /*! responsive-nav.js 1.0.23 by @viljamis */
 
+.top-contact {
+  text-align: center;
+  @include clearfix;
+  i:nth-of-type(2) {
+    margin-left: 10px;
+  }
+  span {
+    white-space: nowrap;
+  }
+}
+
 .menu-default-container {
   /* we need to be the height of everything within */
   padding: 1px;
@@ -8,6 +19,7 @@
 }
 
 .nav-collapse {
+  @include clearfix;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -82,7 +94,8 @@
   }
 
   .nav-collapse {
-    margin-top: 45px;
+    margin-top: 13px;
+    margin-bottom: 13px;
     li {
       width: 25%;
       *width: 24.9%;
