@@ -24,7 +24,7 @@
 				<div class="describe_row">
 				   <div class="padding-row">
 						<div class="left">
-						    <div class="message">
+						    <div class="message pic">
 								<h3><strong>We</strong> love kids</h3>
 								<p>We focus totally on kids. With over 15 years of experience treating pediatric clients.</p>
 							   <div class="bottom">
@@ -33,7 +33,7 @@
 							</div>
 						</div>
 						<div class="middle">
-						   <div class="message">
+						   <div class="message pic">
 								<h3><strong>We</strong> come to you</h3>
 								<p>Because there’s no better learning environment than your own home.</p>
 						   	<div class="bottom">
@@ -42,7 +42,7 @@
 							</div>
 						</div>
 						<div class="right">
-						  	<div class="message">
+						  	<div class="message pic">
 								<h3><strong>We</strong> make kids stronger</h3>
 								<p>Our experience and methods help to keep your kids healthy and strong.</p>
 							   	<div class="bottom">
