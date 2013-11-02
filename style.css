@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 Theme Name: ptp_NoVa
 Theme URI: http://underscores.me/
@@ -1018,9 +1017,9 @@ video {
 .d-middle {
   display: block;
   float: left;
-  margin-left: 8.4974747477%;
+  margin-left: 8.49747%;
   margin-right: -100%;
-  width: 82.9545454524%;
+  width: 82.95455%;
 }
 
 /* line 50, sass/_blog.scss */
@@ -1134,25 +1133,25 @@ h1.showy {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 
   /* line 68, sass/_front_page.scss */
   .middle {
     display: block;
     float: left;
-    margin-left: 33.9898989897%;
+    margin-left: 33.9899%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 
   /* line 69, sass/_front_page.scss */
   .right {
     display: block;
     float: left;
-    margin-left: 67.9797979794%;
+    margin-left: 67.9798%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1555,7 +1554,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 14, sass/_navigation2.scss */
 .nav-collapse * {
@@ -1569,7 +1568,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 26, sass/_navigation2.scss */
 .nav-collapse a {
@@ -1586,7 +1585,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 38, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
@@ -1705,9 +1704,9 @@ footer #bottom_row .inner_wrapper {
   #topmenu {
     display: block;
     float: left;
-    margin-left: 42.4873737366%;
+    margin-left: 42.48737%;
     margin-right: -100%;
-    width: 57.4621212107%;
+    width: 57.46212%;
   }
 
   /* line 146, sass/_navigation2.scss */
@@ -1716,7 +1715,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 48.9646464639%;
+    width: 48.96465%;
   }
 }
 @media screen and (max-width: 1186px) {
@@ -1802,36 +1801,36 @@ footer #bottom_row .inner_wrapper {
   .col1 {
     display: block;
     float: left;
-    margin-left: 16.9949494949%;
+    margin-left: 16.99495%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 
   /* line 62, sass/_layout.scss */
   .col2 {
     display: block;
     float: left;
-    margin-left: 33.9898989894%;
+    margin-left: 33.9899%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 
   /* line 66, sass/_layout.scss */
   .col3 {
     display: block;
     float: left;
-    margin-left: 50.9848484839%;
+    margin-left: 50.98485%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 
   /* line 70, sass/_layout.scss */
   .col4 {
     display: block;
     float: left;
-    margin-left: 67.9797979783%;
+    margin-left: 67.9798%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 }
 @media only screen and (max-width: 989px) {
@@ -1865,9 +1864,9 @@ footer #bottom_row .inner_wrapper {
   /*    @extend .well; */
   display: block;
   float: left;
-  margin-left: 67.9797979783%;
+  margin-left: 67.9798%;
   margin-right: -100%;
-  width: 23.4722222217%;
+  width: 23.47222%;
   border-left: 1px solid #efefef;
   padding-left: 30px;
 }
@@ -1876,9 +1875,9 @@ footer #bottom_row .inner_wrapper {
 #primary {
   display: block;
   float: left;
-  margin-left: 8.4974747477%;
+  margin-left: 8.49747%;
   margin-right: -100%;
-  width: 57.4621212107%;
+  width: 57.46212%;
   /*    background-color: $background-color;
       border: 1px solid $main-color;
       padding:10px;
@@ -2976,18 +2975,25 @@ html, button, input, select, textarea {
   color: #222222;
 }
 
-/* line 17, sass/_typography.scss */
+/*---------------Edit button formatting is off------------*/
+/* line 19, sass/_typography.scss */
+.button a {
+  color: white;
+}
+
+/*---------------Edit button formatting is off------------*/
+/* line 24, sass/_typography.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 22, sass/_typography.scss */
+/* line 29, sass/_typography.scss */
 h1, h2, h3, h4 {
   font-family: "brandon-grotesque", sans-serif;
 }
 
-/* line 26, sass/_typography.scss */
+/* line 33, sass/_typography.scss */
 h1 {
   font-size: 2em;
   color: #556293;
@@ -2997,7 +3003,7 @@ h1 {
   /* 44px / 16px */
 }
 
-/* line 35, sass/_typography.scss */
+/* line 42, sass/_typography.scss */
 h1, h2, h3, h4 {
   visibility: hidden;
 }
@@ -3008,53 +3014,53 @@ h1, h2, h3, h4 {
     visibility: hidden;
   }
 }*/
-/* line 47, sass/_typography.scss */
+/* line 54, sass/_typography.scss */
 .wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4 {
   visibility: visible;
 }
 
-/* line 52, sass/_typography.scss */
+/* line 59, sass/_typography.scss */
 h2, h3, h4, h5 {
   color: #363636;
 }
 
-/* line 57, sass/_typography.scss */
+/* line 64, sass/_typography.scss */
 h2 {
   font-size: 1.625em;
   /* 36px / 16px */
 }
 
-/* line 62, sass/_typography.scss */
+/* line 69, sass/_typography.scss */
 h3, h4 {
   font-size: 1.375em;
   /* 24px / 16px */
   font-weight: 700;
 }
 
-/* line 68, sass/_typography.scss */
+/* line 75, sass/_typography.scss */
 h4 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.375em;
 }
 
-/* line 74, sass/_typography.scss */
+/* line 81, sass/_typography.scss */
 h5 {
   font-size: 1.125em;
 }
 
-/* line 78, sass/_typography.scss */
+/* line 85, sass/_typography.scss */
 strong {
   color: #556293;
 }
 
-/* line 82, sass/_typography.scss */
+/* line 89, sass/_typography.scss */
 p {
   font-size: 1.125em;
   /* 18px / 16px */
 }
 
-/* line 87, sass/_typography.scss */
+/* line 94, sass/_typography.scss */
 a {
   -webkit-transition: all, 0.2s, ease-in-out;
   transition: all, 0.2s, ease-in-out;
@@ -3064,7 +3070,7 @@ a {
 }
 
 /* -----From Virae Blog Tags ----------*/
-/* line 96, sass/_typography.scss */
+/* line 103, sass/_typography.scss */
 .tagcloud a {
   margin-left: 12px;
   margin-right: 6px;
@@ -3087,7 +3093,7 @@ a {
   font-size: 11px;
   margin-bottom: 8px;
 }
-/* line 117, sass/_typography.scss */
+/* line 124, sass/_typography.scss */
 .tagcloud a:before {
   content: "";
   float: left;
@@ -3100,7 +3106,7 @@ a {
   border-style: solid;
   border-width: 12px 12px 12px 0;
 }
-/* line 129, sass/_typography.scss */
+/* line 136, sass/_typography.scss */
 .tagcloud a:after {
   content: "";
   position: absolute;
@@ -3117,34 +3123,34 @@ a {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 145, sass/_typography.scss */
+/* line 152, sass/_typography.scss */
 .tagcloud a:hover {
   background: #58504b;
   color: #fff;
   text-shadow: none;
 }
-/* line 149, sass/_typography.scss */
+/* line 156, sass/_typography.scss */
 .tagcloud a:hover:before {
   border-color: transparent #58504b transparent transparent;
 }
-/* line 152, sass/_typography.scss */
+/* line 159, sass/_typography.scss */
 .tagcloud a:hover:after {
   background: #fed86f;
 }
 
 /* -----From Virae Blog Tags ----------*/
-/* line 160, sass/_typography.scss */
+/* line 167, sass/_typography.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 165, sass/_typography.scss */
+/* line 172, sass/_typography.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }
 
-/* line 169, sass/_typography.scss */
+/* line 176, sass/_typography.scss */
 hr {
   display: block;
   height: 1px;
@@ -3559,7 +3565,7 @@ textarea,
   height: 26px;
   padding: 3px 12px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857;
   color: #555555;
   vertical-align: middle;
   margin-bottom: 10px;
