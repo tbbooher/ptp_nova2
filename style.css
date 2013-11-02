@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: ptp_NoVa
 Theme URI: http://underscores.me/
@@ -1017,9 +1018,9 @@ video {
 .d-middle {
   display: block;
   float: left;
-  margin-left: 8.49747%;
+  margin-left: 8.4974747477%;
   margin-right: -100%;
-  width: 82.95455%;
+  width: 82.9545454524%;
 }
 
 /* line 50, sass/_blog.scss */
@@ -1057,18 +1058,18 @@ hr.post_bottom {
   padding-bottom: 20px;
 }
 
-/*.slideshow {
-    background: url(images/slider.png) no-repeat;
-    display: block;
-    height: 0;
-    padding-bottom: 39.663716814%;
-    background-size: 100%;
+/*
+.slideshow {
+   background: url(images/slider.png) no-repeat;
+   display: block;
+   height: 0;
+   padding-bottom: 39.663716814%;
+   background-size: 100%;
 }
 */
 /*
 
 great site to know breakpoints:
-
 http://www.responsivejs.com/wiki/breakpoints
 
 */
@@ -1077,36 +1078,46 @@ h1.showy {
   display: none !important;
 }
 
-/* line 22, sass/_front_page.scss */
+/* line 20, sass/_front_page.scss */
 .well {
+  border-radius: 4px;
   margin-bottom: 20px;
   min-height: 20px;
   padding: 19px;
-  margin-bottom: 20px;
-  border-radius: 4px;
 }
 
-/* line 30, sass/_front_page.scss */
+/* line 28, sass/_front_page.scss */
 .featured {
-  background: url(images/dots.jpg) repeat;
+  background: url("images/dots.jpg") repeat;
+  overflow: hidden;
   padding-top: 30px;
-  padding-bottom: 50px;
-  clear: both;
-  display: block;
-  float: left;
-  margin-left: 0;
-  width: 100%;
 }
 /* line 35, sass/_front_page.scss */
 .featured .flexslider {
-  width: 70%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
   margin: 0 auto;
+  visibility: hidden;
+  width: 70%;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+/* line 46, sass/_front_page.scss */
+.featured .flexslider.ready {
+  background-color: #556293;
   border: 5px solid #556293;
   -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 69px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  visibility: visible;
 }
 
-/* line 46, sass/_front_page.scss */
+/* line 57, sass/_front_page.scss */
 .buckets {
   text-align: center;
   background: #ebedf4;
@@ -1116,37 +1127,37 @@ h1.showy {
 
 @media screen and (min-width: 480px) {
   /* anything bigger than 480 = 3 columns */
-  /* @include gs-media(t)    */
-  /* line 57, sass/_front_page.scss */
+  /* @include gs-media(t) */
+  /* line 67, sass/_front_page.scss */
   .left {
     display: block;
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 31.9697%;
+    width: 31.9696969697%;
   }
 
-  /* line 61, sass/_front_page.scss */
+  /* line 68, sass/_front_page.scss */
   .middle {
     display: block;
     float: left;
-    margin-left: 33.9899%;
+    margin-left: 33.9898989897%;
     margin-right: -100%;
-    width: 31.9697%;
+    width: 31.9696969697%;
   }
 
-  /* line 65, sass/_front_page.scss */
+  /* line 69, sass/_front_page.scss */
   .right {
     display: block;
     float: left;
-    margin-left: 67.9798%;
+    margin-left: 67.9797979794%;
     margin-right: -100%;
-    width: 31.9697%;
+    width: 31.9696969697%;
   }
 }
 @media screen and (max-width: 800px) {
   /* if less than 800, then start to shrink the text */
-  /* line 72, sass/_front_page.scss */
+  /* line 74, sass/_front_page.scss */
   .message {
     font-size: 0.8rem;
     font-size: 2vw;
@@ -1168,21 +1179,19 @@ h1.showy {
     font-size: 100%;
   }
 }
-/* line 91, sass/_front_page.scss */
+/* line 89, sass/_front_page.scss */
 .bottom {
   position: absolute;
   width: 300px;
   bottom: 0px;
   height: 50px;
 }
-/* line 96, sass/_front_page.scss */
+/* line 95, sass/_front_page.scss */
 .bottom .button {
   margin: 0 auto;
-  /*        position: absolute;
-          width: 100px;*/
 }
 
-/* line 103, sass/_front_page.scss */
+/* line 102, sass/_front_page.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -1192,7 +1201,7 @@ h1.showy {
 }
 
 /* .pics > div {} */
-/* line 120, sass/_front_page.scss */
+/* line 119, sass/_front_page.scss */
 .describe_row {
   /*padding: 20px 30px;*/
   clear: both;
@@ -1201,7 +1210,7 @@ h1.showy {
   margin-left: 0;
   width: 100%;
 }
-/* line 123, sass/_front_page.scss */
+/* line 122, sass/_front_page.scss */
 .describe_row .message {
   /*font-size: 2vw;*/
   text-align: left;
@@ -1210,7 +1219,7 @@ h1.showy {
   position: relative;
   height: 200px;
 }
-/* line 127, sass/_front_page.scss */
+/* line 126, sass/_front_page.scss */
 .describe_row .pic {
   max-width: 298px;
   margin-bottom: 10px;
@@ -1220,7 +1229,7 @@ h1.showy {
   position: relative;
   height: 230px;
 }
-/* line 131, sass/_front_page.scss */
+/* line 130, sass/_front_page.scss */
 .describe_row .pic figure {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
@@ -1230,13 +1239,13 @@ h1.showy {
   background: #556293;
   padding: 0px;
 }
-/* line 132, sass/_front_page.scss */
+/* line 131, sass/_front_page.scss */
 .describe_row .pic figure img {
   max-width: 100%;
   height: auto;
   width: auto\9;
 }
-/* line 144, sass/_front_page.scss */
+/* line 143, sass/_front_page.scss */
 .describe_row .pic figure figcaption {
   background: #556293;
   width: 100%;
@@ -1244,7 +1253,7 @@ h1.showy {
   position: relative;
   font-family: "brandon-grotesque",sans-serif;
 }
-/* line 150, sass/_front_page.scss */
+/* line 149, sass/_front_page.scss */
 .describe_row .pic figure figcaption a {
   position: absolute;
   top: 7px;
@@ -1252,7 +1261,7 @@ h1.showy {
   color: #fff;
   border: 0;
 }
-/* line 157, sass/_front_page.scss */
+/* line 156, sass/_front_page.scss */
 .describe_row .pic figure figcaption a:hover {
   color: #fff;
   border-color: #fff;
@@ -1546,7 +1555,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.0202%;
+  margin-right: 2.02020202%;
 }
 /* line 14, sass/_navigation2.scss */
 .nav-collapse * {
@@ -1560,7 +1569,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.0202%;
+  margin-right: 2.02020202%;
 }
 /* line 26, sass/_navigation2.scss */
 .nav-collapse a {
@@ -1577,7 +1586,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.0202%;
+  margin-right: 2.02020202%;
 }
 /* line 38, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
@@ -1696,9 +1705,9 @@ footer #bottom_row .inner_wrapper {
   #topmenu {
     display: block;
     float: left;
-    margin-left: 42.48737%;
+    margin-left: 42.4873737366%;
     margin-right: -100%;
-    width: 57.46212%;
+    width: 57.4621212107%;
   }
 
   /* line 146, sass/_navigation2.scss */
@@ -1707,7 +1716,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 48.96465%;
+    width: 48.9646464639%;
   }
 }
 @media screen and (max-width: 1186px) {
@@ -1760,21 +1769,27 @@ footer #bottom_row .inner_wrapper {
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* line 29, sass/_layout.scss */
+/* line 30, sass/_layout.scss */
+#logo_container h1 {
+  margin: 0;
+  padding: 0;
+}
+/* line 35, sass/_layout.scss */
 #logo_container #logo {
   width: 308px;
   height: 112px;
-  background: url(images/logo.png) no-repeat right;
+  background: url("images/logo.png") no-repeat right;
   display: block;
   margin: 7px auto;
   text-align: right;
 }
-/* line 36, sass/_layout.scss */
+/* line 43, sass/_layout.scss */
 #logo_container #logo:hover {
+  border-bottom: 0 none;
   opacity: 0.85;
 }
 @media screen and (max-width: 769px) {
-  /* line 29, sass/_layout.scss */
+  /* line 35, sass/_layout.scss */
   #logo_container #logo {
     background-size: 80%;
     width: 246.6px;
@@ -1783,44 +1798,44 @@ footer #bottom_row .inner_wrapper {
 }
 
 @media only screen and (min-width: 990px) {
-  /* line 49, sass/_layout.scss */
+  /* line 58, sass/_layout.scss */
   .col1 {
     display: block;
     float: left;
-    margin-left: 16.99495%;
+    margin-left: 16.9949494949%;
     margin-right: -100%;
-    width: 14.97475%;
+    width: 14.9747474745%;
   }
 
-  /* line 53, sass/_layout.scss */
+  /* line 62, sass/_layout.scss */
   .col2 {
     display: block;
     float: left;
-    margin-left: 33.9899%;
+    margin-left: 33.9898989894%;
     margin-right: -100%;
-    width: 14.97475%;
+    width: 14.9747474745%;
   }
 
-  /* line 57, sass/_layout.scss */
+  /* line 66, sass/_layout.scss */
   .col3 {
     display: block;
     float: left;
-    margin-left: 50.98485%;
+    margin-left: 50.9848484839%;
     margin-right: -100%;
-    width: 14.97475%;
+    width: 14.9747474745%;
   }
 
-  /* line 61, sass/_layout.scss */
+  /* line 70, sass/_layout.scss */
   .col4 {
     display: block;
     float: left;
-    margin-left: 67.9798%;
+    margin-left: 67.9797979783%;
     margin-right: -100%;
-    width: 14.97475%;
+    width: 14.9747474745%;
   }
 }
 @media only screen and (max-width: 989px) {
-  /* line 68, sass/_layout.scss */
+  /* line 77, sass/_layout.scss */
   .col1, .col2, .col3, .col4 {
     text-align: center;
     padding-bottom: 0.8em;
@@ -1831,7 +1846,7 @@ footer #bottom_row .inner_wrapper {
     width: 100%;
   }
 }
-/* line 75, sass/_layout.scss */
+/* line 84, sass/_layout.scss */
 #content {
   clear: both;
   display: block;
@@ -1839,31 +1854,31 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   width: 100%;
 }
-/* line 77, sass/_layout.scss */
+/* line 86, sass/_layout.scss */
 #content.content_page {
   padding: 20px 0;
   border-bottom: 1px solid #556293;
 }
 
-/* line 83, sass/_layout.scss */
+/* line 92, sass/_layout.scss */
 #secondary {
   /*    @extend .well; */
   display: block;
   float: left;
-  margin-left: 67.9798%;
+  margin-left: 67.9797979783%;
   margin-right: -100%;
-  width: 23.47222%;
+  width: 23.4722222217%;
   border-left: 1px solid #efefef;
   padding-left: 30px;
 }
 
-/* line 90, sass/_layout.scss */
+/* line 99, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
-  margin-left: 8.49747%;
+  margin-left: 8.4974747477%;
   margin-right: -100%;
-  width: 57.46212%;
+  width: 57.4621212107%;
   /*    background-color: $background-color;
       border: 1px solid $main-color;
       padding:10px;
@@ -1881,7 +1896,7 @@ footer #bottom_row .inner_wrapper {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 111, sass/_layout.scss */
+/* line 120, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1890,7 +1905,7 @@ footer #bottom_row .inner_wrapper {
   /* 2 */
 }
 
-/* line 118, sass/_layout.scss */
+/* line 127, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1899,7 +1914,7 @@ footer #bottom_row .inner_wrapper {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 127, sass/_layout.scss */
+/* line 136, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -3228,7 +3243,6 @@ html[xmlns] .slides {
 .flexslider {
   margin: 0 0 65px;
   background: #556293;
-  border: 24px solid #556293;
   position: relative;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -3263,11 +3277,6 @@ html[xmlns] .slides {
 /* line 47, sass/_flexslider.scss */
 .carousel li {
   margin-right: 5px;
-}
-
-/* line 48, sass/_flexslider.scss */
-.flexslider img {
-  border: 2px solid #848fbc;
 }
 
 /* Direction Nav */
@@ -3550,7 +3559,7 @@ textarea,
   height: 26px;
   padding: 3px 12px;
   font-size: 13px;
-  line-height: 1.42857;
+  line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
   margin-bottom: 10px;
