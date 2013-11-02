@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 Theme Name: ptp_NoVa
 Theme URI: http://underscores.me/
@@ -1018,9 +1017,9 @@ video {
 .d-middle {
   display: block;
   float: left;
-  margin-left: 8.4974747477%;
+  margin-left: 8.49747%;
   margin-right: -100%;
-  width: 82.9545454524%;
+  width: 82.95455%;
 }
 
 /* line 50, sass/_blog.scss */
@@ -1125,25 +1124,25 @@ h1.showy {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 
   /* line 57, sass/_front_page.scss */
   .middle {
     display: block;
     float: left;
-    margin-left: 33.9898989897%;
+    margin-left: 33.9899%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 
   /* line 58, sass/_front_page.scss */
   .right {
     display: block;
     float: left;
-    margin-left: 67.9797979794%;
+    margin-left: 67.9798%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1546,7 +1545,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 14, sass/_navigation2.scss */
 .nav-collapse * {
@@ -1560,7 +1559,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 26, sass/_navigation2.scss */
 .nav-collapse a {
@@ -1577,7 +1576,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 38, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
@@ -1696,9 +1695,9 @@ footer #bottom_row .inner_wrapper {
   #topmenu {
     display: block;
     float: left;
-    margin-left: 42.4873737366%;
+    margin-left: 42.48737%;
     margin-right: -100%;
-    width: 57.4621212107%;
+    width: 57.46212%;
   }
 
   /* line 146, sass/_navigation2.scss */
@@ -1707,7 +1706,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 48.9646464639%;
+    width: 48.96465%;
   }
 }
 @media screen and (max-width: 1186px) {
@@ -1793,36 +1792,36 @@ footer #bottom_row .inner_wrapper {
   .col1 {
     display: block;
     float: left;
-    margin-left: 16.9949494949%;
+    margin-left: 16.99495%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 
   /* line 62, sass/_layout.scss */
   .col2 {
     display: block;
     float: left;
-    margin-left: 33.9898989894%;
+    margin-left: 33.9899%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 
   /* line 66, sass/_layout.scss */
   .col3 {
     display: block;
     float: left;
-    margin-left: 50.9848484839%;
+    margin-left: 50.98485%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 
   /* line 70, sass/_layout.scss */
   .col4 {
     display: block;
     float: left;
-    margin-left: 67.9797979783%;
+    margin-left: 67.9798%;
     margin-right: -100%;
-    width: 14.9747474745%;
+    width: 14.97475%;
   }
 }
 @media only screen and (max-width: 989px) {
@@ -1856,9 +1855,9 @@ footer #bottom_row .inner_wrapper {
   /*    @extend .well; */
   display: block;
   float: left;
-  margin-left: 67.9797979783%;
+  margin-left: 67.9798%;
   margin-right: -100%;
-  width: 23.4722222217%;
+  width: 23.47222%;
   border-left: 1px solid #efefef;
   padding-left: 30px;
 }
@@ -1867,9 +1866,9 @@ footer #bottom_row .inner_wrapper {
 #primary {
   display: block;
   float: left;
-  margin-left: 8.4974747477%;
+  margin-left: 8.49747%;
   margin-right: -100%;
-  width: 57.4621212107%;
+  width: 57.46212%;
   /*    background-color: $background-color;
       border: 1px solid $main-color;
       padding:10px;
@@ -3480,7 +3479,7 @@ textarea,
   height: 26px;
   padding: 3px 12px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857;
   color: #555555;
   vertical-align: middle;
   margin-bottom: 10px;
