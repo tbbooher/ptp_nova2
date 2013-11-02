@@ -3048,18 +3048,88 @@ a {
   /*    border-bottom: 1px solid $main-color; */
 }
 
-/* line 94, sass/_typography.scss */
+/* -----From Virae Blog Tags ----------*/
+/* line 96, sass/_typography.scss */
+.tagcloud a {
+  margin-left: 12px;
+  margin-right: 6px;
+  margin-top: 6px;
+  padding: 0 10px 0 12px;
+  background: #fed86f;
+  color: #963;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+/* line 117, sass/_typography.scss */
+.tagcloud a:before {
+  content: "";
+  float: left;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 0;
+  height: 0;
+  border-color: transparent #fed86f transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+}
+/* line 129, sass/_typography.scss */
+.tagcloud a:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  float: left;
+  width: 4px;
+  height: 4px;
+  background: #963;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 145, sass/_typography.scss */
+.tagcloud a:hover {
+  background: #58504b;
+  color: #fff;
+  text-shadow: none;
+}
+/* line 149, sass/_typography.scss */
+.tagcloud a:hover:before {
+  border-color: transparent #58504b transparent transparent;
+}
+/* line 152, sass/_typography.scss */
+.tagcloud a:hover:after {
+  background: #fed86f;
+}
+
+/* -----From Virae Blog Tags ----------*/
+/* line 160, sass/_typography.scss */
 a:hover {
   color: #fa9605;
   border-bottom: 1px solid #fbaf41;
 }
 
-/* line 99, sass/_typography.scss */
+/* line 165, sass/_typography.scss */
 .wrapper {
   border-top: 6px solid #556293;
 }
 
-/* line 103, sass/_typography.scss */
+/* line 169, sass/_typography.scss */
 hr {
   display: block;
   height: 1px;
