@@ -188,3 +188,26 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+/* SEO friendly text */
+h1.frontpage-bucket-h1 {
+  font-size: 1.375em;
+  font-weight: 700;  
+  color: $black;
+  strong {
+    color: $main-color;
+  }
+}
+h2.frontpage-bucket-h2{
+  font-size: 1.125em;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* SEO friendly Hide text */
+
+.offscreen-content {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}

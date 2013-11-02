@@ -3207,6 +3207,33 @@ hr {
   padding: 0;
 }
 
+/* SEO friendly text */
+/* line 193, sass/_typography.scss */
+h1.frontpage-bucket-h1 {
+  font-size: 1.375em;
+  font-weight: 700;
+  color: black;
+}
+/* line 197, sass/_typography.scss */
+h1.frontpage-bucket-h1 strong {
+  color: #556293;
+}
+
+/* line 201, sass/_typography.scss */
+h2.frontpage-bucket-h2 {
+  font-size: 1.125em;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* SEO friendly Hide text */
+/* line 209, sass/_typography.scss */
+.offscreen-content {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 /* line 5, sass/_flexslider.scss */
 .flex-container a:active,
 .flexslider a:active,

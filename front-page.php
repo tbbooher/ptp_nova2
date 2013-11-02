@@ -7,7 +7,7 @@
  get_header(); ?>
 
          <!-- slideshow -->
-         <h1 class="showy">Pediatric Physical Therapy for Arlington, Alexandria, Tysons</h1>
+         <h1 class="offscreen-content">Pediatric Physical Therapy for Arlington, Alexandria, Tysons</h1>
          <section class="featured">
 				<div class="flexslider">
 				  	<ul class="slides">
@@ -25,8 +25,8 @@
 				   <div class="padding-row">
 						<div class="left">
 						    <div class="message pic">
-								<h3><strong>We</strong> love kids</h3>
-								<p>We focus totally on kids. With over 15 years of experience treating pediatric clients.</p>
+								<h1 class="frontpage-bucket-h1"><strong>We</strong> love kids</h1>
+								<h2 class="frontpage-bucket-h2">We focus totally on kids. With over 15 years of experience treating pediatric clients.</h2>
 							   <div class="bottom">
 								   <a class="button" href="/about/">LEARN MORE</a>
 							   </div>
@@ -34,8 +34,8 @@
 						</div>
 						<div class="middle">
 						   <div class="message pic">
-								<h3><strong>We</strong> come to you</h3>
-								<p>Because there’s no better learning environment than your own home.</p>
+								<h1 class="frontpage-bucket-h1"><strong>We</strong> come to you</h1>
+								<h2 class="frontpage-bucket-h2">Because there’s no better learning environment than your own home.</h2>
 						   	<div class="bottom">
 							   	<a class="button" href="/services/">LEARN MORE</a>
 						   	</div>
@@ -43,8 +43,8 @@
 						</div>
 						<div class="right">
 						  	<div class="message pic">
-								<h3><strong>We</strong> make kids stronger</h3>
-								<p>Our experience and methods help to keep your kids healthy and strong.</p>
+								<h1 class="frontpage-bucket-h1"><strong>We</strong> make kids stronger</h1>
+								<h2 class="frontpage-bucket-h2">Our experience and methods help to keep your kids healthy and strong.</h2>
 							   	<div class="bottom">
 								   	<a class="button" href="/testimonials/">LEARN MORE</a>
 							   	</div>
