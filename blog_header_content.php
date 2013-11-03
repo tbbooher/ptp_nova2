@@ -1,5 +1,5 @@
 <h1 style="text-transform:uppercase;">
-  <a href="/blog/">Chrissy Booher's Blog</a>
+  <a href="/blog/">Chrissy's Blog</a>
 </h1>
 <i>
 Applying the latest in pediatic therapy research and practice to make children stronger,
