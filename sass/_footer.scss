@@ -66,7 +66,7 @@ em.ribbon {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: $smallest_for_columns) {
  /*anything less than 760, lets go mobile for toprow*/
  #top_row {
    .left, .middle, .right {
@@ -99,13 +99,9 @@ footer {
   }
   #top_row {
     background: $light_blue;
-    border-bottom: 1px solid $border_color;
-    /* eieio */
-    @include box-shadow(rgba(0,0,0,$alpha_bottom) 0 0 $box_blur_radius);
-    //-webkit-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
-    //-moz-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
-    //-o-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
-    //box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    border-bottom: 1px solid $light-purple;
+    border-top: 1px solid $light-purple;
+    @include box-shadow(rgba(0,0,0,$alpha_bottom) 0 10px $box_blur_radius);
     @include gs-span(d, all);
     ul {
       list-style: none;
@@ -117,9 +113,9 @@ footer {
     }
 
     li:before {
-      content: "\b7\a0";
-      color: #585858; /* or whatever color you prefer */
-      font-size: 2em;
+      content: "• "; // "\b7\a0";
+      color: $main-color; /* or whatever color you prefer */
+      //font-size: 1.2em;
     }
   }
   #bottom_row {
@@ -175,7 +171,7 @@ footer {
     height: 100px;
     display: block;
     margin: 10px auto;
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: $smallest_for_logo) {
       background-size: 80%;
       background-position: 30px;
       width: 212.8px;
