@@ -1379,33 +1379,32 @@ footer a:hover {
 footer #top_row {
   background: #dee0eb;
   border-bottom: 1px solid #e6e6e6;
-  -webkit-box-shadow: 0 5px 2px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 5px 2px 2px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 0 5px 2px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 5px 2px 2px rgba(0, 0, 0, 0.4);
+  /* eieio */
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px;
   clear: both;
   display: block;
   float: left;
   margin-left: 0;
   width: 100%;
 }
-/* line 108, sass/_footer.scss */
+/* line 110, sass/_footer.scss */
 footer #top_row ul {
   list-style: none;
 }
-/* line 112, sass/_footer.scss */
+/* line 114, sass/_footer.scss */
 footer #top_row li {
   padding-left: 1em;
   text-indent: -.7em;
 }
-/* line 117, sass/_footer.scss */
+/* line 119, sass/_footer.scss */
 footer #top_row li:before {
   content: "\b7\a0";
   color: #585858;
   /* or whatever color you prefer */
   font-size: 2em;
 }
-/* line 123, sass/_footer.scss */
+/* line 125, sass/_footer.scss */
 footer #bottom_row {
   font-size: 0.7em;
   height: 60px;
@@ -1419,18 +1418,18 @@ footer #bottom_row {
   margin-left: 0;
   width: 100%;
 }
-/* line 133, sass/_footer.scss */
+/* line 135, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div span.text {
   vertical-align: middle;
   padding-left: 10px;
   font-size: 1.2em;
 }
-/* line 138, sass/_footer.scss */
+/* line 140, sass/_footer.scss */
 footer #bottom_row div.inner_wrapper div i {
   vertical-align: middle;
   font-size: 1.5em;
 }
-/* line 143, sass/_footer.scss */
+/* line 145, sass/_footer.scss */
 footer #bottom_row .inner_wrapper {
   margin-top: 20px;
 }
@@ -1455,7 +1454,7 @@ footer #bottom_row .inner_wrapper {
     content: "\f02f";
     font-size: $font-awesome-icon-size;
 }*/
-/* line 170, sass/_footer.scss */
+/* line 172, sass/_footer.scss */
 .f-logo {
   background: url(images/f-logo.png) no-repeat;
   width: 266px;
@@ -1464,7 +1463,7 @@ footer #bottom_row .inner_wrapper {
   margin: 10px auto;
 }
 @media screen and (max-width: 769px) {
-  /* line 170, sass/_footer.scss */
+  /* line 172, sass/_footer.scss */
   .f-logo {
     background-size: 80%;
     background-position: 30px;

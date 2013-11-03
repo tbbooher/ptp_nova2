@@ -100,10 +100,12 @@ footer {
   #top_row {
     background: $light_blue;
     border-bottom: 1px solid $border_color;
-    -webkit-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
-    -moz-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
-    -o-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
-    box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);  
+    /* eieio */
+    @include box-shadow(rgba(0,0,0,$alpha_bottom) 0 0 30px);
+    //-webkit-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    //-moz-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    //-o-box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
+    //box-shadow: 0 $box_blur_radius_footer $box_blur_radius_footer_N $box_blur_radius_footer_N rgba(0,0,0,$alpha_bottom);
     @include gs-span(d, all);
     ul {
       list-style: none;
