@@ -191,11 +191,11 @@
 @mixin gs-media($prefix, $type: false){
 
   @if $prefix == d or $prefix == t {
-    @media only screen and (min-width: 990px) { @content; }
+    @media only screen and (min-width: $d-min) { @content; }
   }
 
   @if $prefix == m {
-    @media only screen and (max-width: 989px) { @content; }
+    @media only screen and (max-width: $d-min - 1) { @content; }
   }
 
 }

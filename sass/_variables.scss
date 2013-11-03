@@ -43,6 +43,14 @@ $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 $mid-gray: #ccc;
 
+// Breakpoints
+// -------------------------
+$nav-small: 700px;
+$nav-wide: 1187px; // above this, put the menu on the right
+$d-min: 990px; // below this, move to grid mobile
+$small-text: 500px; // below this, use smaller font
+
+
 // Typography
 // -------------------------
 

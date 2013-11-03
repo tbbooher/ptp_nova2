@@ -2,24 +2,26 @@
 /*! responsive-nav.js 1.0.23 by @viljamis */
 
 .top-contact {
-  background-color: indianred;
+  width: 100%;
+  //background-color: indianred;
   text-align: center;
-  display: block;
-  margin-left: 0;
-  @media screen and (min-width: 1200px) {
-    margin-left: -65px;
-  }
-  @media screen and (max-width: 638px) {
-    margin-left: 50px;
-  }
-  
-  @include clearfix;
+  //display: block;
+  //margin-left: 0;
+  //@media screen and (min-width: 1200px) {
+  //  margin-left: -65px;
+  //}
+  //@media screen and (max-width: 638px) {
+  //  margin-left: 50px;
+  //}
+  //
+  //@include clearfix;
   i:nth-of-type(2) {
-    margin-left: 10px;
+    margin-left: 6%;
   }
   span {
+    //background-color: orchid;
     white-space: nowrap;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: $small-text) {
       font-size: 12px;
     }
   }
@@ -29,6 +31,11 @@
   /* we need to be the height of everything within */
   padding: 1px;
   overflow: auto;
+  text-align: center;
+  #menu-default {
+    width:auto;
+    display: inline-block;
+  }
 }
 
 .nav-collapse {
@@ -46,7 +53,7 @@
     @include gs-float(d, left);
     ul {
         list-style: none;
-        @include gs-float(d, left);
+        //@include gs-float(d, left);
     }
     a {
         color: #fff;
@@ -93,7 +100,7 @@
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: $nav-small) {
   // as long it is bigger than 700, format it nicely
   .js .nav-collapse {
     position: relative;
@@ -164,24 +171,29 @@
   }
 }
 
-@media screen and (min-width: 1187px) {
+@media screen and (min-width: $nav-wide) {
   // anything bigger than 1187
+  #logo_container {
+    //background-color: greenyellow;
+    @include gs-span(d,1,5);
+  }
+
   #topmenu {
     @include gs-span(d, 6, 12);
-  }
-  #logo_container {
-    @include gs-span(d,1,6);
+    //background-color: goldenrod;
   }
 }
 
-@media screen and (max-width: 1186px) {
+@media screen and (max-width: $nav-wide - 1px) {
   // anything less than 1186
   // center the logo
   // now put the menu on the bottom
+  /* eieio */
   .nav-collapse {
     margin-top: 5px;
   }
   #topmenu {
+    //background-color: gold;
     @include gs-span(d, all);
     nav {
       width: 682px;
