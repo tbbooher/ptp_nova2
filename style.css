@@ -1911,35 +1911,37 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   width: 100%;
 }
-/* line 91, sass/_layout.scss */
+/* line 92, sass/_layout.scss */
 #content.content_page {
   padding: 20px 0;
   border-bottom: 1px solid #556293;
 }
 
-/* line 97, sass/_layout.scss */
+/* line 98, sass/_layout.scss */
 #secondary {
-  /*    @extend .well; */
+  /* @extend .well; */
   display: block;
   float: left;
-  margin-left: 67.9797979783%;
+  margin-left: 59.4823232311%;
   margin-right: -100%;
   width: 23.4722222217%;
   border-left: 1px solid #efefef;
   padding-left: 30px;
 }
 
-/* line 104, sass/_layout.scss */
+/* line 105, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
-  margin-left: 8.4974747477%;
+  margin-left: 16.9949494949%;
   margin-right: -100%;
-  width: 57.4621212107%;
-  /*    background-color: $background-color;
-      border: 1px solid $main-color;
-      padding:10px;
-      border-radius: 4px; */
+  width: 65.9595959579%;
+  /*
+     background-color: $background-color;
+     border: 1px solid $main-color;
+     padding:10px;
+     border-radius: 4px;
+  */
 }
 
 /*
@@ -1953,7 +1955,7 @@ footer #bottom_row .inner_wrapper {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 125, sass/_layout.scss */
+/* line 128, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1962,7 +1964,7 @@ footer #bottom_row .inner_wrapper {
   /* 2 */
 }
 
-/* line 132, sass/_layout.scss */
+/* line 135, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1971,7 +1973,7 @@ footer #bottom_row .inner_wrapper {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 141, sass/_layout.scss */
+/* line 144, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
