@@ -99,8 +99,8 @@ footer {
   }
   #top_row {
     background: $light_blue;
-    border-bottom: 1px solid $light-purple;
-    border-top: 1px solid $light-purple;
+    border-bottom: 1px solid $mid-gray;
+    border-top: 1px solid $mid-gray;
     @include box-shadow(rgba(0,0,0,$alpha_bottom) 0 10px $box_blur_radius);
     @include gs-span(d, all);
     ul {
