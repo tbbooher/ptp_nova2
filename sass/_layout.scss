@@ -97,19 +97,22 @@
 
 #secondary {
    /* @extend .well; */
-   @include gs-span(d, 8, 10);
+   @include gs-span(d, 9, 11);
    border-left: 1px solid #efefef;
    padding-left: 30px;
 }
 
+#primary_blog {
+  @include gs-span(d, 2, 8);
+  background-color: $background-color;
+  border: 1px solid $main-color;
+  padding:10px;
+  border-radius: 4px;
+}
+
 #primary {
-   @include gs-span(d, 3, 10);
-/*
-   background-color: $background-color;
-   border: 1px solid $main-color;
-   padding:10px;
-   border-radius: 4px;
-*/
+   @include gs-span(d, 2, 11);
+   @include gs-pad(d, padinfull);
 }
 
 /*

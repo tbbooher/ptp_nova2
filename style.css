@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 Theme Name: ptp_NoVa
 Theme URI: http://underscores.me/
@@ -1018,9 +1017,9 @@ video {
 .d-middle {
   display: block;
   float: left;
-  margin-left: 8.4974747477%;
+  margin-left: 8.49747%;
   margin-right: -100%;
-  width: 82.9545454524%;
+  width: 82.95455%;
 }
 
 /* line 50, sass/_blog.scss */
@@ -1127,25 +1126,25 @@ h1.showy {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 
   /* line 58, sass/_front_page.scss */
   .middle {
     display: block;
     float: left;
-    margin-left: 33.9898989897%;
+    margin-left: 33.9899%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 
   /* line 59, sass/_front_page.scss */
   .right {
     display: block;
     float: left;
-    margin-left: 67.9797979794%;
+    margin-left: 67.9798%;
     margin-right: -100%;
-    width: 31.9696969697%;
+    width: 31.9697%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1594,7 +1593,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 41, sass/_mixins.scss */
 .nav-collapse:before, .nav-collapse:after {
@@ -1619,7 +1618,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 50, sass/_navigation2.scss */
 .nav-collapse a {
@@ -1636,7 +1635,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.02020202%;
+  margin-right: 2.0202%;
 }
 /* line 62, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
@@ -1756,9 +1755,9 @@ footer #bottom_row .inner_wrapper {
   #topmenu {
     display: block;
     float: left;
-    margin-left: 42.4873737366%;
+    margin-left: 42.48737%;
     margin-right: -100%;
-    width: 57.4621212107%;
+    width: 57.46212%;
   }
 
   /* line 171, sass/_navigation2.scss */
@@ -1767,7 +1766,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 48.9646464639%;
+    width: 48.96465%;
   }
 }
 @media screen and (max-width: 1186px) {
@@ -1856,7 +1855,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 23.4722222221%;
+    width: 23.47222%;
     text-align: center;
   }
 
@@ -1864,9 +1863,9 @@ footer #bottom_row .inner_wrapper {
   .col2 {
     display: block;
     float: left;
-    margin-left: 25.4924242421%;
+    margin-left: 25.49242%;
     margin-right: -100%;
-    width: 23.4722222217%;
+    width: 23.47222%;
     text-align: center;
   }
 
@@ -1874,9 +1873,9 @@ footer #bottom_row .inner_wrapper {
   .col3 {
     display: block;
     float: left;
-    margin-left: 50.9848484839%;
+    margin-left: 50.98485%;
     margin-right: -100%;
-    width: 23.4722222217%;
+    width: 23.47222%;
     text-align: center;
   }
 
@@ -1884,9 +1883,9 @@ footer #bottom_row .inner_wrapper {
   .col4 {
     display: block;
     float: left;
-    margin-left: 76.4772727256%;
+    margin-left: 76.47727%;
     margin-right: -100%;
-    width: 23.4722222217%;
+    width: 23.47222%;
     text-align: center;
   }
 }
@@ -1921,26 +1920,38 @@ footer #bottom_row .inner_wrapper {
   /* @extend .well; */
   display: block;
   float: left;
-  margin-left: 59.4823232311%;
+  margin-left: 67.9798%;
   margin-right: -100%;
-  width: 23.4722222217%;
+  width: 23.47222%;
   border-left: 1px solid #efefef;
   padding-left: 30px;
 }
 
 /* line 105, sass/_layout.scss */
+#primary_blog {
+  display: block;
+  float: left;
+  margin-left: 8.49747%;
+  margin-right: -100%;
+  width: 57.46212%;
+  background-color: #ebedf4;
+  border: 1px solid #556293;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* line 113, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
-  margin-left: 16.9949494949%;
+  margin-left: 8.49747%;
   margin-right: -100%;
-  width: 65.9595959579%;
-  /*
-     background-color: $background-color;
-     border: 1px solid $main-color;
-     padding:10px;
-     border-radius: 4px;
-  */
+  width: 82.95455%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 2.0202%;
+  padding-right: 2.0202%;
 }
 
 /*
@@ -1954,7 +1965,7 @@ footer #bottom_row .inner_wrapper {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 128, sass/_layout.scss */
+/* line 131, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1963,7 +1974,7 @@ footer #bottom_row .inner_wrapper {
   /* 2 */
 }
 
-/* line 135, sass/_layout.scss */
+/* line 138, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1972,7 +1983,7 @@ footer #bottom_row .inner_wrapper {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 144, sass/_layout.scss */
+/* line 147, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -3664,7 +3675,7 @@ textarea,
   height: 26px;
   padding: 3px 12px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857;
   color: #555555;
   vertical-align: middle;
   margin-bottom: 10px;

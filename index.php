@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area d1-d8">
+	<div id="primary_blog" class="content-area d1-d8">
 		<main id="main" class="site-main" role="main">
 
 		<?php include 'blog_header_content.php'; ?>
