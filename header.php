@@ -32,7 +32,10 @@
             jQuery(window).load(function() {
                 jQuery('.flexslider').flexslider({
                     start: function(slider) {
-                        slider.addClass('ready');
+                        slider.find('.slides > li:first-child').css('visibility', 'visible');
+                    },
+                    before: function(slider) {
+                        slider.removeClass('loading');
                     }
                 });
             });
@@ -56,7 +59,7 @@
                     <div class="top-contact">
                         <i class="glyphicon glyphicon-envelope"></i>
                         <span class="text">chrissy@ptpnova.com</span>
-                        <i class="glyphicon glyphicon-earphone"></i>                        
+                        <i class="glyphicon glyphicon-earphone"></i>
                         <span class="text">571-212-6145</span>
                     </div>
         		</div>
