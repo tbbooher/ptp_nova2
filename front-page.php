@@ -9,7 +9,7 @@
          <!-- slideshow -->
          <h1 class="offscreen-content">Pediatric Physical Therapy for Arlington, Alexandria, Tysons</h1>
          <section class="featured">
-				<div class="flexslider">
+				<div class="flexslider loading">
 				  	<ul class="slides">
 						<li><img src="<?php bloginfo('template_url'); ?>/images/slide0.jpg" alt="slide0" /></li>
 						<li><img src="<?php bloginfo('template_url'); ?>/images/slide1.jpg" alt="slide1" /></li>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: ptp_NoVa
 Theme URI: http://underscores.me/
@@ -1017,9 +1018,9 @@ video {
 .d-middle {
   display: block;
   float: left;
-  margin-left: 8.49747%;
+  margin-left: 8.4974747477%;
   margin-right: -100%;
-  width: 82.95455%;
+  width: 82.9545454524%;
 }
 
 /* line 50, sass/_blog.scss */
@@ -1090,33 +1091,27 @@ h1.showy {
   background: url("images/dots.jpg") repeat;
   overflow: hidden;
   padding-top: 30px;
+  clear: both;
+  display: block;
+  float: left;
+  margin-left: 0;
+  width: 100%;
 }
 /* line 35, sass/_front_page.scss */
 .featured .flexslider {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  margin: 0 auto;
-  visibility: hidden;
-  width: 70%;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  transition: all .5s ease;
-}
-/* line 46, sass/_front_page.scss */
-.featured .flexslider.ready {
   background-color: #556293;
   border: 5px solid #556293;
   -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
-  margin-bottom: 69px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-  visibility: visible;
+  margin: 0 auto 69px auto;
+  width: 70%;
+}
+/* line 43, sass/_front_page.scss */
+.featured .flexslider.loading {
+  background: url("images/ajax-loader.gif") no-repeat scroll center center #556293;
 }
 
-/* line 57, sass/_front_page.scss */
+/* line 47, sass/_front_page.scss */
 .buckets {
   text-align: center;
   background: #ebedf4;
@@ -1126,36 +1121,36 @@ h1.showy {
 @media screen and (min-width: 480px) {
   /* anything bigger than 480 = 3 columns */
   /* @include gs-media(t) */
-  /* line 67, sass/_front_page.scss */
+  /* line 57, sass/_front_page.scss */
   .left {
     display: block;
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 31.9697%;
+    width: 31.9696969697%;
   }
 
-  /* line 68, sass/_front_page.scss */
+  /* line 58, sass/_front_page.scss */
   .middle {
     display: block;
     float: left;
-    margin-left: 33.9899%;
+    margin-left: 33.9898989897%;
     margin-right: -100%;
-    width: 31.9697%;
+    width: 31.9696969697%;
   }
 
-  /* line 69, sass/_front_page.scss */
+  /* line 59, sass/_front_page.scss */
   .right {
     display: block;
     float: left;
-    margin-left: 67.9798%;
+    margin-left: 67.9797979794%;
     margin-right: -100%;
-    width: 31.9697%;
+    width: 31.9696969697%;
   }
 }
 @media screen and (max-width: 800px) {
   /* if less than 800, then start to shrink the text */
-  /* line 74, sass/_front_page.scss */
+  /* line 64, sass/_front_page.scss */
   .message {
     font-size: 0.8rem;
     font-size: 2vw;
@@ -1164,7 +1159,7 @@ h1.showy {
 @media screen and (max-width: 479px) {
   /* if less than 479, just make it all one column */
   /*not @include gs-media(m)*/
-  /* line 83, sass/_front_page.scss */
+  /* line 73, sass/_front_page.scss */
   .left, .middle, .right {
     clear: both;
     display: block;
@@ -1172,24 +1167,24 @@ h1.showy {
     margin-left: 0;
     width: 100%;
   }
-  /* line 84, sass/_front_page.scss */
+  /* line 74, sass/_front_page.scss */
   .left .message, .middle .message, .right .message {
     font-size: 100%;
   }
 }
-/* line 89, sass/_front_page.scss */
+/* line 79, sass/_front_page.scss */
 .bottom {
   position: absolute;
   width: 300px;
   bottom: 0px;
   height: 50px;
 }
-/* line 95, sass/_front_page.scss */
+/* line 85, sass/_front_page.scss */
 .bottom .button {
   margin: 0 auto;
 }
 
-/* line 102, sass/_front_page.scss */
+/* line 92, sass/_front_page.scss */
 [data-icon]:before {
   font-family: 'icomoon';
   content: attr(data-icon);
@@ -1199,7 +1194,7 @@ h1.showy {
 }
 
 /* .pics > div {} */
-/* line 119, sass/_front_page.scss */
+/* line 109, sass/_front_page.scss */
 .describe_row {
   /*padding: 20px 30px;*/
   clear: both;
@@ -1208,7 +1203,7 @@ h1.showy {
   margin-left: 0;
   width: 100%;
 }
-/* line 122, sass/_front_page.scss */
+/* line 113, sass/_front_page.scss */
 .describe_row .message {
   /*font-size: 2vw;*/
   text-align: left;
@@ -1217,7 +1212,7 @@ h1.showy {
   position: relative;
   height: 200px;
 }
-/* line 126, sass/_front_page.scss */
+/* line 118, sass/_front_page.scss */
 .describe_row .pic {
   max-width: 298px;
   margin-bottom: 10px;
@@ -1227,7 +1222,7 @@ h1.showy {
   position: relative;
   height: 230px;
 }
-/* line 130, sass/_front_page.scss */
+/* line 123, sass/_front_page.scss */
 .describe_row .pic figure {
   -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.55);
@@ -1237,13 +1232,13 @@ h1.showy {
   background: #556293;
   padding: 0px;
 }
-/* line 131, sass/_front_page.scss */
+/* line 132, sass/_front_page.scss */
 .describe_row .pic figure img {
   max-width: 100%;
   height: auto;
   width: auto\9;
 }
-/* line 143, sass/_front_page.scss */
+/* line 138, sass/_front_page.scss */
 .describe_row .pic figure figcaption {
   background: #556293;
   width: 100%;
@@ -1251,7 +1246,7 @@ h1.showy {
   position: relative;
   font-family: "brandon-grotesque",sans-serif;
 }
-/* line 149, sass/_front_page.scss */
+/* line 145, sass/_front_page.scss */
 .describe_row .pic figure figcaption a {
   position: absolute;
   top: 7px;
@@ -1259,7 +1254,7 @@ h1.showy {
   color: #fff;
   border: 0;
 }
-/* line 156, sass/_front_page.scss */
+/* line 152, sass/_front_page.scss */
 .describe_row .pic figure figcaption a:hover {
   color: #fff;
   border-color: #fff;
@@ -1599,7 +1594,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.0202%;
+  margin-right: 2.02020202%;
 }
 /* line 41, sass/_mixins.scss */
 .nav-collapse:before, .nav-collapse:after {
@@ -1624,7 +1619,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.0202%;
+  margin-right: 2.02020202%;
 }
 /* line 50, sass/_navigation2.scss */
 .nav-collapse a {
@@ -1641,7 +1636,7 @@ footer #bottom_row .inner_wrapper {
   clear: none;
   float: left;
   margin-left: 0;
-  margin-right: 2.0202%;
+  margin-right: 2.02020202%;
 }
 /* line 62, sass/_navigation2.scss */
 .nav-collapse a:active, .nav-collapse a:hover {
@@ -1761,9 +1756,9 @@ footer #bottom_row .inner_wrapper {
   #topmenu {
     display: block;
     float: left;
-    margin-left: 42.48737%;
+    margin-left: 42.4873737366%;
     margin-right: -100%;
-    width: 57.46212%;
+    width: 57.4621212107%;
   }
 
   /* line 171, sass/_navigation2.scss */
@@ -1772,7 +1767,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 48.96465%;
+    width: 48.9646464639%;
   }
 }
 @media screen and (max-width: 1186px) {
@@ -1861,7 +1856,7 @@ footer #bottom_row .inner_wrapper {
     float: left;
     margin-left: 0%;
     margin-right: -100%;
-    width: 23.47222%;
+    width: 23.4722222221%;
     text-align: center;
   }
 
@@ -1869,9 +1864,9 @@ footer #bottom_row .inner_wrapper {
   .col2 {
     display: block;
     float: left;
-    margin-left: 25.49242%;
+    margin-left: 25.4924242421%;
     margin-right: -100%;
-    width: 23.47222%;
+    width: 23.4722222217%;
     text-align: center;
   }
 
@@ -1879,9 +1874,9 @@ footer #bottom_row .inner_wrapper {
   .col3 {
     display: block;
     float: left;
-    margin-left: 50.98485%;
+    margin-left: 50.9848484839%;
     margin-right: -100%;
-    width: 23.47222%;
+    width: 23.4722222217%;
     text-align: center;
   }
 
@@ -1889,9 +1884,9 @@ footer #bottom_row .inner_wrapper {
   .col4 {
     display: block;
     float: left;
-    margin-left: 76.47727%;
+    margin-left: 76.4772727256%;
     margin-right: -100%;
-    width: 23.47222%;
+    width: 23.4722222217%;
     text-align: center;
   }
 }
@@ -1915,35 +1910,37 @@ footer #bottom_row .inner_wrapper {
   margin-left: 0;
   width: 100%;
 }
-/* line 91, sass/_layout.scss */
+/* line 92, sass/_layout.scss */
 #content.content_page {
   padding: 20px 0;
   border-bottom: 1px solid #556293;
 }
 
-/* line 97, sass/_layout.scss */
+/* line 98, sass/_layout.scss */
 #secondary {
-  /*    @extend .well; */
+  /* @extend .well; */
   display: block;
   float: left;
-  margin-left: 67.9798%;
+  margin-left: 59.4823232311%;
   margin-right: -100%;
-  width: 23.47222%;
+  width: 23.4722222217%;
   border-left: 1px solid #efefef;
   padding-left: 30px;
 }
 
-/* line 104, sass/_layout.scss */
+/* line 105, sass/_layout.scss */
 #primary {
   display: block;
   float: left;
-  margin-left: 8.49747%;
+  margin-left: 16.9949494949%;
   margin-right: -100%;
-  width: 57.46212%;
-  /*    background-color: $background-color;
-      border: 1px solid $main-color;
-      padding:10px;
-      border-radius: 4px; */
+  width: 65.9595959579%;
+  /*
+     background-color: $background-color;
+     border: 1px solid $main-color;
+     padding:10px;
+     border-radius: 4px;
+  */
 }
 
 /*
@@ -1957,7 +1954,7 @@ footer #bottom_row .inner_wrapper {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 125, sass/_layout.scss */
+/* line 128, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1966,7 +1963,7 @@ footer #bottom_row .inner_wrapper {
   /* 2 */
 }
 
-/* line 132, sass/_layout.scss */
+/* line 135, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1975,7 +1972,7 @@ footer #bottom_row .inner_wrapper {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 141, sass/_layout.scss */
+/* line 144, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -3300,18 +3297,24 @@ h2.frontpage-bucket-h2 {
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 /* line 28, sass/_flexslider.scss */
+.flexslider .slides > li:first-child {
+  display: block;
+  visibility: hidden;
+}
+
+/* line 29, sass/_flexslider.scss */
 .flexslider .slides img {
   width: 100%;
   display: block;
 }
 
-/* line 29, sass/_flexslider.scss */
+/* line 30, sass/_flexslider.scss */
 .flex-pauseplay span {
   text-transform: capitalize;
 }
 
 /* Clearfix for the .slides element */
-/* line 32, sass/_flexslider.scss */
+/* line 33, sass/_flexslider.scss */
 .slides:after {
   content: "\0020";
   display: block;
@@ -3321,12 +3324,12 @@ h2.frontpage-bucket-h2 {
   height: 0;
 }
 
-/* line 33, sass/_flexslider.scss */
+/* line 34, sass/_flexslider.scss */
 html[xmlns] .slides {
   display: block;
 }
 
-/* line 34, sass/_flexslider.scss */
+/* line 35, sass/_flexslider.scss */
 * html .slides {
   height: 1%;
 }
@@ -3334,14 +3337,14 @@ html[xmlns] .slides {
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-/* line 39, sass/_flexslider.scss */
+/* line 40, sass/_flexslider.scss */
 .no-js .slides > li:first-child {
   display: block;
 }
 
 /* FlexSlider Default Theme
 *********************************/
-/* line 43, sass/_flexslider.scss */
+/* line 44, sass/_flexslider.scss */
 .flexslider {
   margin: 0 0 65px;
   background: #556293;
@@ -3357,7 +3360,7 @@ html[xmlns] .slides {
   zoom: 1;
 }
 
-/* line 44, sass/_flexslider.scss */
+/* line 45, sass/_flexslider.scss */
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -3366,28 +3369,28 @@ html[xmlns] .slides {
   transition: all 1s ease;
 }
 
-/* line 45, sass/_flexslider.scss */
+/* line 46, sass/_flexslider.scss */
 .loading .flex-viewport {
   max-height: 300px;
 }
 
-/* line 46, sass/_flexslider.scss */
+/* line 47, sass/_flexslider.scss */
 .flexslider .slides {
   zoom: 1;
 }
 
-/* line 47, sass/_flexslider.scss */
+/* line 48, sass/_flexslider.scss */
 .carousel li {
   margin-right: 5px;
 }
 
 /* Direction Nav */
-/* line 50, sass/_flexslider.scss */
+/* line 51, sass/_flexslider.scss */
 .flex-direction-nav {
   *height: 0;
 }
 
-/* line 51, sass/_flexslider.scss */
+/* line 52, sass/_flexslider.scss */
 .flex-direction-nav a {
   border: none;
   text-decoration: none;
@@ -3407,42 +3410,42 @@ html[xmlns] .slides {
   transition: all .3s ease;
 }
 
-/* line 52, sass/_flexslider.scss */
+/* line 53, sass/_flexslider.scss */
 .flex-direction-nav .flex-prev {
   left: -50px;
 }
 
-/* line 53, sass/_flexslider.scss */
+/* line 54, sass/_flexslider.scss */
 .flex-direction-nav .flex-next {
   right: -50px;
   text-align: right;
 }
 
-/* line 54, sass/_flexslider.scss */
+/* line 55, sass/_flexslider.scss */
 .flexslider:hover .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
 
-/* line 55, sass/_flexslider.scss */
+/* line 56, sass/_flexslider.scss */
 .flexslider:hover .flex-next {
   opacity: 0.7;
   right: 10px;
 }
 
-/* line 56, sass/_flexslider.scss */
+/* line 57, sass/_flexslider.scss */
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
 
-/* line 57, sass/_flexslider.scss */
+/* line 58, sass/_flexslider.scss */
 .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default;
 }
 
-/* line 58, sass/_flexslider.scss */
+/* line 59, sass/_flexslider.scss */
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
   font-size: 40px;
@@ -3450,23 +3453,23 @@ html[xmlns] .slides {
   content: '\f001';
 }
 
-/* line 59, sass/_flexslider.scss */
+/* line 60, sass/_flexslider.scss */
 .flex-direction-nav a.flex-next:before {
   content: '\f002';
 }
 
-/* line 60, sass/_flexslider.scss */
+/* line 61, sass/_flexslider.scss */
 .flex-direction-nav a:active {
   overflow: visible;
 }
 
-/* line 61, sass/_flexslider.scss */
+/* line 62, sass/_flexslider.scss */
 .flex-direction-nav a:hover {
   overflow: visible;
 }
 
 /* Pause/Play */
-/* line 63, sass/_flexslider.scss */
+/* line 64, sass/_flexslider.scss */
 .flex-pauseplay a {
   display: block;
   width: 20px;
@@ -3481,7 +3484,7 @@ html[xmlns] .slides {
   color: #000;
 }
 
-/* line 64, sass/_flexslider.scss */
+/* line 65, sass/_flexslider.scss */
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
   font-size: 20px;
@@ -3489,18 +3492,18 @@ html[xmlns] .slides {
   content: '\f004';
 }
 
-/* line 65, sass/_flexslider.scss */
+/* line 66, sass/_flexslider.scss */
 .flex-pauseplay a:hover {
   opacity: 1;
 }
 
-/* line 66, sass/_flexslider.scss */
+/* line 67, sass/_flexslider.scss */
 .flex-pauseplay a.flex-play:before {
   content: '\f003';
 }
 
 /* Control Nav */
-/* line 69, sass/_flexslider.scss */
+/* line 70, sass/_flexslider.scss */
 .flex-control-nav {
   width: 100%;
   position: absolute;
@@ -3508,7 +3511,7 @@ html[xmlns] .slides {
   text-align: center;
 }
 
-/* line 70, sass/_flexslider.scss */
+/* line 71, sass/_flexslider.scss */
 .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
@@ -3516,7 +3519,7 @@ html[xmlns] .slides {
   *display: inline;
 }
 
-/* line 71, sass/_flexslider.scss */
+/* line 72, sass/_flexslider.scss */
 .flex-control-paging li a {
   margin-top: 8px;
   width: 11px;
@@ -3535,32 +3538,32 @@ html[xmlns] .slides {
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
-/* line 72, sass/_flexslider.scss */
+/* line 73, sass/_flexslider.scss */
 .flex-control-paging li a:hover {
   background: #566294;
 }
 
-/* line 73, sass/_flexslider.scss */
+/* line 74, sass/_flexslider.scss */
 .flex-control-paging li a.flex-active {
   background: #566294;
   cursor: default;
 }
 
-/* line 75, sass/_flexslider.scss */
+/* line 76, sass/_flexslider.scss */
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
   overflow: hidden;
 }
 
-/* line 76, sass/_flexslider.scss */
+/* line 77, sass/_flexslider.scss */
 .flex-control-thumbs li {
   width: 25%;
   float: left;
   margin: 0;
 }
 
-/* line 77, sass/_flexslider.scss */
+/* line 78, sass/_flexslider.scss */
 .flex-control-thumbs img {
   width: 100%;
   display: block;
@@ -3568,25 +3571,25 @@ html[xmlns] .slides {
   cursor: pointer;
 }
 
-/* line 78, sass/_flexslider.scss */
+/* line 79, sass/_flexslider.scss */
 .flex-control-thumbs img:hover {
   opacity: 1;
 }
 
-/* line 79, sass/_flexslider.scss */
+/* line 80, sass/_flexslider.scss */
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
 }
 
 @media screen and (max-width: 860px) {
-  /* line 82, sass/_flexslider.scss */
+  /* line 83, sass/_flexslider.scss */
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
   }
 
-  /* line 83, sass/_flexslider.scss */
+  /* line 84, sass/_flexslider.scss */
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
@@ -3661,7 +3664,7 @@ textarea,
   height: 26px;
   padding: 3px 12px;
   font-size: 13px;
-  line-height: 1.42857;
+  line-height: 1.428571429;
   color: #555555;
   vertical-align: middle;
   margin-bottom: 10px;
