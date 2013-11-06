@@ -14,4 +14,5 @@ source "http://rubygems.org"
   gem 'guard-livereload'        # Browser reload.
   gem "uglifier"
   gem "bootstrap-sass"
+  gem "middleman"
   
