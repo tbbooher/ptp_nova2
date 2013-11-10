@@ -65,7 +65,6 @@
         </div><!--/wrapper-->
 
         <?php wp_footer(); ?>
-        <!-- remove for production -->
         
         <script>
         	var navigation = responsiveNav(".nav-collapse", {
