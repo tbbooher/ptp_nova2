@@ -1709,7 +1709,7 @@ footer #bottom_row .inner_wrapper {
     letter-spacing: 1px;
     color: white;
     /*  padding: 13px 20px; */
-    visibility: hidden;
+	/*  visibility: hidden; */
   }
 
   /* line 160, sass/_navigation2.scss */
@@ -3059,9 +3059,11 @@ h1 {
 }
 
 /* line 49, sass/_typography.scss */
+/*
 h1, h2, h3, h4 {
   visibility: hidden;
 }
+*/
 
 /*.wf-loading {
   h1, h2, h3, h4 {

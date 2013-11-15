@@ -17,10 +17,7 @@
         <title><?php wp_title( '|', true, 'right' ); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- fix these to pull from the main js -->
-        <script src="<?php bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
-
-        <link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
         <?php wp_head(); ?>
@@ -28,6 +25,13 @@
 
         <!-- link href="https://get.gridsetapp.com/23622/" rel="stylesheet" -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+
+
+		<!--[if (lt IE 9)]>
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/respond.min.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
+		<![endif]-->
+
         <script type="text/javascript">
             jQuery(window).load(function() {
                 jQuery('.flexslider').flexslider({
