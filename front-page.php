@@ -34,8 +34,8 @@
 						</div>
 						<div class="middle">
 						   <div class="message pic">
-								<h1 class="frontpage-bucket-h1"><strong>We</strong> serve clients in Arlington, Alexandria and Northern Virginia</h1>
-								<h2 class="frontpage-bucket-h2">Because there’s no better learning environment than your own home.</h2>
+								<h1 class="frontpage-bucket-h1"><strong>We</strong> serve clients throughout Northern Virginia</h1>
+								<h2 class="frontpage-bucket-h2">Our office is located on Duke St, just west of Old Town Alexandria, close to Telegraph Rd in the city of Alexandria.</h2>
 						   	<div class="bottom">
 							   	<a class="button" href="/services/">LEARN MORE</a>
 						   	</div>
